@@ -25,7 +25,7 @@ namespace PlayerScripts
 
         private void Update()
         {
-            if (_values.IsLosingHeart || _values.IsLost) return;
+            if (_values.IsLosingHeart || _values.IsLost || _values.IsWin) return;
             var horizontalInput = Input.GetAxis("Horizontal");
             _rigidbody2D.velocity = new Vector2(horizontalInput * _values.CharacterSpeed, _rigidbody2D.velocity.y);
 

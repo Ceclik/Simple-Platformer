@@ -54,5 +54,11 @@ namespace CameraScripts
         {
             _pointIndex = 0;
         }
+
+        public void ResetCameraPosition()
+        {
+            if (transform.position != zeroPoint.position)
+                transform.position = zeroPoint.position;
+        }
     }
 }

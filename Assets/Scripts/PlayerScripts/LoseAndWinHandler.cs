@@ -11,6 +11,7 @@ namespace PlayerScripts
 
         [Space(20)]
         [SerializeField] private GameObject loseMenu;
+        [SerializeField] private GameObject winMenu;
         
         private GameObject[] _platforms;
 
@@ -33,7 +34,13 @@ namespace PlayerScripts
 
         private void OnCollisionEnter2D(Collision2D other)
         {
-            if (other.gameObject.CompareTag("Win")) Debug.Log("You Win!");
+            if (other.gameObject.CompareTag("Win"))
+            {
+                Debug.Log("You Win!");
+                _values.IsWin = true;
+                winMenu.SetActive(true);
+
+            }
             if (other.gameObject.CompareTag("Lose") && _livesCounter > 0)
             {
                 _livesCounter--;
@@ -54,10 +61,14 @@ namespace PlayerScripts
 
         public void Restart()
         {
+            if (transform.position != firstPlatform.position)
+                transform.position = firstPlatform.position;
             _heartsHandler.MakeAllHeartsRed();
             _coinsHandler.Restart();
             _livesCounter = 3;
             _values.IsLost = false;
+            _values.IsWin = false;
         }
+        
     }
 }

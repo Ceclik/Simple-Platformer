@@ -13,6 +13,11 @@ namespace PlayerScripts
         private int _coinsCounter;
         private GameObject[] _coins;
 
+        public int CoinsCount
+        {
+            get => _coinsCounter;
+        }
+
         private void Start()
         {
             _coins = new GameObject[coinsParent.childCount];
@@ -22,7 +27,7 @@ namespace PlayerScripts
             _coinsCounter = 0;
         }
 
-        private void OnCollisionEnter2D(Collision2D other)
+        private void OnTriggerEnter2D(Collider2D other)
         {
             if (other.gameObject.CompareTag("Coin"))
             {
