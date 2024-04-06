@@ -47,7 +47,7 @@ namespace CameraScripts
             }
 
             if (_values.IsLosingHeart && transform.position == zeroPoint.position)
-                _values.IsLosingHeart = false; ;
+                _values.IsLosingHeart = false;
         }
 
         private void MakePointIndexZero()
@@ -59,6 +59,7 @@ namespace CameraScripts
         {
             if (transform.position != zeroPoint.position)
                 transform.position = zeroPoint.position;
+            MakePointIndexZero();
         }
     }
 }

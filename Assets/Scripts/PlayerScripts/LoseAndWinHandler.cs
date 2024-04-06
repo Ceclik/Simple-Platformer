@@ -41,15 +41,14 @@ namespace PlayerScripts
                 winMenu.SetActive(true);
 
             }
-            if (other.gameObject.CompareTag("Lose") && _livesCounter > 0)
+            if (other.gameObject.CompareTag("Lose") && _livesCounter > 0 && !_values.IsWin)
             {
                 _livesCounter--;
                 _values.IsLosingHeart = true;
                 transform.position = firstPlatform.position;
-                foreach (var item in _platforms)
-                    if(item.TryGetComponent(out CameraMovementTrigger trigger))
-                        if (trigger.IsJumped)
-                            trigger.IsJumped = false;
+                
+                UnjumpAllPlatforms();
+                
                 _heartsHandler.EmptyHeart();
                 if (_livesCounter == 0)
                 {
@@ -68,6 +67,16 @@ namespace PlayerScripts
             _livesCounter = 3;
             _values.IsLost = false;
             _values.IsWin = false;
+            
+            UnjumpAllPlatforms();
+        }
+
+        private void UnjumpAllPlatforms()
+        {
+            foreach (var item in _platforms)
+                if(item.TryGetComponent(out CameraMovementTrigger trigger))
+                    if (trigger.IsJumped)
+                        trigger.IsJumped = false;
         }
         
     }
