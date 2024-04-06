@@ -19,6 +19,7 @@ namespace MenuHandlers.WinMenu
 
         [Space(10)] [SerializeField] private float starAppearDelay;
         [Space(10)][SerializeField] private Sprite fullStarImage;
+        [SerializeField] private Sprite emptyStarImage;
 
         private void Start()
         {
@@ -68,6 +69,12 @@ namespace MenuHandlers.WinMenu
                 _starImages[imageIndex].sprite = fullStarImage;
                 imageIndex++;
             }
+        }
+
+        private void OnDisable()
+        {
+            foreach (var star in _starImages)
+                star.sprite = emptyStarImage;
         }
     }
 }
