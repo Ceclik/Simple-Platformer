@@ -1,5 +1,6 @@
 using PlatformScripts;
 using UnityEngine;
+using UnityEngine.TextCore.Text;
 
 namespace PlayerScripts
 {
@@ -7,42 +8,56 @@ namespace PlayerScripts
     {
         [SerializeField] private Transform firstPlatform;
         [SerializeField] private Transform platformsParent;
+
+        [Space(20)]
+        [SerializeField] private GameObject loseMenu;
         
-        public bool IsLost { get; set; }
         private GameObject[] _platforms;
 
-        private int _lifesCounter;
+        private GameValuesSetter _values;
+        private int _livesCounter;
         private HeartsHandler _heartsHandler;
+        private CoinsHandler _coinsHandler;
         
         private void Start()
         {
-            IsLost = false;
-            _lifesCounter = 3;
+            _values = GameObject.Find("GameValues").GetComponent<GameValuesSetter>();
+            _values.IsLosingHeart = false;
+            _livesCounter = 3;
             _platforms = new GameObject[platformsParent.childCount];
             for (int i = 0; i < platformsParent.childCount; i++)
                 _platforms[i] = platformsParent.GetChild(i).gameObject;
             _heartsHandler = GetComponent<HeartsHandler>();
+            _coinsHandler = GetComponent<CoinsHandler>();
         }
 
         private void OnCollisionEnter2D(Collision2D other)
         {
             if (other.gameObject.CompareTag("Win")) Debug.Log("You Win!");
-            if (other.gameObject.CompareTag("Lose") && _lifesCounter > 0)
+            if (other.gameObject.CompareTag("Lose") && _livesCounter > 0)
             {
-                _lifesCounter--;
-                IsLost = true;
+                _livesCounter--;
+                _values.IsLosingHeart = true;
                 transform.position = firstPlatform.position;
                 foreach (var item in _platforms)
                     if(item.TryGetComponent(out CameraMovementTrigger trigger))
                         if (trigger.IsJumped)
                             trigger.IsJumped = false;
                 _heartsHandler.EmptyHeart();
-                if (_lifesCounter == 0)
+                if (_livesCounter == 0)
                 {
-                    /*TODO*/
-                    Debug.Log("You lose!");
+                    loseMenu.SetActive(true);
+                    _values.IsLost = true;
                 }
             }
+        }
+
+        public void Restart()
+        {
+            _heartsHandler.MakeAllHeartsRed();
+            _coinsHandler.Restart();
+            _livesCounter = 3;
+            _values.IsLost = false;
         }
     }
 }

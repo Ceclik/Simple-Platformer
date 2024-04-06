@@ -1,83 +1,56 @@
-using PlayerScripts;
 using UnityEngine;
 
 namespace CameraScripts
 {
     public class CameraMover : MonoBehaviour
     {
-        [SerializeField] private float cameraMovementSpeed;
-        [SerializeField] private float cameraBackMovinSpeed;
         [SerializeField] private GameObject pointsParent;
-
-        [Space(10)] [SerializeField] private Transform zeroPoint;
-        [SerializeField] private LoseAndWinHandler loseAndWinHandler;
-
-        [Space(10)] [SerializeField] private GameObject leftBorder;
-        [SerializeField] private GameObject rightBorder;
+        [SerializeField] private Transform zeroPoint;
             
         private Transform[] _points;
         private int _pointIndex;
-        public bool IsMoving { get; private set; }
+        
+        private GameValuesSetter _values;
+        private bool _isMoving;
 
         private void Start()
         {
+            _values = GameObject.Find("GameValues").GetComponent<GameValuesSetter>();
             _points = pointsParent.GetComponentsInChildren<Transform>();
             _pointIndex = 0;
-            IsMoving = false;
+            _isMoving = false;
         }
 
         public void MoveCamera()
         {
             _pointIndex++;
-            IsMoving = true;
+            _isMoving = true;
         }
 
         private void Update()
         {
-            if (IsMoving)
+            if (_isMoving)
             {
-                SetBordersActivity(false);
                 transform.position = Vector3.MoveTowards(transform.position, _points[_pointIndex].position,
-                    cameraMovementSpeed * Time.deltaTime);
+                    _values.CameraMovementSpeed * Time.deltaTime);
             }
 
             if (transform.position == _points[_pointIndex].position)
-            {
-                IsMoving = false;
-                SetBordersActivity(true);
-            }
+                _isMoving = false;
 
-            if (loseAndWinHandler.IsLost && transform.position != zeroPoint.position)
+            if (_values.IsLosingHeart && transform.position != zeroPoint.position)
             {
-                SetBordersActivity(false);
-                IsMoving = false;
+                _isMoving = false;
                 transform.position = Vector3.MoveTowards(transform.position, zeroPoint.position,
-                    cameraBackMovinSpeed * Time.deltaTime);
+                    _values.CameraBackMovingSpeed * Time.deltaTime);
                 MakePointIndexZero();
             }
 
-            if (loseAndWinHandler.IsLost && transform.position == zeroPoint.position)
-            {
-                loseAndWinHandler.IsLost = false;
-                SetBordersActivity(true);
-            }
-        }
-        
-        private void SetBordersActivity(bool status)
-        {
-            if (status)
-            {
-                leftBorder.SetActive(true);
-                rightBorder.SetActive(true);
-            }
-            else
-            {
-                leftBorder.SetActive(false);
-                rightBorder.SetActive(false);
-            }
+            if (_values.IsLosingHeart && transform.position == zeroPoint.position)
+                _values.IsLosingHeart = false; ;
         }
 
-        public void MakePointIndexZero()
+        private void MakePointIndexZero()
         {
             _pointIndex = 0;
         }

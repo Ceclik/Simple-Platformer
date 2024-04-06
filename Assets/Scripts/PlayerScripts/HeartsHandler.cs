@@ -26,7 +26,7 @@ namespace PlayerScripts
             _heartIndex--;
         }
 
-        public void MakeAllHeatsRed()
+        public void MakeAllHeartsRed()
         {
             foreach (var image in _heartImages)
                 image.sprite = redHeart;

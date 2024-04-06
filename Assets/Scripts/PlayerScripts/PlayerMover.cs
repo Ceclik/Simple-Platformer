@@ -1,24 +1,23 @@
 using CameraScripts;
 using PlatformScripts;
 using UnityEngine;
-using UnityEngine.Serialization;
 
 namespace PlayerScripts
 {
     public class PlayerMover : MonoBehaviour
     {
-        [SerializeField] private float speed;
-        [SerializeField] private float jumpForce;
-
-        [Space(10)][SerializeField] private CameraMover cameraMover;
-
+        [SerializeField] private CameraMover cameraMover;
+        
         private int _jumpsCounter;
 
         private Rigidbody2D _rigidbody2D;
         private LoseAndWinHandler _loseHandler;
 
+        private GameValuesSetter _values;
+
         private void Start()
         {
+            _values = GameObject.Find("GameValues").GetComponent<GameValuesSetter>();
             _loseHandler = GetComponent<LoseAndWinHandler>();
             _rigidbody2D = GetComponent<Rigidbody2D>();
             _jumpsCounter = 0;
@@ -26,13 +25,13 @@ namespace PlayerScripts
 
         private void Update()
         {
-            if (_loseHandler.IsLost) return;
+            if (_values.IsLosingHeart || _values.IsLost) return;
             var horizontalInput = Input.GetAxis("Horizontal");
-            _rigidbody2D.velocity = new Vector2(horizontalInput * speed, _rigidbody2D.velocity.y);
+            _rigidbody2D.velocity = new Vector2(horizontalInput * _values.CharacterSpeed, _rigidbody2D.velocity.y);
 
             if (Input.GetKeyDown(KeyCode.W) && _jumpsCounter < 2)
             {
-                _rigidbody2D.AddForce(Vector2.up * jumpForce, ForceMode2D.Impulse);
+                _rigidbody2D.AddForce(Vector2.up * _values.CharacterJumpForce, ForceMode2D.Impulse);
                 _jumpsCounter++;
             }
         }
