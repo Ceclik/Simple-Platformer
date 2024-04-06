@@ -15,17 +15,19 @@ namespace PlayerScripts
         private int _jumpsCounter;
 
         private Rigidbody2D _rigidbody2D;
+        private LoseAndWinHandler _loseHandler;
 
         private void Start()
         {
+            _loseHandler = GetComponent<LoseAndWinHandler>();
             _rigidbody2D = GetComponent<Rigidbody2D>();
             _jumpsCounter = 0;
         }
 
         private void Update()
         {
+            if (_loseHandler.IsLost) return;
             var horizontalInput = Input.GetAxis("Horizontal");
-            
             _rigidbody2D.velocity = new Vector2(horizontalInput * speed, _rigidbody2D.velocity.y);
 
             if (Input.GetKeyDown(KeyCode.W) && _jumpsCounter < 2)

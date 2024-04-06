@@ -17,24 +17,24 @@ namespace CameraScripts
             
         private Transform[] _points;
         private int _pointIndex;
-        private bool _isMoving;
+        public bool IsMoving { get; private set; }
 
         private void Start()
         {
             _points = pointsParent.GetComponentsInChildren<Transform>();
             _pointIndex = 0;
-            _isMoving = false;
+            IsMoving = false;
         }
 
         public void MoveCamera()
         {
             _pointIndex++;
-            _isMoving = true;
+            IsMoving = true;
         }
 
         private void Update()
         {
-            if (_isMoving)
+            if (IsMoving)
             {
                 SetBordersActivity(false);
                 transform.position = Vector3.MoveTowards(transform.position, _points[_pointIndex].position,
@@ -43,14 +43,14 @@ namespace CameraScripts
 
             if (transform.position == _points[_pointIndex].position)
             {
-                _isMoving = false;
+                IsMoving = false;
                 SetBordersActivity(true);
             }
 
             if (loseAndWinHandler.IsLost && transform.position != zeroPoint.position)
             {
                 SetBordersActivity(false);
-                _isMoving = false;
+                IsMoving = false;
                 transform.position = Vector3.MoveTowards(transform.position, zeroPoint.position,
                     cameraBackMovinSpeed * Time.deltaTime);
                 MakePointIndexZero();
