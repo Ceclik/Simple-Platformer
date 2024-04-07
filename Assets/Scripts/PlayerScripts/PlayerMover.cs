@@ -11,21 +11,19 @@ namespace PlayerScripts
         private int _jumpsCounter;
 
         private Rigidbody2D _rigidbody2D;
-        private LoseAndWinHandler _loseHandler;
-
+        
         private GameValuesSetter _values;
 
         private void Start()
         {
             _values = GameObject.Find("GameValues").GetComponent<GameValuesSetter>();
-            _loseHandler = GetComponent<LoseAndWinHandler>();
             _rigidbody2D = GetComponent<Rigidbody2D>();
             _jumpsCounter = 0;
         }
 
         private void Update()
         {
-            if (_values.IsLosingHeart || _values.IsLost || _values.IsWin) return;
+            if (_values.isLosingHeart || _values.isLost || _values.isWin) return;
             var horizontalInput = Input.GetAxis("Horizontal");
             _rigidbody2D.velocity = new Vector2(horizontalInput * _values.CharacterSpeed, _rigidbody2D.velocity.y);
 

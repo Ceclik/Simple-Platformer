@@ -6,9 +6,9 @@ public  class GameValuesSetter : MonoBehaviour
     [SerializeField] private float characterSpeed;
     [SerializeField] private float characterJumpForce;
     
-    [HideInInspector] public bool IsLost = false;
-    [HideInInspector] public bool IsLosingHeart = false;
-    [HideInInspector] public bool IsWin = false;
+    [HideInInspector] public bool isLost;
+    [HideInInspector] public bool isLosingHeart;
+    [HideInInspector] public bool isWin;
     
     
     [Space(30)] [Header("Camera Stats")]

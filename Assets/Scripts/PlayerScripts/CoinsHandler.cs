@@ -9,14 +9,9 @@ namespace PlayerScripts
         
         [Space(10)]
         [SerializeField] private Text coinsText;
-        
-        private int _coinsCounter;
-        private GameObject[] _coins;
 
-        public int CoinsCount
-        {
-            get => _coinsCounter;
-        }
+        private GameObject[] _coins;
+        public int CoinsCount { get; private set; }
 
         private void Start()
         {
@@ -24,23 +19,23 @@ namespace PlayerScripts
             for (int i = 0; i < coinsParent.childCount; i++)
                 _coins[i] = coinsParent.GetChild(i).gameObject;
             
-            _coinsCounter = 0;
+            CoinsCount = 0;
         }
 
         private void OnTriggerEnter2D(Collider2D other)
         {
             if (other.gameObject.CompareTag("Coin"))
             {
-                _coinsCounter++;
-                coinsText.text = $"Coins: {_coinsCounter}";
+                CoinsCount++;
+                coinsText.text = $"Coins: {CoinsCount}";
                 other.gameObject.SetActive(false);
             }
         }
 
         public void Restart()
         {
-            _coinsCounter = 0;
-            coinsText.text = $"Coins: {_coinsCounter}";
+            CoinsCount = 0;
+            coinsText.text = $"Coins: {CoinsCount}";
             foreach (var coin in _coins)
                 coin.SetActive(true);
         }

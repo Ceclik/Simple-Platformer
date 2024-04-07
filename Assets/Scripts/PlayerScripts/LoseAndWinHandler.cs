@@ -1,6 +1,5 @@
 using PlatformScripts;
 using UnityEngine;
-using UnityEngine.TextCore.Text;
 
 namespace PlayerScripts
 {
@@ -23,7 +22,7 @@ namespace PlayerScripts
         private void Start()
         {
             _values = GameObject.Find("GameValues").GetComponent<GameValuesSetter>();
-            _values.IsLosingHeart = false;
+            _values.isLosingHeart = false;
             _livesCounter = 3;
             _platforms = new GameObject[platformsParent.childCount];
             for (int i = 0; i < platformsParent.childCount; i++)
@@ -37,14 +36,14 @@ namespace PlayerScripts
             if (other.gameObject.CompareTag("Win"))
             {
                 Debug.Log("You Win!");
-                _values.IsWin = true;
+                _values.isWin = true;
                 winMenu.SetActive(true);
 
             }
-            if (other.gameObject.CompareTag("Lose") && _livesCounter > 0 && !_values.IsWin)
+            if (other.gameObject.CompareTag("Lose") && _livesCounter > 0 && !_values.isWin)
             {
                 _livesCounter--;
-                _values.IsLosingHeart = true;
+                _values.isLosingHeart = true;
                 transform.position = firstPlatform.position;
                 
                 UnjumpAllPlatforms();
@@ -53,7 +52,7 @@ namespace PlayerScripts
                 if (_livesCounter == 0)
                 {
                     loseMenu.SetActive(true);
-                    _values.IsLost = true;
+                    _values.isLost = true;
                 }
             }
         }
@@ -65,8 +64,8 @@ namespace PlayerScripts
             _heartsHandler.MakeAllHeartsRed();
             _coinsHandler.Restart();
             _livesCounter = 3;
-            _values.IsLost = false;
-            _values.IsWin = false;
+            _values.isLost = false;
+            _values.isWin = false;
             
             UnjumpAllPlatforms();
         }

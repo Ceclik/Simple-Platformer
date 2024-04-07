@@ -38,7 +38,7 @@ namespace CameraScripts
             if (transform.position == _points[_pointIndex].position)
                 _isMoving = false;
 
-            if (_values.IsLosingHeart && transform.position != zeroPoint.position)
+            if (_values.isLosingHeart && transform.position != zeroPoint.position)
             {
                 _isMoving = false;
                 transform.position = Vector3.MoveTowards(transform.position, zeroPoint.position,
@@ -46,8 +46,8 @@ namespace CameraScripts
                 MakePointIndexZero();
             }
 
-            if (_values.IsLosingHeart && transform.position == zeroPoint.position)
-                _values.IsLosingHeart = false;
+            if (_values.isLosingHeart && transform.position == zeroPoint.position)
+                _values.isLosingHeart = false;
         }
 
         private void MakePointIndexZero()
