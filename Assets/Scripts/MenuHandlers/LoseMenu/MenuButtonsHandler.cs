@@ -1,6 +1,7 @@
 using CameraScripts;
 using PlayerScripts;
 using UnityEngine;
+using UnityEngine.SceneManagement;
 
 namespace MenuHandlers.LoseMenu
 {
@@ -28,8 +29,8 @@ namespace MenuHandlers.LoseMenu
 
         public void OnExitButtonClick()
         {
-            /*TODO*/
             Debug.Log("Exit button clicked!");
+            SceneManager.LoadScene("MainMenu");
         }
 
         public void OnNextLevelButtonClick()
