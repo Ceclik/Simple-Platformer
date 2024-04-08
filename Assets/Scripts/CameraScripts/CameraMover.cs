@@ -1,65 +1,96 @@
+using System;
+using LevelScripts;
+using PlatformScripts;
 using UnityEngine;
 
 namespace CameraScripts
 {
     public class CameraMover : MonoBehaviour
     {
-        [SerializeField] private GameObject pointsParent;
-        [SerializeField] private Transform zeroPoint;
-            
+        [SerializeField] private Transform pointsParent;
+
+        [Space(10)] [SerializeField] private CheckPoint[] checkPoints;
+
         private Transform[] _points;
-        private int _pointIndex;
-        
+        private int _currentPointIndex;
+        private int _zeroPointIndex;
+        private Transform _targetZeroPoint;
+
         private GameValuesSetter _values;
         private bool _isMoving;
+        private bool _isResetting;
 
         private void Start()
         {
             _values = GameObject.Find("GameValues").GetComponent<GameValuesSetter>();
-            _points = pointsParent.GetComponentsInChildren<Transform>();
-            _pointIndex = 0;
+            _points = new Transform[pointsParent.childCount];
+            
+            for (int i = 0; i < pointsParent.childCount; i++)
+                _points[i] = pointsParent.GetChild(i);
+            
             _isMoving = false;
+
+            foreach (var checkPoint in checkPoints)
+                checkPoint.OnCheckpointStayForCamera += SetCheckpointPosition;
+        }
+
+        private void OnDestroy()
+        {
+            foreach (var checkPoint in checkPoints)
+                checkPoint.OnCheckpointStayForCamera -= SetCheckpointPosition;
         }
 
         public void MoveCamera()
         {
-            _pointIndex++;
+            _currentPointIndex++;
             _isMoving = true;
+        }
+
+        private void SetCheckpointPosition(Transform newZeroPoint)
+        {
+            for (int i = 0; i < _points.Length; i++)
+            {
+                if (_points[i].position == newZeroPoint.position)
+                {
+                    _zeroPointIndex = i;
+                    _targetZeroPoint = _points[i];
+                }
+            }
         }
 
         private void Update()
         {
             if (_isMoving)
-            {
-                transform.position = Vector3.MoveTowards(transform.position, _points[_pointIndex].position,
+                transform.position = Vector3.MoveTowards(transform.position, _points[_currentPointIndex].position,
                     _values.CameraMovementSpeed * Time.deltaTime);
-            }
 
-            if (transform.position == _points[_pointIndex].position)
+            if (transform.position == _points[_currentPointIndex].position)
                 _isMoving = false;
 
-            if (_values.isLosingHeart && transform.position != zeroPoint.position)
+            if (_values.isLosingHeart && transform.position != _targetZeroPoint.position)
             {
                 _isMoving = false;
-                transform.position = Vector3.MoveTowards(transform.position, zeroPoint.position,
+                transform.position = Vector3.MoveTowards(transform.position, _targetZeroPoint.position,
                     _values.CameraBackMovingSpeed * Time.deltaTime);
-                MakePointIndexZero();
+                MakeCurrentPointIndexZero();
             }
 
-            if (_values.isLosingHeart && transform.position == zeroPoint.position)
+            if (_values.isLosingHeart && transform.position == _targetZeroPoint.position)
                 _values.isLosingHeart = false;
         }
 
-        private void MakePointIndexZero()
+        private void MakeCurrentPointIndexZero()
         {
-            _pointIndex = 0;
+            _currentPointIndex = _zeroPointIndex;
         }
 
         public void ResetCameraPosition()
         {
-            if (transform.position != zeroPoint.position)
-                transform.position = zeroPoint.position;
-            MakePointIndexZero();
+            _zeroPointIndex = 0;
+            MakeCurrentPointIndexZero();
+            _targetZeroPoint = _points[_zeroPointIndex];
+            if (transform.position != _targetZeroPoint.position)
+                transform.position = _targetZeroPoint.position;
         }
     }
 }

@@ -6,9 +6,8 @@ namespace PlayerScripts
     public class CoinsHandler : MonoBehaviour
     {
         [SerializeField] private Transform coinsParent;
-        
-        [Space(10)]
-        [SerializeField] private Text coinsText;
+
+        [Space(10)] [SerializeField] private Text coinsText;
 
         private GameObject[] _coins;
         public int CoinsCount { get; private set; }
@@ -16,9 +15,9 @@ namespace PlayerScripts
         private void Start()
         {
             _coins = new GameObject[coinsParent.childCount];
-            for (int i = 0; i < coinsParent.childCount; i++)
+            for (var i = 0; i < coinsParent.childCount; i++)
                 _coins[i] = coinsParent.GetChild(i).gameObject;
-            
+
             CoinsCount = 0;
         }
 

@@ -4,10 +4,8 @@ using System.Collections;
 
 namespace TMPro.Examples
 {
-
     public class SimpleScript : MonoBehaviour
     {
-
         private TextMeshPro m_textMeshPro;
         //private TMP_FontAsset m_FontAsset;
 
@@ -15,7 +13,7 @@ namespace TMPro.Examples
         private float m_frame;
 
 
-        void Start()
+        private void Start()
         {
             // Add new TextMesh Pro Component
             m_textMeshPro = gameObject.AddComponent<TextMeshPro>();
@@ -48,11 +46,10 @@ namespace TMPro.Examples
         }
 
 
-        void Update()
+        private void Update()
         {
             m_textMeshPro.SetText(label, m_frame % 1000);
             m_frame += 1 * Time.deltaTime;
         }
-
     }
 }

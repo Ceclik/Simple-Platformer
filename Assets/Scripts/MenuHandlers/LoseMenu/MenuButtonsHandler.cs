@@ -1,4 +1,5 @@
 using CameraScripts;
+using LevelScripts;
 using PlayerScripts;
 using UnityEngine;
 using UnityEngine.SceneManagement;
@@ -10,6 +11,7 @@ namespace MenuHandlers.LoseMenu
         private LoseAndWinHandler _loseAndWinHandler;
         [SerializeField] private GameObject loseMenu;
         [SerializeField] private GameObject winMenu;
+        [SerializeField] private CheckpointsHandler checkpointsHandler;
 
         [Space(20)] [SerializeField] private CameraMover cameraMover;
 
@@ -21,10 +23,11 @@ namespace MenuHandlers.LoseMenu
 
         public void OnRestartButtonClick()
         {
+            checkpointsHandler.ResetAllCheckpoints();
             _loseAndWinHandler.Restart();
+            cameraMover.ResetCameraPosition();
             loseMenu.SetActive(false);
             winMenu.SetActive(false);
-            cameraMover.ResetCameraPosition();
         }
 
         public void OnExitButtonClick()

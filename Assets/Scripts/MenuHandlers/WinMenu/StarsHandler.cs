@@ -11,20 +11,21 @@ namespace MenuHandlers.WinMenu
         [SerializeField] private CoinsHandler coinsHandler;
 
         private SpriteRenderer[] _starImages;
-        
-        [Header("Stars Conditions")] 
-        [SerializeField] [Range(0, 100)] private int firstStar;
+
+        [Header("Stars Conditions")] [SerializeField] [Range(0, 100)]
+        private int firstStar;
+
         [SerializeField] [Range(0, 100)] private int secondStar;
         [SerializeField] [Range(0, 100)] private int thirdStar;
 
         [Space(10)] [SerializeField] private float starAppearDelay;
-        [Space(10)][SerializeField] private Sprite fullStarImage;
+        [Space(10)] [SerializeField] private Sprite fullStarImage;
         [SerializeField] private Sprite emptyStarImage;
 
         private void Start()
         {
             _starImages = new SpriteRenderer[starsParent.childCount];
-            for (int i = 0; i < starsParent.childCount; i++)
+            for (var i = 0; i < starsParent.childCount; i++)
                 _starImages[i] = starsParent.GetChild(i).GetComponent<SpriteRenderer>();
         }
 
@@ -47,8 +48,8 @@ namespace MenuHandlers.WinMenu
         {
             switch (CountAmountOfAwardedStars())
             {
-                case 1: 
-                    StartCoroutine(DrawStar(1)); 
+                case 1:
+                    StartCoroutine(DrawStar(1));
                     break;
                 case 2:
                     StartCoroutine(DrawStar(2));
@@ -61,10 +62,10 @@ namespace MenuHandlers.WinMenu
 
         private IEnumerator DrawStar(int amount)
         {
-            int imageIndex = 0;
+            var imageIndex = 0;
             while (amount > 0)
             {
-                yield return  new WaitForSeconds(starAppearDelay);
+                yield return new WaitForSeconds(starAppearDelay);
                 amount--;
                 _starImages[imageIndex].sprite = fullStarImage;
                 imageIndex++;

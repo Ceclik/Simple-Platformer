@@ -8,7 +8,7 @@ namespace PlayerScripts
 
         [Space(10)] [SerializeField] private Sprite emptyHeart;
         [SerializeField] private Sprite redHeart;
-        
+
         private SpriteRenderer[] _heartImages;
         private int _heartIndex;
 
@@ -16,7 +16,7 @@ namespace PlayerScripts
         {
             _heartIndex = 2;
             _heartImages = new SpriteRenderer[heartsParent.childCount];
-            for (int i = 0; i < heartsParent.childCount; i++)
+            for (var i = 0; i < heartsParent.childCount; i++)
                 _heartImages[i] = heartsParent.GetChild(i).gameObject.GetComponent<SpriteRenderer>();
         }
 
