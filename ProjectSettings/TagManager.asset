@@ -9,6 +9,7 @@ TagManager:
   - Win
   - Coin
   - Heart
+  - PlarformBorder
   layers:
   - Default
   - TransparentFX
@@ -16,8 +17,8 @@ TagManager:
   - 
   - Water
   - UI
-  - 
-  - 
+  - CameraBorders
+  - Enemy
   - 
   - 
   - 
