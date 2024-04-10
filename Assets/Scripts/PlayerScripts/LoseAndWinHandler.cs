@@ -17,7 +17,7 @@ namespace PlayerScripts
         private GameObject[] _platforms;
 
         private GameValuesSetter _values;
-        private int _livesCounter;
+        private float _livesCounter;
         private HeartsHandler _heartsHandler;
         private CoinsHandler _coinsHandler;
 
@@ -46,7 +46,9 @@ namespace PlayerScripts
         private void AddLive()
         {
             if (_livesCounter >= 3) return;
-            _livesCounter++;
+            if (_livesCounter % 1 == 0)
+                _livesCounter++;
+            else _livesCounter += 0.5f;
             Debug.Log($"Lives count: {_livesCounter}");
         }
 
@@ -59,9 +61,11 @@ namespace PlayerScripts
                 winMenu.SetActive(true);
             }
 
-            if (other.gameObject.CompareTag("Lose") && _livesCounter > 0 && !_values.isWin)
+            if (other.gameObject.CompareTag("Lose") && _livesCounter > 0.0f && !_values.isWin)
             {
-                _livesCounter--;
+                if (_livesCounter % 1 == 0)
+                    _livesCounter--;
+                else _livesCounter -= 0.5f;
                 Debug.Log($"Lives count: {_livesCounter}");
                 _values.isLosingHeart = true;
                 
@@ -69,7 +73,7 @@ namespace PlayerScripts
                 UnjumpAllNextPlatforms();
 
                 _heartsHandler.EmptyHeart();
-                if (_livesCounter == 0)
+                if (_livesCounter == 0.0f)
                 {
                     loseMenu.SetActive(true);
                     _values.isLost = true;
@@ -83,7 +87,6 @@ namespace PlayerScripts
                 if (platform.TryGetComponent(out CheckPoint checkPoint))
                     if (checkPoint.IsCurrentCheckPoint)
                         transform.position = checkPoint.transform.position;
-            
         }
 
         public void Restart()
@@ -92,7 +95,7 @@ namespace PlayerScripts
                 transform.position = firstPlatform.position;
             _heartsHandler.MakeAllHeartsRed();
             _coinsHandler.Restart();
-            _livesCounter = 3;
+            _livesCounter = 3.0f;
             _values.isLost = false;
             _values.isWin = false;
 
@@ -110,6 +113,12 @@ namespace PlayerScripts
                     if (trigger.IsJumped)
                         trigger.IsJumped = false;
             }
+        }
+
+        public void GetEnemyDamage()
+        {
+            _livesCounter -= 0.5f;
+            Debug.Log($"Lives count: {_livesCounter}");
         }
     }
 }

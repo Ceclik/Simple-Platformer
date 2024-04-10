@@ -8,12 +8,13 @@ namespace PlayerScripts
         public event HandlePickedHeart OnPickHeart;
 
         [SerializeField] private Transform heartsObjectsParent;
+
         private void OnTriggerEnter2D(Collider2D other)
         {
             if (other.gameObject.CompareTag("Heart"))
             {
-                OnPickHeart?.Invoke();
                 other.gameObject.SetActive(false);
+                OnPickHeart?.Invoke();
             }
         }
 

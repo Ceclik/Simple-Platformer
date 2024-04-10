@@ -9,19 +9,22 @@ namespace PlayerScripts
 
         [Space(10)] [SerializeField] private Sprite emptyHeart;
         [SerializeField] private Sprite redHeart;
-
-        private HeartsPicker _heartsPicker;
+        [SerializeField] private Sprite halfHeart;
 
         private SpriteRenderer[] _heartImages;
         private int _heartIndex;
+        private bool _isHalf;
+
+        private HeartsPicker _heartsPicker;
 
         private void Start()
         {
+            _isHalf = false;
             _heartIndex = 2;
             _heartImages = new SpriteRenderer[heartsParent.childCount];
             for (var i = 0; i < heartsParent.childCount; i++)
                 _heartImages[i] = heartsParent.GetChild(i).gameObject.GetComponent<SpriteRenderer>();
-            
+
             _heartsPicker = GetComponent<HeartsPicker>();
             _heartsPicker.OnPickHeart += AddHeart;
         }
@@ -33,10 +36,40 @@ namespace PlayerScripts
 
         private void AddHeart()
         {
-            if (_heartIndex < 2)
+            if(_heartIndex == 2 && !_isHalf) return;
+            
+            if (_heartIndex == 2 && _isHalf)
             {
+                _heartImages[_heartIndex].sprite = redHeart;
+                _isHalf = false;
+                return;
+            }
+
+            if (_heartIndex < 2 && _isHalf)
+            {
+                _heartImages[_heartIndex].sprite = redHeart;
+                _isHalf = false;
+                return;
+            }
+            if (_heartIndex < 2 && !_isHalf)
+            { 
                 _heartIndex++;
                 _heartImages[_heartIndex].sprite = redHeart;
+            }
+        }
+
+        public void EmptyHalfHeart()
+        {
+            if (!_isHalf)
+            {
+                _heartImages[_heartIndex].sprite = halfHeart;
+                _isHalf = true;
+            }
+            else
+            {
+                _heartImages[_heartIndex].sprite = emptyHeart;
+                _isHalf = false;
+                _heartIndex--;
             }
         }
 
