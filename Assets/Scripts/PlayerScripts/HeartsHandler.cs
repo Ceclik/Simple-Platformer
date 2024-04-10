@@ -1,3 +1,4 @@
+using System;
 using UnityEngine;
 
 namespace PlayerScripts
@@ -9,6 +10,8 @@ namespace PlayerScripts
         [Space(10)] [SerializeField] private Sprite emptyHeart;
         [SerializeField] private Sprite redHeart;
 
+        private HeartsPicker _heartsPicker;
+
         private SpriteRenderer[] _heartImages;
         private int _heartIndex;
 
@@ -18,6 +21,23 @@ namespace PlayerScripts
             _heartImages = new SpriteRenderer[heartsParent.childCount];
             for (var i = 0; i < heartsParent.childCount; i++)
                 _heartImages[i] = heartsParent.GetChild(i).gameObject.GetComponent<SpriteRenderer>();
+            
+            _heartsPicker = GetComponent<HeartsPicker>();
+            _heartsPicker.OnPickHeart += AddHeart;
+        }
+
+        private void OnDestroy()
+        {
+            _heartsPicker.OnPickHeart -= AddHeart;
+        }
+
+        private void AddHeart()
+        {
+            if (_heartIndex < 2)
+            {
+                _heartIndex++;
+                _heartImages[_heartIndex].sprite = redHeart;
+            }
         }
 
         public void EmptyHeart()

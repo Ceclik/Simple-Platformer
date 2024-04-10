@@ -1,3 +1,4 @@
+using System;
 using System.Linq;
 using LevelScripts;
 using PlatformScripts;
@@ -20,6 +21,8 @@ namespace PlayerScripts
         private HeartsHandler _heartsHandler;
         private CoinsHandler _coinsHandler;
 
+        private HeartsPicker _heartsPicker;
+
         private void Start()
         {
             _values = GameObject.Find("GameValues").GetComponent<GameValuesSetter>();
@@ -30,6 +33,21 @@ namespace PlayerScripts
                 _platforms[i] = platformsParent.GetChild(i).gameObject;
             _heartsHandler = GetComponent<HeartsHandler>();
             _coinsHandler = GetComponent<CoinsHandler>();
+            _heartsPicker = GetComponent<HeartsPicker>();
+
+            _heartsPicker.OnPickHeart += AddLive;
+        }
+
+        private void OnDestroy()
+        {
+            _heartsPicker.OnPickHeart -= AddLive;
+        }
+
+        private void AddLive()
+        {
+            if (_livesCounter >= 3) return;
+            _livesCounter++;
+            Debug.Log($"Lives count: {_livesCounter}");
         }
 
         private void OnCollisionEnter2D(Collision2D other)
@@ -44,6 +62,7 @@ namespace PlayerScripts
             if (other.gameObject.CompareTag("Lose") && _livesCounter > 0 && !_values.isWin)
             {
                 _livesCounter--;
+                Debug.Log($"Lives count: {_livesCounter}");
                 _values.isLosingHeart = true;
                 
                 BackToCheckPoint();

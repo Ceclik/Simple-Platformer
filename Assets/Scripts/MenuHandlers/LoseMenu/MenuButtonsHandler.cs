@@ -12,6 +12,7 @@ namespace MenuHandlers.LoseMenu
         [SerializeField] private GameObject loseMenu;
         [SerializeField] private GameObject winMenu;
         [SerializeField] private CheckpointsHandler checkpointsHandler;
+        [SerializeField] private HeartsPicker heartsPicker;
 
         [Space(20)] [SerializeField] private CameraMover cameraMover;
 
@@ -26,6 +27,7 @@ namespace MenuHandlers.LoseMenu
             checkpointsHandler.ResetAllCheckpoints();
             _loseAndWinHandler.Restart();
             cameraMover.ResetCameraPosition();
+            heartsPicker.ResetHearts();
             loseMenu.SetActive(false);
             winMenu.SetActive(false);
         }
