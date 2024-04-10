@@ -10,6 +10,7 @@ TagManager:
   - Coin
   - Heart
   - PlarformBorder
+  - Enemy
   layers:
   - Default
   - TransparentFX

@@ -1,4 +1,3 @@
-using System;
 using LevelScripts;
 using UnityEngine;
 
@@ -9,7 +8,10 @@ namespace EnemyScripts
         private GameValuesSetter _values;
         private Rigidbody2D _rigidbody;
         
-        private float horizontal = 1f;
+        private float _horizontal = 1f;
+
+        private bool _isRightHit;
+        private bool _isLeftHit;
 
         [SerializeField] private Transform rightRayPosition;
         [SerializeField] private Transform leftRayPosition;
@@ -21,28 +23,30 @@ namespace EnemyScripts
             Physics2D.IgnoreLayerCollision(6, 7, true);
         }
 
-        private void Update()
+        private void FixedUpdate()
         {
-            
-            _rigidbody.velocity = new Vector2(horizontal * _values.EnemySpeed, _rigidbody.velocity.y);
+            _rigidbody.velocity = new Vector2(_horizontal * _values.EnemySpeed, _rigidbody.velocity.y);
             
             RaycastHit2D rightHit = Physics2D.Raycast(rightRayPosition.position, transform.right, 0.01f);
-            RaycastHit2D leftHit = Physics2D.Raycast(transform.position, -transform.right, 0.01f);
-            Debug.DrawRay(rightRayPosition.position, transform.right, Color.red, 0.01f);
-            Debug.DrawRay(leftRayPosition.position, -transform.right, Color.green, 0.01f);
+            RaycastHit2D leftHit = Physics2D.Raycast(leftRayPosition.position, -transform.right, 0.01f);
+            
             if (rightHit.collider != null)
             {
-                if (rightHit.collider.gameObject.CompareTag("PlarformBorder"))
+                if (rightHit.collider.gameObject.CompareTag("PlarformBorder") && !_isRightHit)
                 {
-                    rightHit.distance = 0;
-                    leftHit.distance = 0.01f;
-                    horizontal *= -1;
+                    _isRightHit = true;
+                    _isLeftHit = false;
+                    _horizontal *= -1;
                 }
-                if (leftHit.collider.gameObject.CompareTag("PlarformBorder"))
+            }
+
+            if (leftHit.collider != null)
+            {
+                if (leftHit.collider.gameObject.CompareTag("PlarformBorder") && !_isLeftHit)
                 {
-                    rightHit.distance = 0.01f;
-                    leftHit.distance = 0;
-                    horizontal *= -1;
+                    _isLeftHit = true;
+                    _isRightHit = false;
+                    _horizontal *= -1;
                 }
             }
         }
