@@ -8,26 +8,14 @@ namespace MenuHandlers.LoseMenu
 {
     public class MenuButtonsHandler : MonoBehaviour
     {
-        private LoseAndWinHandler _loseAndWinHandler;
         [SerializeField] private GameObject loseMenu;
         [SerializeField] private GameObject winMenu;
-        [SerializeField] private CheckpointsHandler checkpointsHandler;
-        [SerializeField] private HeartsPicker heartsPicker;
-
-        [Space(20)] [SerializeField] private CameraMover cameraMover;
-
-        private void Start()
-        {
-            _loseAndWinHandler =
-                GameObject.FindGameObjectWithTag("Player").gameObject.GetComponent<LoseAndWinHandler>();
-        }
+        public delegate void RestartLevel();
+        public event RestartLevel OnRestartLevel;
 
         public void OnRestartButtonClick()
         {
-            checkpointsHandler.ResetAllCheckpoints();
-            _loseAndWinHandler.Restart();
-            cameraMover.ResetCameraPosition();
-            heartsPicker.ResetHearts();
+            OnRestartLevel?.Invoke();
             loseMenu.SetActive(false);
             winMenu.SetActive(false);
         }

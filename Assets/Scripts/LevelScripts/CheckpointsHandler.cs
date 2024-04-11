@@ -1,3 +1,4 @@
+using MenuHandlers.LoseMenu;
 using PlatformScripts;
 using UnityEngine;
 
@@ -7,10 +8,15 @@ namespace LevelScripts
     {
         [SerializeField] private CheckPoint[] checkPoints;
 
+        private MenuButtonsHandler _buttonsHandler;
+
         private void Start()
         {
             foreach (var checkPoint in checkPoints)
                 checkPoint.OnCheckpointStay += ResetAllCheckpoints;
+            
+            _buttonsHandler = GameObject.Find("ButtonsHandler").GetComponent<MenuButtonsHandler>();
+            _buttonsHandler.OnRestartLevel += ResetAllCheckpoints;
         }
 
         public void ResetAllCheckpoints()
@@ -23,6 +29,8 @@ namespace LevelScripts
         {
             foreach (var checkPoint in checkPoints)
                 checkPoint.OnCheckpointStay -= ResetAllCheckpoints;
+
+            _buttonsHandler.OnRestartLevel -= ResetAllCheckpoints;
         }
     }
 }

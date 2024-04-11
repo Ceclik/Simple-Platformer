@@ -1,6 +1,7 @@
 using System;
 using System.Linq;
 using LevelScripts;
+using MenuHandlers.LoseMenu;
 using PlatformScripts;
 using UnityEngine;
 
@@ -22,6 +23,8 @@ namespace PlayerScripts
         private CoinsHandler _coinsHandler;
 
         private HeartsPicker _heartsPicker;
+        
+        private MenuButtonsHandler _buttonsHandler;
 
         private void Start()
         {
@@ -36,11 +39,15 @@ namespace PlayerScripts
             _heartsPicker = GetComponent<HeartsPicker>();
 
             _heartsPicker.OnPickHeart += AddLive;
+            
+            _buttonsHandler = GameObject.Find("ButtonsHandler").GetComponent<MenuButtonsHandler>();
+            _buttonsHandler.OnRestartLevel += Restart;
         }
 
         private void OnDestroy()
         {
             _heartsPicker.OnPickHeart -= AddLive;
+            _buttonsHandler.OnRestartLevel += Restart;
         }
 
         private void AddLive()

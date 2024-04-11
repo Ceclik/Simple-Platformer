@@ -1,3 +1,4 @@
+using System;
 using UnityEngine;
 
 namespace PlayerScripts
@@ -20,6 +21,12 @@ namespace PlayerScripts
                 _loseAndWinHandler.GetEnemyDamage();
                 _heartsHandler.EmptyHalfHeart();
             }
+        }
+
+        private void OnTriggerEnter2D(Collider2D other)
+        {
+            if (other.gameObject.name == "UpperEnemyBorder")
+                other.transform.parent.gameObject.GetComponent<Collider2D>().isTrigger = true;
         }
     }
 }

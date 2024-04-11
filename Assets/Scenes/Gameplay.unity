@@ -281,6 +281,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 58929608}
+  - component: {fileID: 58929609}
   m_Layer: 0
   m_Name: Enemies
   m_TagString: Untagged
@@ -304,6 +305,18 @@ Transform:
   - {fileID: 1891193224}
   m_Father: {fileID: 0}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &58929609
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 58929607}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: e01f343b60058eb4f9c1075b1bcbc6bc, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!4 &95074970 stripped
 Transform:
   m_CorrespondingSourceObject: {fileID: 846876484838520281, guid: 2c719960d0a21434e872776678aa75db, type: 3}
@@ -890,9 +903,6 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   loseMenu: {fileID: 510129934}
   winMenu: {fileID: 1755692910}
-  checkpointsHandler: {fileID: 38259822}
-  heartsPicker: {fileID: 943761361}
-  cameraMover: {fileID: 519420033}
 --- !u!1001 &444018522
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -3160,6 +3170,7 @@ GameObject:
   - component: {fileID: 1891193226}
   - component: {fileID: 1891193225}
   - component: {fileID: 1891193228}
+  - component: {fileID: 1891193229}
   m_Layer: 7
   m_Name: Enemy
   m_TagString: Enemy
@@ -3317,6 +3328,19 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   rightRayPosition: {fileID: 1333364811}
   leftRayPosition: {fileID: 309053593}
+--- !u!114 &1891193229
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1891193223}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: dd4798483d569b04c8fff6731ea166cc, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  spawnPlatform: {fileID: 469921864}
 --- !u!1 &1907184898
 GameObject:
   m_ObjectHideFlags: 0
