@@ -1,5 +1,12 @@
 fileFormatVersion: 2
-guid: 96b07287a5205ba498419fb0d93aac17
+guid: b7169c21225b1f04ab520fd934e0cd2c
+AssetOrigin:
+  serializedVersion: 1
+  productId: 99645
+  packageName: 2D Pixel Item Asset Pack
+  packageVersion: 1.0
+  assetPath: Assets/2D Pixel Item Pack/Heavy Outline/S_ItemHeavyOutline_CoinGold_00.png
+  uploadId: 199895
 TextureImporter:
   internalIDToNameTable: []
   externalObjects: {}
