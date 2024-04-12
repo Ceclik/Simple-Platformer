@@ -19,6 +19,7 @@ GameObject:
   - component: {fileID: 3236511559379962980}
   - component: {fileID: 5049766733715875364}
   - component: {fileID: 1593552439928798155}
+  - component: {fileID: 1580867147675379936}
   - component: {fileID: 1142302698107633367}
   - component: {fileID: 6121462972683183698}
   m_Layer: 0
@@ -85,7 +86,7 @@ SpriteRenderer:
   m_LightmapParameters: {fileID: 0}
   m_SortingLayerID: 0
   m_SortingLayer: 0
-  m_SortingOrder: 0
+  m_SortingOrder: 2
   m_Sprite: {fileID: -291383518, guid: 7d126f47acb8be940a6f435e148d372b, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_FlipX: 0
@@ -258,6 +259,19 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 6dddf15f1ba85c14db1455330cae1866, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+--- !u!114 &1580867147675379936
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 5082499253443168385}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 4e8d7ca5ae22a0f4d906c4f7cdac34e1, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  doubleJumpEffect: {fileID: 0}
 --- !u!114 &1142302698107633367
 MonoBehaviour:
   m_ObjectHideFlags: 0

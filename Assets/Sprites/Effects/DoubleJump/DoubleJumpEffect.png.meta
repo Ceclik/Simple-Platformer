@@ -1,0 +1,296 @@
+fileFormatVersion: 2
+guid: c8dfda9b19efe744d89d63ececdb4066
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: 4853689861185972276
+    second: DoubleJumpEffect_0
+  - first:
+      213: 5176847083781322750
+    second: DoubleJumpEffect_1
+  - first:
+      213: 733153841613906937
+    second: DoubleJumpEffect_2
+  - first:
+      213: 8887346897403909993
+    second: DoubleJumpEffect_3
+  - first:
+      213: -8598952468008510772
+    second: DoubleJumpEffect_4
+  - first:
+      213: 8746410151233396979
+    second: DoubleJumpEffect_5
+  - first:
+      213: -628213047622953678
+    second: DoubleJumpEffect_6
+  - first:
+      213: 4760113517846356811
+    second: DoubleJumpEffect_7
+  - first:
+      213: 1642444586834624774
+    second: DoubleJumpEffect_8
+  - first:
+      213: -6058737403620129308
+    second: DoubleJumpEffect_9
+  - first:
+      213: -8766529002514051266
+    second: DoubleJumpEffect_10
+  - first:
+      213: 5646377354127314880
+    second: DoubleJumpEffect_11
+  - first:
+      213: -7169633540723527461
+    second: DoubleJumpEffect_12
+  - first:
+      213: 8911870311788501026
+    second: DoubleJumpEffect_13
+  - first:
+      213: -2356815311295980536
+    second: DoubleJumpEffect_14
+  - first:
+      213: 2617436442372792499
+    second: DoubleJumpEffect_15
+  - first:
+      213: -5726571268846484899
+    second: DoubleJumpEffect_16
+  - first:
+      213: 7536508348167984886
+    second: DoubleJumpEffect_17
+  externalObjects: {}
+  serializedVersion: 13
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 0
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 0
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 3
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Android
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: WebGL
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: DoubleJumpEffect_0
+      rect:
+        serializedVersion: 2
+        x: 12
+        y: 5
+        width: 88
+        height: 47
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 438a7e97635cb5340800000000000000
+      internalID: 4853689861185972276
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DoubleJumpEffect_1
+      rect:
+        serializedVersion: 2
+        x: 115
+        y: 6
+        width: 87
+        height: 46
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ef77d4d9efad7d740800000000000000
+      internalID: 5176847083781322750
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DoubleJumpEffect_4
+      rect:
+        serializedVersion: 2
+        x: 224
+        y: 10
+        width: 87
+        height: 38
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: cca52ef1a426aa880800000000000000
+      internalID: -8598952468008510772
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DoubleJumpEffect_9
+      rect:
+        serializedVersion: 2
+        x: 338
+        y: 11
+        width: 79
+        height: 25
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4e589d59e6a0beba0800000000000000
+      internalID: -6058737403620129308
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    physicsShape: []
+    bones: []
+    spriteID: 62b4fabe9a8e7304a9bd84a5ccde701e
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    nameFileIdTable:
+      DoubleJumpEffect_0: 4853689861185972276
+      DoubleJumpEffect_1: 5176847083781322750
+      DoubleJumpEffect_10: -8766529002514051266
+      DoubleJumpEffect_11: 5646377354127314880
+      DoubleJumpEffect_12: -7169633540723527461
+      DoubleJumpEffect_13: 8911870311788501026
+      DoubleJumpEffect_14: -2356815311295980536
+      DoubleJumpEffect_15: 2617436442372792499
+      DoubleJumpEffect_16: -5726571268846484899
+      DoubleJumpEffect_17: 7536508348167984886
+      DoubleJumpEffect_2: 733153841613906937
+      DoubleJumpEffect_3: 8887346897403909993
+      DoubleJumpEffect_4: -8598952468008510772
+      DoubleJumpEffect_5: 8746410151233396979
+      DoubleJumpEffect_6: -628213047622953678
+      DoubleJumpEffect_7: 4760113517846356811
+      DoubleJumpEffect_8: 1642444586834624774
+      DoubleJumpEffect_9: -6058737403620129308
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

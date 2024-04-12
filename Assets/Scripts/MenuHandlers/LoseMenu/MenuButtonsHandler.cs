@@ -1,6 +1,3 @@
-using CameraScripts;
-using LevelScripts;
-using PlayerScripts;
 using UnityEngine;
 using UnityEngine.SceneManagement;
 

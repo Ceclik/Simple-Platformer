@@ -14,12 +14,14 @@ namespace PlayerScripts
         private Rigidbody2D _rigidbody2D;
         
         private GameValuesSetter _values;
+        private ParticlePlayer _particlePlayer;
 
         private void Start()
         {
             _values = GameObject.Find("GameValues").GetComponent<GameValuesSetter>();
             _rigidbody2D = GetComponent<Rigidbody2D>();
             _jumpsCounter = 0;
+            _particlePlayer = GetComponent<ParticlePlayer>();
         }
 
         private void Update()
@@ -30,6 +32,8 @@ namespace PlayerScripts
 
             if (Input.GetKeyDown(KeyCode.W) && _jumpsCounter < 2)
             {
+                if(_jumpsCounter == 1)
+                    _particlePlayer.PlayDoubleJumpEffect();
                 _rigidbody2D.AddForce(Vector2.up * _values.CharacterJumpForce, ForceMode2D.Impulse);
                 _jumpsCounter++;
             }
@@ -37,7 +41,7 @@ namespace PlayerScripts
 
         private void OnCollisionEnter2D(Collision2D collision)
         {
-            if (collision.gameObject.CompareTag("Platform") && _jumpsCounter >= 2)
+            if (collision.gameObject.CompareTag("Platform") && _jumpsCounter <= 2)
                 _jumpsCounter = 0;
             if (collision.gameObject.TryGetComponent<CameraMovementTrigger>(
                     out var cameraMovementTrigger) && !cameraMovementTrigger.IsJumped)

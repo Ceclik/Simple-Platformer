@@ -1,4 +1,3 @@
-using System;
 using System.Linq;
 using LevelScripts;
 using MenuHandlers.LoseMenu;
@@ -116,9 +115,9 @@ namespace PlayerScripts
             {
                 if (item.TryGetComponent(out CheckPoint checkPoint))
                 {
-                    if (checkPoint.IsCurrentCheckPoint && !_values.isLost)
+                    if (checkPoint.IsCurrentCheckPoint && !_values.isLost && !_values.isWin)
                         break;
-                    if (checkPoint.IsCurrentCheckPoint && _values.isLost)
+                    if (checkPoint.IsCurrentCheckPoint && (_values.isLost || _values.isWin))
                         checkPoint.IsCurrentCheckPoint = false;
                 }
                 if (item.TryGetComponent(out CameraMovementTrigger trigger))
