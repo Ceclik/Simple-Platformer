@@ -9,7 +9,6 @@ namespace PlatformScripts
         public bool IsCurrentCheckPoint { get; set; }
 
        public delegate void AllPropertiesFalseSetter();
-       
        public delegate void MoveCameraToCheckpoint(Transform checkpointPosition);
        
        public event AllPropertiesFalseSetter OnCheckpointStay;

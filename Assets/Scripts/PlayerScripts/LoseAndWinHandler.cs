@@ -96,17 +96,18 @@ namespace PlayerScripts
                         transform.position = checkPoint.transform.position;
         }
 
-        public void Restart()
+        private void Restart()
         {
             if (transform.position != firstPlatform.position)
                 transform.position = firstPlatform.position;
             _heartsHandler.MakeAllHeartsRed();
             _coinsHandler.Restart();
             _livesCounter = 3.0f;
-            _values.isLost = false;
-            _values.isWin = false;
 
             UnjumpAllNextPlatforms();
+            
+            _values.isLost = false;
+            _values.isWin = false;
         }
 
         private void UnjumpAllNextPlatforms()
@@ -114,10 +115,12 @@ namespace PlayerScripts
             foreach (var item in _platforms.Reverse())
             {
                 if (item.TryGetComponent(out CheckPoint checkPoint))
+                {
                     if (checkPoint.IsCurrentCheckPoint && !_values.isLost)
                         break;
-                    else if (checkPoint.IsCurrentCheckPoint && _values.isLost)
+                    if (checkPoint.IsCurrentCheckPoint && _values.isLost)
                         checkPoint.IsCurrentCheckPoint = false;
+                }
                 if (item.TryGetComponent(out CameraMovementTrigger trigger))
                     if (trigger.IsJumped)
                         trigger.IsJumped = false;
