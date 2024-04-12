@@ -114,8 +114,10 @@ namespace PlayerScripts
             foreach (var item in _platforms.Reverse())
             {
                 if (item.TryGetComponent(out CheckPoint checkPoint))
-                    if (checkPoint.IsCurrentCheckPoint)
+                    if (checkPoint.IsCurrentCheckPoint && !_values.isLost)
                         break;
+                    else if (checkPoint.IsCurrentCheckPoint && _values.isLost)
+                        checkPoint.IsCurrentCheckPoint = false;
                 if (item.TryGetComponent(out CameraMovementTrigger trigger))
                     if (trigger.IsJumped)
                         trigger.IsJumped = false;

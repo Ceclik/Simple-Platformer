@@ -13,6 +13,7 @@ GameObject:
   - component: {fileID: 8873864479898791930}
   - component: {fileID: 4831130273756788424}
   - component: {fileID: 9215050054095958538}
+  - component: {fileID: 8688026736543011716}
   m_Layer: 0
   m_Name: CameraTriggerPlatform
   m_TagString: Platform
@@ -29,12 +30,13 @@ Transform:
   m_GameObject: {fileID: 839290743305845502}
   serializedVersion: 2
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: 2.9543, y: 0.766, z: 0}
-  m_LocalScale: {x: 1.0273995, y: 0.6786402, z: 1}
+  m_LocalPosition: {x: 1.9887, y: 0.5417, z: 0}
+  m_LocalScale: {x: 0.6944193, y: 0.45869288, z: 0.6759}
   m_ConstrainProportionsScale: 0
   m_Children:
   - {fileID: 6546366872977866664}
   - {fileID: 2720988356712745750}
+  - {fileID: 4645892010358221339}
   m_Father: {fileID: 0}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!212 &4639234029385506685
@@ -168,6 +170,20 @@ PlatformEffector2D:
   m_UseSideFriction: 0
   m_UseSideBounce: 0
   m_SideArc: 1
+--- !u!114 &8688026736543011716
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 839290743305845502}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: cebb04b407889db4a9958502f1604652, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  cloudParticle: {fileID: 7181803937207033720}
+  particlePlayDelay: 0.8
 --- !u!1 &1931357738684445935
 GameObject:
   m_ObjectHideFlags: 0
@@ -324,3 +340,70 @@ BoxCollider2D:
   m_AutoTiling: 0
   m_Size: {x: 0.12673545, y: 2.5827386}
   m_EdgeRadius: 0
+--- !u!1001 &7014786066157298750
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    serializedVersion: 3
+    m_TransformParent: {fileID: 6383737114973077002}
+    m_Modifications:
+    - target: {fileID: 2386908807504612901, guid: 11586e44055328f4e9151dc5576c9411, type: 3}
+      propertyPath: m_LocalPosition.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 2386908807504612901, guid: 11586e44055328f4e9151dc5576c9411, type: 3}
+      propertyPath: m_LocalPosition.y
+      value: -1.015
+      objectReference: {fileID: 0}
+    - target: {fileID: 2386908807504612901, guid: 11586e44055328f4e9151dc5576c9411, type: 3}
+      propertyPath: m_LocalPosition.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 2386908807504612901, guid: 11586e44055328f4e9151dc5576c9411, type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 2386908807504612901, guid: 11586e44055328f4e9151dc5576c9411, type: 3}
+      propertyPath: m_LocalRotation.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 2386908807504612901, guid: 11586e44055328f4e9151dc5576c9411, type: 3}
+      propertyPath: m_LocalRotation.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 2386908807504612901, guid: 11586e44055328f4e9151dc5576c9411, type: 3}
+      propertyPath: m_LocalRotation.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 2386908807504612901, guid: 11586e44055328f4e9151dc5576c9411, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: -90
+      objectReference: {fileID: 0}
+    - target: {fileID: 2386908807504612901, guid: 11586e44055328f4e9151dc5576c9411, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 2386908807504612901, guid: 11586e44055328f4e9151dc5576c9411, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 7950908763393448045, guid: 11586e44055328f4e9151dc5576c9411, type: 3}
+      propertyPath: m_Name
+      value: CloudParticles
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+    m_RemovedGameObjects: []
+    m_AddedGameObjects: []
+    m_AddedComponents: []
+  m_SourcePrefab: {fileID: 100100000, guid: 11586e44055328f4e9151dc5576c9411, type: 3}
+--- !u!4 &4645892010358221339 stripped
+Transform:
+  m_CorrespondingSourceObject: {fileID: 2386908807504612901, guid: 11586e44055328f4e9151dc5576c9411, type: 3}
+  m_PrefabInstance: {fileID: 7014786066157298750}
+  m_PrefabAsset: {fileID: 0}
+--- !u!198 &7181803937207033720 stripped
+ParticleSystem:
+  m_CorrespondingSourceObject: {fileID: 212621787627813702, guid: 11586e44055328f4e9151dc5576c9411, type: 3}
+  m_PrefabInstance: {fileID: 7014786066157298750}
+  m_PrefabAsset: {fileID: 0}
