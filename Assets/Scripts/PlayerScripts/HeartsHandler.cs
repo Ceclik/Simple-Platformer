@@ -76,6 +76,8 @@ namespace PlayerScripts
         public void EmptyHeart()
         {
             _heartImages[_heartIndex].sprite = emptyHeart;
+            if (_isHalf) 
+                _isHalf = false;
             _heartIndex--;
         }
 

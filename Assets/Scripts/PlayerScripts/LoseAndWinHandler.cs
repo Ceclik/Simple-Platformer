@@ -128,6 +128,11 @@ namespace PlayerScripts
         {
             _livesCounter -= 0.5f;
             Debug.Log($"Lives count: {_livesCounter}");
+            if (_livesCounter == 0.0f)
+            {
+                loseMenu.SetActive(true);
+                _values.isLost = true;
+            }
         }
     }
 }

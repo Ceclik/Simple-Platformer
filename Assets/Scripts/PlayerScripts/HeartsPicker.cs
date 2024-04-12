@@ -33,7 +33,7 @@ namespace PlayerScripts
             }
         }
 
-        public void ResetHearts()
+        private void ResetHearts()
         {
             for(var i = 0; i < heartsObjectsParent.childCount; i++)
                 heartsObjectsParent.GetChild(i).gameObject.SetActive(true);
