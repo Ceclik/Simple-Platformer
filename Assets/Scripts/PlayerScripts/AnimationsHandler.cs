@@ -1,3 +1,4 @@
+using System;
 using UnityEngine;
 
 namespace PlayerScripts
@@ -5,42 +6,41 @@ namespace PlayerScripts
     public class AnimationsHandler : MonoBehaviour
     {
         private Animator _animator;
+        
+        private Collider2D _characterCollider;
+        private Transform _raycastPosition;
+
+        private bool _isRunning;
+        private bool _isOnGround = true;
+        private bool _isFalling;
 
         private void Start()
         {
             _animator = GetComponent<Animator>();
+            _characterCollider = GetComponent<Collider2D>();
+            _raycastPosition = transform.GetChild(0).transform;
         }
 
         private void Update()
         {
             HandleRunning();
             HandleJumping();
+            HandleFalling();
         }
 
-        private void SetRunningTriggersFromIdle()
+        private void HandleFalling()
         {
-            _animator.ResetTrigger("isStay");
-            _animator.SetTrigger("isRunning");
-        }
-
-        private void HandleRunning()
-        {
-            var horizontalInput = Input.GetAxis("Horizontal");
-            if (horizontalInput > 0)
+            if (_isOnGround)
             {
-                transform.localRotation = Quaternion.Euler(Vector3.zero);
-                SetRunningTriggersFromIdle();
-            }
-
-            else if (horizontalInput < 0)
-            {
-                SetRunningTriggersFromIdle();
-                transform.localRotation = Quaternion.Euler(new Vector3(0.0f, 180.0f, 0.0f));
-            }
-            else 
-            {
-                _animator.ResetTrigger("isRunning");
-                _animator.SetTrigger("isStay");
+                var hit = Physics2D.Raycast(_raycastPosition.position, Vector2.down, 0.1f);
+                if (!hit.collider)
+                {
+                    _isOnGround = false;
+                    _isFalling = true;
+                    _animator.ResetTrigger("stay");
+                    _animator.ResetTrigger("run");
+                    _animator.SetTrigger("fall");
+                }
             }
         }
 
@@ -48,13 +48,49 @@ namespace PlayerScripts
         {
             if (Input.GetKeyDown(KeyCode.W))
             {
-                _animator.ResetTrigger("isStay");
+                _isOnGround = false;
+                _animator.ResetTrigger("stay");
+                _animator.ResetTrigger("run");
                 _animator.SetTrigger("jump");
             }
-            if (Input.GetKeyUp(KeyCode.W))
+        }
+
+        private void OnCollisionStay2D(Collision2D other)
+        {
+            if (other.gameObject.CompareTag("Platform") && !_isOnGround)
             {
-                _animator.SetTrigger("isStay");
+                _isOnGround = true;
                 _animator.ResetTrigger("jump");
+                _animator.ResetTrigger("fall");
+                _animator.SetTrigger("stay");
+            }
+        }
+
+        private void HandleRunning()
+        {
+            var horizontalAspect = Input.GetAxis("Horizontal");
+            if (!_isRunning && horizontalAspect != 0 && (_isOnGround || _isFalling))
+            {
+                if (horizontalAspect > 0)
+                {
+                    _isRunning = true;
+                    _animator.ResetTrigger("stay");
+                    _animator.SetTrigger("run");
+                    transform.localRotation = Quaternion.Euler(Vector3.zero);
+                }
+                else if (horizontalAspect < 0)
+                {
+                    _isRunning = true;
+                    _animator.ResetTrigger("stay");
+                    _animator.SetTrigger("run");
+                    transform.localRotation = Quaternion.Euler(new Vector3(0.0f, 180.0f, 0.0f));
+                }
+            }
+            else if (_isRunning && horizontalAspect == 0 && _isOnGround)
+            {
+                _isRunning = false;
+                _animator.ResetTrigger("run");
+                _animator.SetTrigger("stay");
             }
         }
     }
