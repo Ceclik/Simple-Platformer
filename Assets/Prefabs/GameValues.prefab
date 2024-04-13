@@ -46,8 +46,9 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   characterSpeed: 10
   characterJumpForce: 15
-  IsLost: 0
-  IsLosingHeart: 0
-  IsWin: 0
+  isLost: 0
+  isLosingHeart: 0
+  isWin: 0
   cameraMovementSpeed: 5
   cameraBackMovingSpeed: 30
+  enemySpeed: 2.2

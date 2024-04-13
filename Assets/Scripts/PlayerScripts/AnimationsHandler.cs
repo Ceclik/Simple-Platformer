@@ -1,4 +1,3 @@
-using System;
 using UnityEngine;
 
 namespace PlayerScripts
@@ -7,7 +6,6 @@ namespace PlayerScripts
     {
         private Animator _animator;
         
-        private Collider2D _characterCollider;
         private Transform _raycastPosition;
 
         private bool _isRunning;
@@ -17,7 +15,6 @@ namespace PlayerScripts
         private void Start()
         {
             _animator = GetComponent<Animator>();
-            _characterCollider = GetComponent<Collider2D>();
             _raycastPosition = transform.GetChild(0).transform;
         }
 

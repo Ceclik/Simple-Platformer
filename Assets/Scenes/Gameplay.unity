@@ -1564,10 +1564,10 @@ RectTransform:
   m_Children: []
   m_Father: {fileID: 1257328905}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
-  m_AnchorMin: {x: 0.7804786, y: 0.8914075}
+  m_AnchorMin: {x: 0.749, y: 0.89418525}
   m_AnchorMax: {x: 0.9932292, y: 0.98685193}
-  m_AnchoredPosition: {x: -3.0300293, y: 0.39001465}
-  m_SizeDelta: {x: 0.16003418, y: 0.17999268}
+  m_AnchoredPosition: {x: 2.0499878, y: -1.2600098}
+  m_SizeDelta: {x: -4.1000004, y: 3.48}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &958724719
 MonoBehaviour:
@@ -1590,8 +1590,8 @@ MonoBehaviour:
     m_PersistentCalls:
       m_Calls: []
   m_FontData:
-    m_Font: {fileID: 10102, guid: 0000000000000000e000000000000000, type: 0}
-    m_FontSize: 70
+    m_Font: {fileID: 12800000, guid: e58bc41bca2177441825b2a71c1dcd42, type: 3}
+    m_FontSize: 60
     m_FontStyle: 0
     m_BestFit: 0
     m_MinSize: 5
@@ -2881,10 +2881,6 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 0}
     m_Modifications:
-    - target: {fileID: 1168296801657653611, guid: 703069fdbbedc0647884a689526611e1, type: 3}
-      propertyPath: enemySpeed
-      value: 3
-      objectReference: {fileID: 0}
     - target: {fileID: 1370952698559255111, guid: 703069fdbbedc0647884a689526611e1, type: 3}
       propertyPath: m_Name
       value: GameValues
