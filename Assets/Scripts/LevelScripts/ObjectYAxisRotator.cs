@@ -7,6 +7,7 @@ namespace LevelScripts
         [SerializeField] private float rotationSpeed;
 
         private float _angleValue = 0.0f;
+
         private void FixedUpdate()
         {
             _angleValue = rotationSpeed * Time.deltaTime;

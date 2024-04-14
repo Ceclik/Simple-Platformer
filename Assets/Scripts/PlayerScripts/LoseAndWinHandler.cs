@@ -22,7 +22,7 @@ namespace PlayerScripts
         private CoinsHandler _coinsHandler;
 
         private HeartsPicker _heartsPicker;
-        
+
         private MenuButtonsHandler _buttonsHandler;
 
         private void Start()
@@ -38,7 +38,7 @@ namespace PlayerScripts
             _heartsPicker = GetComponent<HeartsPicker>();
 
             _heartsPicker.OnPickHeart += AddLive;
-            
+
             _buttonsHandler = GameObject.Find("ButtonsHandler").GetComponent<MenuButtonsHandler>();
             _buttonsHandler.OnRestartLevel += Restart;
         }
@@ -46,7 +46,7 @@ namespace PlayerScripts
         private void OnDestroy()
         {
             _heartsPicker.OnPickHeart -= AddLive;
-            _buttonsHandler.OnRestartLevel += Restart;
+            _buttonsHandler.OnRestartLevel -= Restart;
         }
 
         private void AddLive()
@@ -74,7 +74,7 @@ namespace PlayerScripts
                 else _livesCounter -= 0.5f;
                 Debug.Log($"Lives count: {_livesCounter}");
                 _values.isLosingHeart = true;
-                
+
                 BackToCheckPoint();
                 UnjumpAllNextPlatforms();
 
@@ -104,7 +104,7 @@ namespace PlayerScripts
             _livesCounter = 3.0f;
 
             UnjumpAllNextPlatforms();
-            
+
             _values.isLost = false;
             _values.isWin = false;
         }
@@ -120,6 +120,7 @@ namespace PlayerScripts
                     if (checkPoint.IsCurrentCheckPoint && (_values.isLost || _values.isWin))
                         checkPoint.IsCurrentCheckPoint = false;
                 }
+
                 if (item.TryGetComponent(out CameraMovementTrigger trigger))
                     if (trigger.IsJumped)
                         trigger.IsJumped = false;

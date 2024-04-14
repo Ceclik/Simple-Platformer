@@ -36,8 +36,8 @@ namespace PlayerScripts
 
         private void AddHeart()
         {
-            if(_heartIndex == 2 && !_isHalf) return;
-            
+            if (_heartIndex == 2 && !_isHalf) return;
+
             if (_heartIndex == 2 && _isHalf)
             {
                 _heartImages[_heartIndex].sprite = redHeart;
@@ -51,8 +51,9 @@ namespace PlayerScripts
                 _isHalf = false;
                 return;
             }
+
             if (_heartIndex < 2 && !_isHalf)
-            { 
+            {
                 _heartIndex++;
                 _heartImages[_heartIndex].sprite = redHeart;
             }
@@ -76,7 +77,7 @@ namespace PlayerScripts
         public void EmptyHeart()
         {
             _heartImages[_heartIndex].sprite = emptyHeart;
-            if (_isHalf) 
+            if (_isHalf)
                 _isHalf = false;
             _heartIndex--;
         }

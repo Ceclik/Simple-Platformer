@@ -5,7 +5,7 @@ namespace PlayerScripts
     public class AnimationsHandler : MonoBehaviour
     {
         private Animator _animator;
-        
+
         private Transform _raycastPosition;
 
         private bool _isRunning;
@@ -59,10 +59,10 @@ namespace PlayerScripts
                 _isOnGround = true;
                 _animator.ResetTrigger("jump");
                 _animator.ResetTrigger("fall");
-                if(_isRunning) 
+                if (_isRunning)
                     _animator.SetTrigger("run");
-                else 
-                    _animator.SetTrigger("stay"); 
+                else
+                    _animator.SetTrigger("stay");
             }
         }
 

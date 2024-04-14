@@ -22,7 +22,6 @@ namespace LevelScripts
 
         [Space(30)] [Header("Enemy Stats")] [SerializeField]
         private float enemySpeed;
-        
 
 
         public float CharacterSpeed => characterSpeed;

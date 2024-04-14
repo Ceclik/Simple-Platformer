@@ -8,25 +8,26 @@ namespace PlatformScripts
 
         public bool IsCurrentCheckPoint { get; set; }
 
-       public delegate void AllPropertiesFalseSetter();
-       public delegate void MoveCameraToCheckpoint(Transform checkpointPosition);
-       
-       public event AllPropertiesFalseSetter OnCheckpointStay;
-       public event MoveCameraToCheckpoint OnCheckpointStayForCamera;
+        public delegate void AllPropertiesFalseSetter();
 
-       private void Start()
-       {
-           IsCurrentCheckPoint = false;
-       }
+        public delegate void MoveCameraToCheckpoint(Transform checkpointPosition);
 
-       private void OnCollisionStay2D(Collision2D other)
-       {
-           if (other.gameObject.CompareTag("Player"))
-           {
-               OnCheckpointStay?.Invoke();
-               IsCurrentCheckPoint = true;
-               OnCheckpointStayForCamera?.Invoke(cameraPoint);
-           }
-       }
+        public event AllPropertiesFalseSetter OnCheckpointStay;
+        public event MoveCameraToCheckpoint OnCheckpointStayForCamera;
+
+        private void Start()
+        {
+            IsCurrentCheckPoint = false;
+        }
+
+        private void OnCollisionStay2D(Collision2D other)
+        {
+            if (other.gameObject.CompareTag("Player"))
+            {
+                OnCheckpointStay?.Invoke();
+                IsCurrentCheckPoint = true;
+                OnCheckpointStayForCamera?.Invoke(cameraPoint);
+            }
+        }
     }
 }

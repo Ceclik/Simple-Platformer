@@ -25,18 +25,13 @@ namespace PlatformScripts
         private void OnCollisionStay2D(Collision2D other)
         {
             if (other.gameObject.CompareTag("Player"))
-            {
                 _entityPosition =
                     new Vector3(other.transform.position.x, other.transform.position.y, -1.0f);
-            }
         }
 
         private void OnCollisionExit2D(Collision2D other)
         {
-            if (other.gameObject.CompareTag("Player"))
-            {
-                _isPlay = false;
-            }
+            if (other.gameObject.CompareTag("Player")) _isPlay = false;
         }
 
         private IEnumerator CloudParticlePlay()

@@ -5,12 +5,13 @@ namespace PlayerScripts
     public class ParticlePlayer : MonoBehaviour
     {
         [SerializeField] private ParticleSystem[] jumpEffect;
-        [Space(10)][SerializeField] private ParticleSystem landEffect;
+        [Space(10)] [SerializeField] private ParticleSystem landEffect;
         [SerializeField] private ParticleSystem coinPickEffect;
         [SerializeField] private ParticleSystem damageEffect;
         [SerializeField] private ParticleSystem enemyKillEffect;
 
         private int _index;
+
         public void PlayJumpEffect()
         {
             if (_index == 2) _index = 0;
@@ -23,7 +24,7 @@ namespace PlayerScripts
         {
             if (other.gameObject.CompareTag("Platform"))
             {
-                Vector3 landPosition =
+                var landPosition =
                     new Vector3(transform.position.x, transform.position.y - 0.35f, transform.position.z);
                 landEffect.transform.position = landPosition;
                 landEffect.Play();

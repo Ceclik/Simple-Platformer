@@ -4192,6 +4192,10 @@ PrefabInstance:
       propertyPath: 'checkPoints.Array.data[1]'
       value: 
       objectReference: {fileID: 1319412463}
+    - target: {fileID: 5658587256404088702, guid: 2a195c7694c92fd47a2eb58a6926b1b8, type: 3}
+      propertyPath: m_SortingOrder
+      value: -3
+      objectReference: {fileID: 0}
     - target: {fileID: 8657592805890664933, guid: 2a195c7694c92fd47a2eb58a6926b1b8, type: 3}
       propertyPath: m_Name
       value: Main Camera
@@ -5096,7 +5100,8 @@ PrefabInstance:
       propertyPath: m_ConstrainProportionsScale
       value: 0
       objectReference: {fileID: 0}
-    m_RemovedComponents: []
+    m_RemovedComponents:
+    - {fileID: 3812964318487424779, guid: e6f58f1f15f467e47be591be1a093c48, type: 3}
     m_RemovedGameObjects:
     - {fileID: 2643468003437856626, guid: e6f58f1f15f467e47be591be1a093c48, type: 3}
     - {fileID: 196204343826327869, guid: e6f58f1f15f467e47be591be1a093c48, type: 3}

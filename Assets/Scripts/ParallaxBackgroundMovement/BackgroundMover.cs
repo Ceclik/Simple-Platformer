@@ -10,7 +10,7 @@ namespace ParallaxBackgroundMovement
 
         private void Update()
         {
-            if(isFarLayer)
+            if (isFarLayer)
                 MoveFarLayer();
             else
                 MoveMiddleLayer();

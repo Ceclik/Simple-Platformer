@@ -20,22 +20,22 @@ namespace CameraScripts
         private GameValuesSetter _values;
         private bool _isMoving;
         private bool _isResetting;
-        
+
         private MenuButtonsHandler _buttonsHandler;
 
         private void Start()
         {
             _values = GameObject.Find("GameValues").GetComponent<GameValuesSetter>();
             _points = new Transform[pointsParent.childCount];
-            
-            for (int i = 0; i < pointsParent.childCount; i++)
+
+            for (var i = 0; i < pointsParent.childCount; i++)
                 _points[i] = pointsParent.GetChild(i);
-            
+
             _isMoving = false;
 
             foreach (var checkPoint in checkPoints)
                 checkPoint.OnCheckpointStayForCamera += SetCheckpointPosition;
-            
+
             _buttonsHandler = GameObject.Find("ButtonsHandler").GetComponent<MenuButtonsHandler>();
             _buttonsHandler.OnRestartLevel += ResetCameraPosition;
         }
@@ -44,7 +44,7 @@ namespace CameraScripts
         {
             foreach (var checkPoint in checkPoints)
                 checkPoint.OnCheckpointStayForCamera -= SetCheckpointPosition;
-            
+
             _buttonsHandler.OnRestartLevel -= ResetCameraPosition;
         }
 
@@ -56,14 +56,12 @@ namespace CameraScripts
 
         private void SetCheckpointPosition(Transform newZeroPoint)
         {
-            for (int i = 0; i < _points.Length; i++)
-            {
+            for (var i = 0; i < _points.Length; i++)
                 if (_points[i].position == newZeroPoint.position)
                 {
                     _zeroPointIndex = i;
                     _targetZeroPoint = _points[i];
                 }
-            }
         }
 
         private void Update()

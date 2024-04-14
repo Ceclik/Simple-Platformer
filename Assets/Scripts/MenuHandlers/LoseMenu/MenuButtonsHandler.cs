@@ -7,7 +7,9 @@ namespace MenuHandlers.LoseMenu
     {
         [SerializeField] private GameObject loseMenu;
         [SerializeField] private GameObject winMenu;
+
         public delegate void RestartLevel();
+
         public event RestartLevel OnRestartLevel;
 
         public void OnRestartButtonClick()

@@ -7,7 +7,7 @@ namespace EnemyScripts
     {
         private GameValuesSetter _values;
         private Rigidbody2D _rigidbody;
-        
+
         private float _horizontal = 1f;
 
         private bool _isRightHit;
@@ -26,29 +26,25 @@ namespace EnemyScripts
         private void FixedUpdate()
         {
             _rigidbody.velocity = new Vector2(_horizontal * _values.EnemySpeed, _rigidbody.velocity.y);
-            
-            RaycastHit2D rightHit = Physics2D.Raycast(rightRayPosition.position, transform.right, 0.01f);
-            RaycastHit2D leftHit = Physics2D.Raycast(leftRayPosition.position, -transform.right, 0.01f);
-            
+
+            var rightHit = Physics2D.Raycast(rightRayPosition.position, transform.right, 0.01f);
+            var leftHit = Physics2D.Raycast(leftRayPosition.position, -transform.right, 0.01f);
+
             if (rightHit.collider != null)
-            {
                 if (rightHit.collider.gameObject.CompareTag("PlarformBorder") && !_isRightHit)
                 {
                     _isRightHit = true;
                     _isLeftHit = false;
                     _horizontal *= -1;
                 }
-            }
 
             if (leftHit.collider != null)
-            {
                 if (leftHit.collider.gameObject.CompareTag("PlarformBorder") && !_isLeftHit)
                 {
                     _isLeftHit = true;
                     _isRightHit = false;
                     _horizontal *= -1;
                 }
-            }
         }
 
         private void OnCollisionEnter2D(Collision2D other)

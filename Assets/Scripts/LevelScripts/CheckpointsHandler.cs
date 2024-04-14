@@ -14,7 +14,7 @@ namespace LevelScripts
         {
             foreach (var checkPoint in checkPoints)
                 checkPoint.OnCheckpointStay += ResetAllCheckpoints;
-            
+
             _buttonsHandler = GameObject.Find("ButtonsHandler").GetComponent<MenuButtonsHandler>();
             _buttonsHandler.OnRestartLevel += ResetAllCheckpoints;
         }

@@ -7,10 +7,11 @@ namespace PlayerScripts
     public class HeartsPicker : MonoBehaviour
     {
         public delegate void HandlePickedHeart();
+
         public event HandlePickedHeart OnPickHeart;
 
         [SerializeField] private Transform heartsObjectsParent;
-        
+
         private MenuButtonsHandler _buttonsHandler;
 
         private void Start()
@@ -35,7 +36,7 @@ namespace PlayerScripts
 
         private void ResetHearts()
         {
-            for(var i = 0; i < heartsObjectsParent.childCount; i++)
+            for (var i = 0; i < heartsObjectsParent.childCount; i++)
                 heartsObjectsParent.GetChild(i).gameObject.SetActive(true);
         }
     }

@@ -8,11 +8,11 @@ namespace PlayerScripts
     public class PlayerMover : MonoBehaviour
     {
         [SerializeField] private CameraMover cameraMover;
-        
+
         private int _jumpsCounter;
 
         private Rigidbody2D _rigidbody2D;
-        
+
         private GameValuesSetter _values;
         private ParticlePlayer _particlePlayer;
 

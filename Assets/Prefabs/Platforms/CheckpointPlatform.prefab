@@ -91,7 +91,6 @@ GameObject:
   - component: {fileID: 7120155317411240159}
   - component: {fileID: 5476816226363202445}
   - component: {fileID: 3771477287992491497}
-  - component: {fileID: 8988753440166308745}
   m_Layer: 0
   m_Name: CheckpointPlatform
   m_TagString: Platform
@@ -249,20 +248,6 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   cameraPoint: {fileID: 0}
---- !u!114 &8988753440166308745
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 4075937894341848497}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: cebb04b407889db4a9958502f1604652, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  cloudParticle: {fileID: 3692180171075308418}
-  particlePlayDelay: 0.8
 --- !u!1 &8252526222807545415
 GameObject:
   m_ObjectHideFlags: 0
@@ -405,10 +390,5 @@ PrefabInstance:
 --- !u!4 &1219948591929327329 stripped
 Transform:
   m_CorrespondingSourceObject: {fileID: 2386908807504612901, guid: 11586e44055328f4e9151dc5576c9411, type: 3}
-  m_PrefabInstance: {fileID: 3588841335483740356}
-  m_PrefabAsset: {fileID: 0}
---- !u!198 &3692180171075308418 stripped
-ParticleSystem:
-  m_CorrespondingSourceObject: {fileID: 212621787627813702, guid: 11586e44055328f4e9151dc5576c9411, type: 3}
   m_PrefabInstance: {fileID: 3588841335483740356}
   m_PrefabAsset: {fileID: 0}
