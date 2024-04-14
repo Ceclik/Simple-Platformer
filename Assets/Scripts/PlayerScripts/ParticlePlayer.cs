@@ -4,13 +4,15 @@ namespace PlayerScripts
 {
     public class ParticlePlayer : MonoBehaviour
     {
-        [SerializeField] private ParticleSystem doubleJumpEffect;
-        public void PlayDoubleJumpEffect()
+        [SerializeField] private ParticleSystem[] jumpEffect;
+
+        private int index = 0;
+        public void PlayJumpEffect()
         {
-            var requiredSpawnPosition =
-                new Vector3(transform.position.x, transform.position.y, transform.position.z);
-            doubleJumpEffect.transform.position = requiredSpawnPosition;
-            doubleJumpEffect.Play();
+            if (index == 2) index = 0;
+            jumpEffect[index].transform.position = transform.position;
+            jumpEffect[index].Play();
+            index++;
         }
     }
 }

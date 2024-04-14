@@ -52,14 +52,17 @@ namespace PlayerScripts
             }
         }
 
-        private void OnCollisionStay2D(Collision2D other)
+        private void OnCollisionEnter2D(Collision2D other)
         {
             if (other.gameObject.CompareTag("Platform") && !_isOnGround)
             {
                 _isOnGround = true;
                 _animator.ResetTrigger("jump");
                 _animator.ResetTrigger("fall");
-                _animator.SetTrigger("stay");
+                if(_isRunning) 
+                    _animator.SetTrigger("run");
+                else 
+                    _animator.SetTrigger("stay"); //////////////////////
             }
         }
 
@@ -72,6 +75,7 @@ namespace PlayerScripts
                 {
                     _isRunning = true;
                     _animator.ResetTrigger("stay");
+                    _animator.ResetTrigger("fall");
                     _animator.SetTrigger("run");
                     transform.localRotation = Quaternion.Euler(Vector3.zero);
                 }
@@ -79,6 +83,7 @@ namespace PlayerScripts
                 {
                     _isRunning = true;
                     _animator.ResetTrigger("stay");
+                    _animator.ResetTrigger("fall");
                     _animator.SetTrigger("run");
                     transform.localRotation = Quaternion.Euler(new Vector3(0.0f, 180.0f, 0.0f));
                 }

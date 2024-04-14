@@ -32,8 +32,7 @@ namespace PlayerScripts
 
             if (Input.GetKeyDown(KeyCode.W) && _jumpsCounter < 2)
             {
-                if(_jumpsCounter == 1)
-                    _particlePlayer.PlayDoubleJumpEffect();
+                _particlePlayer.PlayJumpEffect();
                 _rigidbody2D.AddForce(Vector2.up * _values.CharacterJumpForce, ForceMode2D.Impulse);
                 _jumpsCounter++;
             }
