@@ -1,4 +1,3 @@
-using System;
 using UnityEngine;
 
 namespace PlayerScripts
@@ -7,14 +6,15 @@ namespace PlayerScripts
     {
         [SerializeField] private ParticleSystem[] jumpEffect;
         [Space(10)][SerializeField] private ParticleSystem landEffect;
+        [SerializeField] private ParticleSystem coinPickEffect;
 
-        private int index = 0;
+        private int _index;
         public void PlayJumpEffect()
         {
-            if (index == 2) index = 0;
-            jumpEffect[index].transform.position = transform.position;
-            jumpEffect[index].Play();
-            index++;
+            if (_index == 2) _index = 0;
+            jumpEffect[_index].transform.position = transform.position;
+            jumpEffect[_index].Play();
+            _index++;
         }
 
         private void OnCollisionEnter2D(Collision2D other)
@@ -25,6 +25,15 @@ namespace PlayerScripts
                     new Vector3(transform.position.x, transform.position.y - 0.35f, transform.position.z);
                 landEffect.transform.position = landPosition;
                 landEffect.Play();
+            }
+        }
+
+        private void OnTriggerEnter2D(Collider2D other)
+        {
+            if (other.gameObject.CompareTag("Coin"))
+            {
+                coinPickEffect.transform.position = other.transform.position;
+                coinPickEffect.Play();
             }
         }
     }
