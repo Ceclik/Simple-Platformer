@@ -62,7 +62,7 @@ namespace PlayerScripts
                 if(_isRunning) 
                     _animator.SetTrigger("run");
                 else 
-                    _animator.SetTrigger("stay"); //////////////////////
+                    _animator.SetTrigger("stay"); 
             }
         }
 

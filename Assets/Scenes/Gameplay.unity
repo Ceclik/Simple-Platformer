@@ -321,6 +321,11 @@ PrefabInstance:
     m_AddedGameObjects: []
     m_AddedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 6b25dca354374d14d9643bf4e8905f72, type: 3}
+--- !u!198 &155638747 stripped
+ParticleSystem:
+  m_CorrespondingSourceObject: {fileID: 7443816080934332291, guid: aa409f8bf0805e848a4a148694cb40b9, type: 3}
+  m_PrefabInstance: {fileID: 4995338200241472750}
+  m_PrefabAsset: {fileID: 0}
 --- !u!1 &161870245
 GameObject:
   m_ObjectHideFlags: 0
@@ -3324,6 +3329,67 @@ PrefabInstance:
     m_AddedGameObjects: []
     m_AddedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 0da42de268142ef4588b995b915de797, type: 3}
+--- !u!1001 &4995338200241472750
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    serializedVersion: 3
+    m_TransformParent: {fileID: 0}
+    m_Modifications:
+    - target: {fileID: 2367587116461498969, guid: aa409f8bf0805e848a4a148694cb40b9, type: 3}
+      propertyPath: m_SortingOrder
+      value: 3
+      objectReference: {fileID: 0}
+    - target: {fileID: 4715907803010739582, guid: aa409f8bf0805e848a4a148694cb40b9, type: 3}
+      propertyPath: m_Name
+      value: LandEffect
+      objectReference: {fileID: 0}
+    - target: {fileID: 8246644114683457525, guid: aa409f8bf0805e848a4a148694cb40b9, type: 3}
+      propertyPath: m_LocalPosition.x
+      value: -6.78
+      objectReference: {fileID: 0}
+    - target: {fileID: 8246644114683457525, guid: aa409f8bf0805e848a4a148694cb40b9, type: 3}
+      propertyPath: m_LocalPosition.y
+      value: -3.24
+      objectReference: {fileID: 0}
+    - target: {fileID: 8246644114683457525, guid: aa409f8bf0805e848a4a148694cb40b9, type: 3}
+      propertyPath: m_LocalPosition.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 8246644114683457525, guid: aa409f8bf0805e848a4a148694cb40b9, type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 0.7071068
+      objectReference: {fileID: 0}
+    - target: {fileID: 8246644114683457525, guid: aa409f8bf0805e848a4a148694cb40b9, type: 3}
+      propertyPath: m_LocalRotation.x
+      value: -0.7071068
+      objectReference: {fileID: 0}
+    - target: {fileID: 8246644114683457525, guid: aa409f8bf0805e848a4a148694cb40b9, type: 3}
+      propertyPath: m_LocalRotation.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 8246644114683457525, guid: aa409f8bf0805e848a4a148694cb40b9, type: 3}
+      propertyPath: m_LocalRotation.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 8246644114683457525, guid: aa409f8bf0805e848a4a148694cb40b9, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: -90
+      objectReference: {fileID: 0}
+    - target: {fileID: 8246644114683457525, guid: aa409f8bf0805e848a4a148694cb40b9, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 8246644114683457525, guid: aa409f8bf0805e848a4a148694cb40b9, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+    m_RemovedGameObjects: []
+    m_AddedGameObjects: []
+    m_AddedComponents: []
+  m_SourcePrefab: {fileID: 100100000, guid: aa409f8bf0805e848a4a148694cb40b9, type: 3}
 --- !u!1001 &5363870155607896459
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -3618,6 +3684,10 @@ PrefabInstance:
       propertyPath: jumpEffect
       value: 
       objectReference: {fileID: 1208631167}
+    - target: {fileID: 1580867147675379936, guid: 2db7a2d97af018f4a8a1904b6c30ff68, type: 3}
+      propertyPath: landEffect
+      value: 
+      objectReference: {fileID: 155638747}
     - target: {fileID: 1580867147675379936, guid: 2db7a2d97af018f4a8a1904b6c30ff68, type: 3}
       propertyPath: doubleJumpEffect
       value: 
@@ -3944,3 +4014,4 @@ SceneRoots:
   - {fileID: 1249143075}
   - {fileID: 1903560439}
   - {fileID: 1312999967461291401}
+  - {fileID: 4995338200241472750}
