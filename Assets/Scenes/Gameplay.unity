@@ -3060,6 +3060,30 @@ PrefabInstance:
       propertyPath: 'checkPoints.Array.data[1]'
       value: 
       objectReference: {fileID: 761550129}
+    - target: {fileID: 4908341809617232565, guid: 2a195c7694c92fd47a2eb58a6926b1b8, type: 3}
+      propertyPath: lengthInSec
+      value: 5
+      objectReference: {fileID: 0}
+    - target: {fileID: 4908341809617232565, guid: 2a195c7694c92fd47a2eb58a6926b1b8, type: 3}
+      propertyPath: autoRandomSeed
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4908341809617232565, guid: 2a195c7694c92fd47a2eb58a6926b1b8, type: 3}
+      propertyPath: InitialModule.maxNumParticles
+      value: 15
+      objectReference: {fileID: 0}
+    - target: {fileID: 4908341809617232565, guid: 2a195c7694c92fd47a2eb58a6926b1b8, type: 3}
+      propertyPath: EmissionModule.rateOverTime.scalar
+      value: 2
+      objectReference: {fileID: 0}
+    - target: {fileID: 5658587256404088702, guid: 2a195c7694c92fd47a2eb58a6926b1b8, type: 3}
+      propertyPath: m_SortingOrder
+      value: -1
+      objectReference: {fileID: 0}
+    - target: {fileID: 5658587256404088702, guid: 2a195c7694c92fd47a2eb58a6926b1b8, type: 3}
+      propertyPath: m_UseCustomVertexStreams
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 8657592805890664933, guid: 2a195c7694c92fd47a2eb58a6926b1b8, type: 3}
       propertyPath: m_Name
       value: Main Camera
