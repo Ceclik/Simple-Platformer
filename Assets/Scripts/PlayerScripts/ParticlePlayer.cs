@@ -8,6 +8,7 @@ namespace PlayerScripts
         [Space(10)][SerializeField] private ParticleSystem landEffect;
         [SerializeField] private ParticleSystem coinPickEffect;
         [SerializeField] private ParticleSystem damageEffect;
+        [SerializeField] private ParticleSystem enemyKillEffect;
 
         private int _index;
         public void PlayJumpEffect()
@@ -40,6 +41,12 @@ namespace PlayerScripts
             {
                 coinPickEffect.transform.position = other.transform.position;
                 coinPickEffect.Play();
+            }
+
+            if (other.transform.parent.gameObject.CompareTag("Enemy"))
+            {
+                enemyKillEffect.transform.position = other.transform.parent.transform.position;
+                enemyKillEffect.Play();
             }
         }
     }

@@ -272,7 +272,13 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 4e8d7ca5ae22a0f4d906c4f7cdac34e1, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  doubleJumpEffect: {fileID: 0}
+  jumpEffect:
+  - {fileID: 0}
+  - {fileID: 0}
+  landEffect: {fileID: 0}
+  coinPickEffect: {fileID: 0}
+  damageEffect: {fileID: 0}
+  enemyKillEffect: {fileID: 0}
 --- !u!114 &1142302698107633367
 MonoBehaviour:
   m_ObjectHideFlags: 0
