@@ -214,6 +214,16 @@ Transform:
   m_CorrespondingSourceObject: {fileID: 5742054104308986099, guid: e6f58f1f15f467e47be591be1a093c48, type: 3}
   m_PrefabInstance: {fileID: 8701030532356538160}
   m_PrefabAsset: {fileID: 0}
+--- !u!4 &54856519 stripped
+Transform:
+  m_CorrespondingSourceObject: {fileID: 8205470838640096252, guid: 22ba0acc4f01dde4e97cbad529389043, type: 3}
+  m_PrefabInstance: {fileID: 173019255177303179}
+  m_PrefabAsset: {fileID: 0}
+--- !u!198 &54856521 stripped
+ParticleSystem:
+  m_CorrespondingSourceObject: {fileID: 2527580941855870612, guid: 22ba0acc4f01dde4e97cbad529389043, type: 3}
+  m_PrefabInstance: {fileID: 173019255177303179}
+  m_PrefabAsset: {fileID: 0}
 --- !u!1 &58929607
 GameObject:
   m_ObjectHideFlags: 0
@@ -1090,6 +1100,7 @@ Transform:
   - {fileID: 1640599165}
   - {fileID: 155638748}
   - {fileID: 891417712}
+  - {fileID: 54856519}
   m_Father: {fileID: 0}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &696028505
@@ -3011,6 +3022,63 @@ PrefabInstance:
     m_AddedGameObjects: []
     m_AddedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: a59805d6ddf0ea4458e80c096dcda8e0, type: 3}
+--- !u!1001 &173019255177303179
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    serializedVersion: 3
+    m_TransformParent: {fileID: 692861113}
+    m_Modifications:
+    - target: {fileID: 5568484375282986729, guid: 22ba0acc4f01dde4e97cbad529389043, type: 3}
+      propertyPath: m_Name
+      value: DamageEffect
+      objectReference: {fileID: 0}
+    - target: {fileID: 8205470838640096252, guid: 22ba0acc4f01dde4e97cbad529389043, type: 3}
+      propertyPath: m_LocalPosition.x
+      value: -7.27
+      objectReference: {fileID: 0}
+    - target: {fileID: 8205470838640096252, guid: 22ba0acc4f01dde4e97cbad529389043, type: 3}
+      propertyPath: m_LocalPosition.y
+      value: 1.36
+      objectReference: {fileID: 0}
+    - target: {fileID: 8205470838640096252, guid: 22ba0acc4f01dde4e97cbad529389043, type: 3}
+      propertyPath: m_LocalPosition.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 8205470838640096252, guid: 22ba0acc4f01dde4e97cbad529389043, type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 8205470838640096252, guid: 22ba0acc4f01dde4e97cbad529389043, type: 3}
+      propertyPath: m_LocalRotation.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 8205470838640096252, guid: 22ba0acc4f01dde4e97cbad529389043, type: 3}
+      propertyPath: m_LocalRotation.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 8205470838640096252, guid: 22ba0acc4f01dde4e97cbad529389043, type: 3}
+      propertyPath: m_LocalRotation.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 8205470838640096252, guid: 22ba0acc4f01dde4e97cbad529389043, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: -90
+      objectReference: {fileID: 0}
+    - target: {fileID: 8205470838640096252, guid: 22ba0acc4f01dde4e97cbad529389043, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 8205470838640096252, guid: 22ba0acc4f01dde4e97cbad529389043, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+    m_RemovedGameObjects: []
+    m_AddedGameObjects: []
+    m_AddedComponents: []
+  m_SourcePrefab: {fileID: 100100000, guid: 22ba0acc4f01dde4e97cbad529389043, type: 3}
 --- !u!1001 &543566271648021383
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -3807,6 +3875,10 @@ PrefabInstance:
       propertyPath: landEffect
       value: 
       objectReference: {fileID: 155638747}
+    - target: {fileID: 1580867147675379936, guid: 2db7a2d97af018f4a8a1904b6c30ff68, type: 3}
+      propertyPath: damageEffect
+      value: 
+      objectReference: {fileID: 54856521}
     - target: {fileID: 1580867147675379936, guid: 2db7a2d97af018f4a8a1904b6c30ff68, type: 3}
       propertyPath: coinPickEffect
       value: 

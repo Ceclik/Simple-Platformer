@@ -7,6 +7,7 @@ namespace PlayerScripts
         [SerializeField] private ParticleSystem[] jumpEffect;
         [Space(10)][SerializeField] private ParticleSystem landEffect;
         [SerializeField] private ParticleSystem coinPickEffect;
+        [SerializeField] private ParticleSystem damageEffect;
 
         private int _index;
         public void PlayJumpEffect()
@@ -25,6 +26,11 @@ namespace PlayerScripts
                     new Vector3(transform.position.x, transform.position.y - 0.35f, transform.position.z);
                 landEffect.transform.position = landPosition;
                 landEffect.Play();
+            }
+            else if (other.gameObject.CompareTag("Enemy"))
+            {
+                damageEffect.transform.position = transform.position;
+                damageEffect.Play();
             }
         }
 
