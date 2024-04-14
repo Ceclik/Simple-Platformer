@@ -1688,10 +1688,6 @@ PrefabInstance:
       propertyPath: m_Name
       value: JumpEffect
       objectReference: {fileID: 0}
-    - target: {fileID: 3976251621493860933, guid: cf986ace8bad85a4090a93360e9e2dc7, type: 3}
-      propertyPath: simulationSpeed
-      value: 1
-      objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -2232,6 +2228,11 @@ PrefabInstance:
     m_AddedGameObjects: []
     m_AddedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 6f44cd9602700b44aac684f4dd63bf96, type: 3}
+--- !u!198 &1640599164 stripped
+ParticleSystem:
+  m_CorrespondingSourceObject: {fileID: 8175994661080072388, guid: a0a30be625e9cbc4e8697f972acbd7bf, type: 3}
+  m_PrefabInstance: {fileID: 1312999967461291401}
+  m_PrefabAsset: {fileID: 0}
 --- !u!1001 &1653249305
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -3000,6 +3001,63 @@ PrefabInstance:
     m_AddedGameObjects: []
     m_AddedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 703069fdbbedc0647884a689526611e1, type: 3}
+--- !u!1001 &1312999967461291401
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    serializedVersion: 3
+    m_TransformParent: {fileID: 0}
+    m_Modifications:
+    - target: {fileID: 639147639722172063, guid: a0a30be625e9cbc4e8697f972acbd7bf, type: 3}
+      propertyPath: m_Name
+      value: EnemyKIllEffect
+      objectReference: {fileID: 0}
+    - target: {fileID: 1148549464332310189, guid: a0a30be625e9cbc4e8697f972acbd7bf, type: 3}
+      propertyPath: m_LocalPosition.x
+      value: 0.6266836
+      objectReference: {fileID: 0}
+    - target: {fileID: 1148549464332310189, guid: a0a30be625e9cbc4e8697f972acbd7bf, type: 3}
+      propertyPath: m_LocalPosition.y
+      value: 0.3072164
+      objectReference: {fileID: 0}
+    - target: {fileID: 1148549464332310189, guid: a0a30be625e9cbc4e8697f972acbd7bf, type: 3}
+      propertyPath: m_LocalPosition.z
+      value: -3.3494291
+      objectReference: {fileID: 0}
+    - target: {fileID: 1148549464332310189, guid: a0a30be625e9cbc4e8697f972acbd7bf, type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 0.7071068
+      objectReference: {fileID: 0}
+    - target: {fileID: 1148549464332310189, guid: a0a30be625e9cbc4e8697f972acbd7bf, type: 3}
+      propertyPath: m_LocalRotation.x
+      value: -0.7071068
+      objectReference: {fileID: 0}
+    - target: {fileID: 1148549464332310189, guid: a0a30be625e9cbc4e8697f972acbd7bf, type: 3}
+      propertyPath: m_LocalRotation.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 1148549464332310189, guid: a0a30be625e9cbc4e8697f972acbd7bf, type: 3}
+      propertyPath: m_LocalRotation.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 1148549464332310189, guid: a0a30be625e9cbc4e8697f972acbd7bf, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: -90
+      objectReference: {fileID: 0}
+    - target: {fileID: 1148549464332310189, guid: a0a30be625e9cbc4e8697f972acbd7bf, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 1148549464332310189, guid: a0a30be625e9cbc4e8697f972acbd7bf, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+    m_RemovedGameObjects: []
+    m_AddedGameObjects: []
+    m_AddedComponents: []
+  m_SourcePrefab: {fileID: 100100000, guid: a0a30be625e9cbc4e8697f972acbd7bf, type: 3}
 --- !u!1001 &3285505739346017409
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -3620,6 +3678,10 @@ PrefabInstance:
       propertyPath: heartsObjectsParent
       value: 
       objectReference: {fileID: 1990346714}
+    - target: {fileID: 5049766733715875364, guid: 2db7a2d97af018f4a8a1904b6c30ff68, type: 3}
+      propertyPath: enemyKillEffect
+      value: 
+      objectReference: {fileID: 1640599164}
     - target: {fileID: 5082499253443168385, guid: 2db7a2d97af018f4a8a1904b6c30ff68, type: 3}
       propertyPath: m_Name
       value: Character
@@ -3881,3 +3943,4 @@ SceneRoots:
   - {fileID: 58929608}
   - {fileID: 1249143075}
   - {fileID: 1903560439}
+  - {fileID: 1312999967461291401}
