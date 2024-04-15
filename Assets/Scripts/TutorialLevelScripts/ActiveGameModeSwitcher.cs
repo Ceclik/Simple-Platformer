@@ -10,8 +10,8 @@ namespace TutorialLevelScripts
         [SerializeField] private GameObject coinsText;
 
         [Space(10)] [SerializeField] private GameObject cameraLoseBorder;
-        [SerializeField] private ParticleSystem airParticles;
-        [SerializeField] private ParticleSystem windParticles;
+        [SerializeField] private GameObject airParticles;
+        [SerializeField] private GameObject windParticles;
 
         private MenuButtonsHandler _buttonsHandler;
 
@@ -37,8 +37,9 @@ namespace TutorialLevelScripts
             heartsPanel.SetActive(true);
             coinsText.SetActive(true);
             cameraLoseBorder.SetActive(true);
-            windParticles.Stop();
-            airParticles.Play();
+            
+            /*windParticles.SetActive(true);
+            airParticles.SetActive(false);*/
         }
 
         private void DeactivateGameMode()
@@ -46,8 +47,9 @@ namespace TutorialLevelScripts
             heartsPanel.SetActive(false);
             coinsText.SetActive(false);
             cameraLoseBorder.SetActive(false);
-            windParticles.Play();
-            airParticles.Stop();
+            
+            windParticles.SetActive(false);
+            airParticles.SetActive(true);
         }
     }
 }

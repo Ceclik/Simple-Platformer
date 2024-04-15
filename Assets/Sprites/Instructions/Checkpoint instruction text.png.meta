@@ -1,0 +1,1390 @@
+fileFormatVersion: 2
+guid: f50d6860d20324646a54d8e3a1cb2f2e
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: -7120021947351903780
+    second: Checkpoint instruction text_0
+  - first:
+      213: -1322375964195163305
+    second: Checkpoint instruction text_1
+  - first:
+      213: -603094080655060534
+    second: Checkpoint instruction text_2
+  - first:
+      213: -7968384797608127296
+    second: Checkpoint instruction text_3
+  - first:
+      213: 6275868131532545913
+    second: Checkpoint instruction text_4
+  - first:
+      213: 3806818224745373459
+    second: Checkpoint instruction text_5
+  - first:
+      213: -2905706348143671596
+    second: Checkpoint instruction text_6
+  - first:
+      213: 8266315603023698230
+    second: Checkpoint instruction text_7
+  - first:
+      213: 1631539317753684105
+    second: Checkpoint instruction text_8
+  - first:
+      213: 1690221995428885676
+    second: Checkpoint instruction text_9
+  - first:
+      213: 5984841948169314612
+    second: Checkpoint instruction text_10
+  - first:
+      213: -5171796361150284465
+    second: Checkpoint instruction text_11
+  - first:
+      213: -2641610661983069562
+    second: Checkpoint instruction text_12
+  - first:
+      213: -4829921866479963456
+    second: Checkpoint instruction text_13
+  - first:
+      213: -2958638655974548958
+    second: Checkpoint instruction text_14
+  - first:
+      213: 8229732121238232676
+    second: Checkpoint instruction text_15
+  - first:
+      213: -1666985192337705817
+    second: Checkpoint instruction text_16
+  - first:
+      213: 3160441769905031213
+    second: Checkpoint instruction text_17
+  - first:
+      213: 2605291267409008675
+    second: Checkpoint instruction text_18
+  - first:
+      213: 5624049805027434079
+    second: Checkpoint instruction text_19
+  - first:
+      213: -8008579879339188977
+    second: Checkpoint instruction text_20
+  - first:
+      213: -4501830518169149599
+    second: Checkpoint instruction text_21
+  - first:
+      213: 7210247252485602376
+    second: Checkpoint instruction text_22
+  - first:
+      213: 3389483941686190483
+    second: Checkpoint instruction text_23
+  - first:
+      213: 280820725959485918
+    second: Checkpoint instruction text_24
+  - first:
+      213: -3538018027733518263
+    second: Checkpoint instruction text_25
+  - first:
+      213: -5095873504711015587
+    second: Checkpoint instruction text_26
+  - first:
+      213: 2910441358007276168
+    second: Checkpoint instruction text_27
+  - first:
+      213: -3054840195772584644
+    second: Checkpoint instruction text_28
+  - first:
+      213: 6753557766524172186
+    second: Checkpoint instruction text_29
+  - first:
+      213: 3592814329426101864
+    second: Checkpoint instruction text_30
+  - first:
+      213: -4363378763583191265
+    second: Checkpoint instruction text_31
+  - first:
+      213: 5122476927564147381
+    second: Checkpoint instruction text_32
+  - first:
+      213: 8449590320021169495
+    second: Checkpoint instruction text_33
+  - first:
+      213: -8446903530174452435
+    second: Checkpoint instruction text_34
+  - first:
+      213: 4245286758601683760
+    second: Checkpoint instruction text_35
+  - first:
+      213: -1761419364871842655
+    second: Checkpoint instruction text_36
+  - first:
+      213: 5211544989411269464
+    second: Checkpoint instruction text_37
+  - first:
+      213: -7010754534972071849
+    second: Checkpoint instruction text_38
+  - first:
+      213: -3109090183467479889
+    second: Checkpoint instruction text_39
+  - first:
+      213: 5077917359713478177
+    second: Checkpoint instruction text_40
+  - first:
+      213: -8369998557486056131
+    second: Checkpoint instruction text_41
+  - first:
+      213: -8787977060407019302
+    second: Checkpoint instruction text_42
+  - first:
+      213: 1610548108090397689
+    second: Checkpoint instruction text_43
+  - first:
+      213: -3540612032382926701
+    second: Checkpoint instruction text_44
+  - first:
+      213: 1945027276243441198
+    second: Checkpoint instruction text_45
+  - first:
+      213: 6029032353707704183
+    second: Checkpoint instruction text_46
+  - first:
+      213: -5022842121188323258
+    second: Checkpoint instruction text_47
+  - first:
+      213: -7199992740950474137
+    second: Checkpoint instruction text_48
+  - first:
+      213: -8836000080571268984
+    second: Checkpoint instruction text_49
+  externalObjects: {}
+  serializedVersion: 13
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 1
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 1
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 3
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Android
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: WebGL
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: Checkpoint instruction text_0
+      rect:
+        serializedVersion: 2
+        x: 27
+        y: 277
+        width: 18
+        height: 37
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: cd1da1b23c9903d90800000000000000
+      internalID: -7120021947351903780
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Checkpoint instruction text_1
+      rect:
+        serializedVersion: 2
+        x: 53
+        y: 277
+        width: 28
+        height: 29
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 753f1aa111af5ade0800000000000000
+      internalID: -1322375964195163305
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Checkpoint instruction text_2
+      rect:
+        serializedVersion: 2
+        x: 93
+        y: 277
+        width: 8
+        height: 37
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ac11a64012161a7f0800000000000000
+      internalID: -603094080655060534
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Checkpoint instruction text_3
+      rect:
+        serializedVersion: 2
+        x: 114
+        y: 277
+        width: 28
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0c4d1f0be3c9a6190800000000000000
+      internalID: -7968384797608127296
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Checkpoint instruction text_4
+      rect:
+        serializedVersion: 2
+        x: 144
+        y: 277
+        width: 28
+        height: 29
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 97f113d80dc581750800000000000000
+      internalID: 6275868131532545913
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Checkpoint instruction text_5
+      rect:
+        serializedVersion: 2
+        x: 175
+        y: 276
+        width: 28
+        height: 38
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 31f5e6a810984d430800000000000000
+      internalID: 3806818224745373459
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Checkpoint instruction text_6
+      rect:
+        serializedVersion: 2
+        x: 205
+        y: 277
+        width: 28
+        height: 29
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4d68c41b87bdca7d0800000000000000
+      internalID: -2905706348143671596
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Checkpoint instruction text_7
+      rect:
+        serializedVersion: 2
+        x: 266
+        y: 277
+        width: 28
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6391f7f7e3ad7b270800000000000000
+      internalID: 8266315603023698230
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Checkpoint instruction text_8
+      rect:
+        serializedVersion: 2
+        x: 297
+        y: 277
+        width: 28
+        height: 30
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 980aacf7d5464a610800000000000000
+      internalID: 1631539317753684105
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Checkpoint instruction text_9
+      rect:
+        serializedVersion: 2
+        x: 327
+        y: 277
+        width: 28
+        height: 30
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ca4371d13ffd47710800000000000000
+      internalID: 1690221995428885676
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Checkpoint instruction text_10
+      rect:
+        serializedVersion: 2
+        x: 22
+        y: 213
+        width: 28
+        height: 30
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4312d75fa0e6e0350800000000000000
+      internalID: 5984841948169314612
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Checkpoint instruction text_11
+      rect:
+        serializedVersion: 2
+        x: 53
+        y: 214
+        width: 28
+        height: 37
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f4dbaf26c961a38b0800000000000000
+      internalID: -5171796361150284465
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Checkpoint instruction text_12
+      rect:
+        serializedVersion: 2
+        x: 83
+        y: 214
+        width: 28
+        height: 30
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 68a5d99491d175bd0800000000000000
+      internalID: -2641610661983069562
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Checkpoint instruction text_13
+      rect:
+        serializedVersion: 2
+        x: 114
+        y: 213
+        width: 28
+        height: 30
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0c2f19707aba8fcb0800000000000000
+      internalID: -4829921866479963456
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Checkpoint instruction text_14
+      rect:
+        serializedVersion: 2
+        x: 144
+        y: 214
+        width: 28
+        height: 37
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 22ad5e361ddc0f6d0800000000000000
+      internalID: -2958638655974548958
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Checkpoint instruction text_15
+      rect:
+        serializedVersion: 2
+        x: 175
+        y: 214
+        width: 28
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 46ed603e2c1e53270800000000000000
+      internalID: 8229732121238232676
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Checkpoint instruction text_16
+      rect:
+        serializedVersion: 2
+        x: 205
+        y: 213
+        width: 28
+        height: 30
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7a4ffd4bccdadd8e0800000000000000
+      internalID: -1666985192337705817
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Checkpoint instruction text_17
+      rect:
+        serializedVersion: 2
+        x: 246
+        y: 242
+        width: 8
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d280f748b052cdb20800000000000000
+      internalID: 3160441769905031213
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Checkpoint instruction text_18
+      rect:
+        serializedVersion: 2
+        x: 266
+        y: 214
+        width: 28
+        height: 29
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3285752ba9ad72420800000000000000
+      internalID: 2605291267409008675
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Checkpoint instruction text_19
+      rect:
+        serializedVersion: 2
+        x: 302
+        y: 214
+        width: 18
+        height: 37
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f5ed3cb0083ac0e40800000000000000
+      internalID: 5624049805027434079
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Checkpoint instruction text_20
+      rect:
+        serializedVersion: 2
+        x: 327
+        y: 214
+        width: 28
+        height: 29
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f0d95a0f70fcbd090800000000000000
+      internalID: -8008579879339188977
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Checkpoint instruction text_21
+      rect:
+        serializedVersion: 2
+        x: 241
+        y: 214
+        width: 18
+        height: 24
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 16fd385def84681c0800000000000000
+      internalID: -4501830518169149599
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Checkpoint instruction text_22
+      rect:
+        serializedVersion: 2
+        x: 366
+        y: 214
+        width: 8
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 84cf323bca1ff0460800000000000000
+      internalID: 7210247252485602376
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Checkpoint instruction text_23
+      rect:
+        serializedVersion: 2
+        x: 27
+        y: 152
+        width: 18
+        height: 37
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 391a81ccfadd90f20800000000000000
+      internalID: 3389483941686190483
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Checkpoint instruction text_24
+      rect:
+        serializedVersion: 2
+        x: 56
+        y: 152
+        width: 23
+        height: 37
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ed9e16066fca5e300800000000000000
+      internalID: 280820725959485918
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Checkpoint instruction text_25
+      rect:
+        serializedVersion: 2
+        x: 114
+        y: 152
+        width: 28
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 948f308595f66eec0800000000000000
+      internalID: -3538018027733518263
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Checkpoint instruction text_26
+      rect:
+        serializedVersion: 2
+        x: 144
+        y: 151
+        width: 28
+        height: 30
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d53006beb02d749b0800000000000000
+      internalID: -5095873504711015587
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Checkpoint instruction text_27
+      rect:
+        serializedVersion: 2
+        x: 175
+        y: 151
+        width: 28
+        height: 30
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 88211a3bef6f36820800000000000000
+      internalID: 2910441358007276168
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Checkpoint instruction text_28
+      rect:
+        serializedVersion: 2
+        x: 239
+        y: 152
+        width: 23
+        height: 37
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c3de365f6070b95d0800000000000000
+      internalID: -3054840195772584644
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Checkpoint instruction text_29
+      rect:
+        serializedVersion: 2
+        x: 266
+        y: 152
+        width: 28
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a97f0cbb10579bd50800000000000000
+      internalID: 6753557766524172186
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Checkpoint instruction text_30
+      rect:
+        serializedVersion: 2
+        x: 307
+        y: 152
+        width: 8
+        height: 37
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8664069d89d3cd130800000000000000
+      internalID: 3592814329426101864
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Checkpoint instruction text_31
+      rect:
+        serializedVersion: 2
+        x: 337
+        y: 152
+        width: 8
+        height: 37
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f170428f12a2273c0800000000000000
+      internalID: -4363378763583191265
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Checkpoint instruction text_32
+      rect:
+        serializedVersion: 2
+        x: 391
+        y: 167
+        width: 23
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5ba689520a1b61740800000000000000
+      internalID: 5122476927564147381
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Checkpoint instruction text_33
+      rect:
+        serializedVersion: 2
+        x: 22
+        y: 90
+        width: 28
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 755e072d0a9f24570800000000000000
+      internalID: 8449590320021169495
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Checkpoint instruction text_34
+      rect:
+        serializedVersion: 2
+        x: 53
+        y: 89
+        width: 28
+        height: 30
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d2d65ff2ef196ca80800000000000000
+      internalID: -8446903530174452435
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Checkpoint instruction text_35
+      rect:
+        serializedVersion: 2
+        x: 83
+        y: 89
+        width: 28
+        height: 30
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0337f1080d94aea30800000000000000
+      internalID: 4245286758601683760
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Checkpoint instruction text_36
+      rect:
+        serializedVersion: 2
+        x: 119
+        y: 110
+        width: 11
+        height: 17
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1a4d1588b6e2e87e0800000000000000
+      internalID: -1761419364871842655
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Checkpoint instruction text_37
+      rect:
+        serializedVersion: 2
+        x: 154
+        y: 90
+        width: 8
+        height: 37
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 85b53d05e80235840800000000000000
+      internalID: 5211544989411269464
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Checkpoint instruction text_38
+      rect:
+        serializedVersion: 2
+        x: 185
+        y: 90
+        width: 8
+        height: 37
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 750e78f15ebc4be90800000000000000
+      internalID: -7010754534972071849
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Checkpoint instruction text_39
+      rect:
+        serializedVersion: 2
+        x: 236
+        y: 90
+        width: 28
+        height: 30
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: fac44c763fa4ad4d0800000000000000
+      internalID: -3109090183467479889
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Checkpoint instruction text_40
+      rect:
+        serializedVersion: 2
+        x: 266
+        y: 90
+        width: 28
+        height: 30
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 126e2884fe2687640800000000000000
+      internalID: 5077917359713478177
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Checkpoint instruction text_41
+      rect:
+        serializedVersion: 2
+        x: 302
+        y: 90
+        width: 18
+        height: 37
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d3df28a78aac7db80800000000000000
+      internalID: -8369998557486056131
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Checkpoint instruction text_42
+      rect:
+        serializedVersion: 2
+        x: 327
+        y: 89
+        width: 28
+        height: 30
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ad8782c9c65da0680800000000000000
+      internalID: -8787977060407019302
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Checkpoint instruction text_43
+      rect:
+        serializedVersion: 2
+        x: 358
+        y: 90
+        width: 28
+        height: 30
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9f3d764a8f0d95610800000000000000
+      internalID: 1610548108090397689
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Checkpoint instruction text_44
+      rect:
+        serializedVersion: 2
+        x: 388
+        y: 90
+        width: 28
+        height: 29
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 39087529d183ddec0800000000000000
+      internalID: -3540612032382926701
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Checkpoint instruction text_45
+      rect:
+        serializedVersion: 2
+        x: 27
+        y: 27
+        width: 18
+        height: 37
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e269fe6a0002efa10800000000000000
+      internalID: 1945027276243441198
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Checkpoint instruction text_46
+      rect:
+        serializedVersion: 2
+        x: 53
+        y: 27
+        width: 28
+        height: 37
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 77fb5168bfc6ba350800000000000000
+      internalID: 6029032353707704183
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Checkpoint instruction text_47
+      rect:
+        serializedVersion: 2
+        x: 83
+        y: 27
+        width: 28
+        height: 30
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 64053b3f3b74b4ab0800000000000000
+      internalID: -5022842121188323258
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Checkpoint instruction text_48
+      rect:
+        serializedVersion: 2
+        x: 114
+        y: 27
+        width: 28
+        height: 30
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7628142dfbc741c90800000000000000
+      internalID: -7199992740950474137
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Checkpoint instruction text_49
+      rect:
+        serializedVersion: 2
+        x: 144
+        y: 27
+        width: 28
+        height: 30
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8800a3aedb8306580800000000000000
+      internalID: -8836000080571268984
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    physicsShape: []
+    bones: []
+    spriteID: 5e97eb03825dee720800000000000000
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    nameFileIdTable:
+      Checkpoint instruction text_0: -7120021947351903780
+      Checkpoint instruction text_1: -1322375964195163305
+      Checkpoint instruction text_10: 5984841948169314612
+      Checkpoint instruction text_11: -5171796361150284465
+      Checkpoint instruction text_12: -2641610661983069562
+      Checkpoint instruction text_13: -4829921866479963456
+      Checkpoint instruction text_14: -2958638655974548958
+      Checkpoint instruction text_15: 8229732121238232676
+      Checkpoint instruction text_16: -1666985192337705817
+      Checkpoint instruction text_17: 3160441769905031213
+      Checkpoint instruction text_18: 2605291267409008675
+      Checkpoint instruction text_19: 5624049805027434079
+      Checkpoint instruction text_2: -603094080655060534
+      Checkpoint instruction text_20: -8008579879339188977
+      Checkpoint instruction text_21: -4501830518169149599
+      Checkpoint instruction text_22: 7210247252485602376
+      Checkpoint instruction text_23: 3389483941686190483
+      Checkpoint instruction text_24: 280820725959485918
+      Checkpoint instruction text_25: -3538018027733518263
+      Checkpoint instruction text_26: -5095873504711015587
+      Checkpoint instruction text_27: 2910441358007276168
+      Checkpoint instruction text_28: -3054840195772584644
+      Checkpoint instruction text_29: 6753557766524172186
+      Checkpoint instruction text_3: -7968384797608127296
+      Checkpoint instruction text_30: 3592814329426101864
+      Checkpoint instruction text_31: -4363378763583191265
+      Checkpoint instruction text_32: 5122476927564147381
+      Checkpoint instruction text_33: 8449590320021169495
+      Checkpoint instruction text_34: -8446903530174452435
+      Checkpoint instruction text_35: 4245286758601683760
+      Checkpoint instruction text_36: -1761419364871842655
+      Checkpoint instruction text_37: 5211544989411269464
+      Checkpoint instruction text_38: -7010754534972071849
+      Checkpoint instruction text_39: -3109090183467479889
+      Checkpoint instruction text_4: 6275868131532545913
+      Checkpoint instruction text_40: 5077917359713478177
+      Checkpoint instruction text_41: -8369998557486056131
+      Checkpoint instruction text_42: -8787977060407019302
+      Checkpoint instruction text_43: 1610548108090397689
+      Checkpoint instruction text_44: -3540612032382926701
+      Checkpoint instruction text_45: 1945027276243441198
+      Checkpoint instruction text_46: 6029032353707704183
+      Checkpoint instruction text_47: -5022842121188323258
+      Checkpoint instruction text_48: -7199992740950474137
+      Checkpoint instruction text_49: -8836000080571268984
+      Checkpoint instruction text_5: 3806818224745373459
+      Checkpoint instruction text_6: -2905706348143671596
+      Checkpoint instruction text_7: 8266315603023698230
+      Checkpoint instruction text_8: 1631539317753684105
+      Checkpoint instruction text_9: 1690221995428885676
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

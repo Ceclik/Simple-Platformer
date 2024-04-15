@@ -1,0 +1,1240 @@
+fileFormatVersion: 2
+guid: f6fe87a261d368e448a29e94f89a3909
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: -368984715581651263
+    second: Double jump instruction text_0
+  - first:
+      213: -3481119716049214506
+    second: Double jump instruction text_1
+  - first:
+      213: -2373509573860643153
+    second: Double jump instruction text_2
+  - first:
+      213: -2297651491005036872
+    second: Double jump instruction text_3
+  - first:
+      213: 6180311390692696092
+    second: Double jump instruction text_4
+  - first:
+      213: 6226427185957280593
+    second: Double jump instruction text_5
+  - first:
+      213: 4892360302818246237
+    second: Double jump instruction text_6
+  - first:
+      213: 588305616302824232
+    second: Double jump instruction text_7
+  - first:
+      213: -2736294447498360330
+    second: Double jump instruction text_8
+  - first:
+      213: -746398520352278979
+    second: Double jump instruction text_9
+  - first:
+      213: 6033070883783078206
+    second: Double jump instruction text_10
+  - first:
+      213: -6162561249353981778
+    second: Double jump instruction text_11
+  - first:
+      213: -7788301261266950767
+    second: Double jump instruction text_12
+  - first:
+      213: -2572964937712751179
+    second: Double jump instruction text_13
+  - first:
+      213: -6066529905326857110
+    second: Double jump instruction text_14
+  - first:
+      213: -4605174039394871506
+    second: Double jump instruction text_15
+  - first:
+      213: -5313491415611202034
+    second: Double jump instruction text_16
+  - first:
+      213: 4377255480594565326
+    second: Double jump instruction text_17
+  - first:
+      213: 6854900235773240214
+    second: Double jump instruction text_18
+  - first:
+      213: -8253793230025819279
+    second: Double jump instruction text_19
+  - first:
+      213: 4972737444670980517
+    second: Double jump instruction text_20
+  - first:
+      213: 7840759052017450964
+    second: Double jump instruction text_21
+  - first:
+      213: -3892729991430247179
+    second: Double jump instruction text_22
+  - first:
+      213: -2264128132083080428
+    second: Double jump instruction text_23
+  - first:
+      213: -2111634422732663735
+    second: Double jump instruction text_24
+  - first:
+      213: -3759301064030330518
+    second: Double jump instruction text_25
+  - first:
+      213: -2961103898173350159
+    second: Double jump instruction text_26
+  - first:
+      213: -3965424903620204396
+    second: Double jump instruction text_27
+  - first:
+      213: 8513635513893721663
+    second: Double jump instruction text_28
+  - first:
+      213: -4327447020356311417
+    second: Double jump instruction text_29
+  - first:
+      213: 5550706720873642331
+    second: Double jump instruction text_30
+  - first:
+      213: 1475796552834226567
+    second: Double jump instruction text_31
+  - first:
+      213: 8061239216653924557
+    second: Double jump instruction text_32
+  - first:
+      213: -6549322768444691171
+    second: Double jump instruction text_33
+  - first:
+      213: 203905971812582000
+    second: Double jump instruction text_34
+  - first:
+      213: -1386591266137614119
+    second: Double jump instruction text_35
+  - first:
+      213: 5853933421712096038
+    second: Double jump instruction text_36
+  - first:
+      213: 8019470784142269346
+    second: Double jump instruction text_37
+  - first:
+      213: 6322570384230756202
+    second: Double jump instruction text_38
+  - first:
+      213: 3366196150536037103
+    second: Double jump instruction text_39
+  - first:
+      213: -352835590400355586
+    second: Double jump instruction text_40
+  - first:
+      213: -6818137099638879263
+    second: Double jump instruction text_41
+  - first:
+      213: 8316583998433911065
+    second: Double jump instruction text_42
+  - first:
+      213: -871341166322736710
+    second: Double jump instruction text_43
+  externalObjects: {}
+  serializedVersion: 13
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 1
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 1
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 3
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Android
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: WebGL
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: Double jump instruction text_0
+      rect:
+        serializedVersion: 2
+        x: 22
+        y: 211
+        width: 28
+        height: 37
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1c6053c2b5a11eaf0800000000000000
+      internalID: -368984715581651263
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Double jump instruction text_1
+      rect:
+        serializedVersion: 2
+        x: 53
+        y: 211
+        width: 28
+        height: 30
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6d32740ef0490bfc0800000000000000
+      internalID: -3481119716049214506
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Double jump instruction text_2
+      rect:
+        serializedVersion: 2
+        x: 83
+        y: 211
+        width: 28
+        height: 30
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: fae2c033e999f0fd0800000000000000
+      internalID: -2373509573860643153
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Double jump instruction text_3
+      rect:
+        serializedVersion: 2
+        x: 114
+        y: 211
+        width: 28
+        height: 29
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8b68ff4742a1d10e0800000000000000
+      internalID: -2297651491005036872
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Double jump instruction text_4
+      rect:
+        serializedVersion: 2
+        x: 144
+        y: 211
+        width: 28
+        height: 29
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c10e9831770e4c550800000000000000
+      internalID: 6180311390692696092
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Double jump instruction text_5
+      rect:
+        serializedVersion: 2
+        x: 205
+        y: 210
+        width: 28
+        height: 38
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 15b91de5986b86650800000000000000
+      internalID: 6226427185957280593
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Double jump instruction text_6
+      rect:
+        serializedVersion: 2
+        x: 271
+        y: 211
+        width: 18
+        height: 37
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d5e34ba46c725e340800000000000000
+      internalID: 4892360302818246237
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Double jump instruction text_7
+      rect:
+        serializedVersion: 2
+        x: 297
+        y: 210
+        width: 28
+        height: 30
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 82bd81f47d41a2800800000000000000
+      internalID: 588305616302824232
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Double jump instruction text_8
+      rect:
+        serializedVersion: 2
+        x: 337
+        y: 239
+        width: 8
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6f98cff82bab60ad0800000000000000
+      internalID: -2736294447498360330
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Double jump instruction text_9
+      rect:
+        serializedVersion: 2
+        x: 358
+        y: 210
+        width: 28
+        height: 30
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d367685108244a5f0800000000000000
+      internalID: -746398520352278979
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Double jump instruction text_10
+      rect:
+        serializedVersion: 2
+        x: 388
+        y: 211
+        width: 28
+        height: 30
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e3174a41106c9b350800000000000000
+      internalID: 6033070883783078206
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Double jump instruction text_11
+      rect:
+        serializedVersion: 2
+        x: 332
+        y: 211
+        width: 18
+        height: 24
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ea02ba1c13f2a7aa0800000000000000
+      internalID: -6162561249353981778
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Double jump instruction text_12
+      rect:
+        serializedVersion: 2
+        x: 27
+        y: 148
+        width: 18
+        height: 37
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 195e47e54456ae390800000000000000
+      internalID: -7788301261266950767
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Double jump instruction text_13
+      rect:
+        serializedVersion: 2
+        x: 53
+        y: 147
+        width: 28
+        height: 30
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5bda814750efa4cd0800000000000000
+      internalID: -2572964937712751179
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Double jump instruction text_14
+      rect:
+        serializedVersion: 2
+        x: 114
+        y: 148
+        width: 28
+        height: 29
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a6465b5613b5fcba0800000000000000
+      internalID: -6066529905326857110
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Double jump instruction text_15
+      rect:
+        serializedVersion: 2
+        x: 144
+        y: 148
+        width: 28
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e2794054c922710c0800000000000000
+      internalID: -4605174039394871506
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Double jump instruction text_16
+      rect:
+        serializedVersion: 2
+        x: 175
+        y: 148
+        width: 28
+        height: 37
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e062867a5bfa246b0800000000000000
+      internalID: -5313491415611202034
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Double jump instruction text_17
+      rect:
+        serializedVersion: 2
+        x: 205
+        y: 148
+        width: 28
+        height: 30
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ec888fbfaa22fbc30800000000000000
+      internalID: 4377255480594565326
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Double jump instruction text_18
+      rect:
+        serializedVersion: 2
+        x: 266
+        y: 147
+        width: 28
+        height: 38
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6936104127f712f50800000000000000
+      internalID: 6854900235773240214
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Double jump instruction text_19
+      rect:
+        serializedVersion: 2
+        x: 297
+        y: 147
+        width: 28
+        height: 30
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 17b79caa9c2a47d80800000000000000
+      internalID: -8253793230025819279
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Double jump instruction text_20
+      rect:
+        serializedVersion: 2
+        x: 327
+        y: 147
+        width: 28
+        height: 30
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5a1c5e6fb56b20540800000000000000
+      internalID: 4972737444670980517
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Double jump instruction text_21
+      rect:
+        serializedVersion: 2
+        x: 358
+        y: 147
+        width: 28
+        height: 38
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4dfbde0d0d8ffcc60800000000000000
+      internalID: 7840759052017450964
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Double jump instruction text_22
+      rect:
+        serializedVersion: 2
+        x: 398
+        y: 148
+        width: 8
+        height: 37
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5fc6a4682be3af9c0800000000000000
+      internalID: -3892729991430247179
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Double jump instruction text_23
+      rect:
+        serializedVersion: 2
+        x: 419
+        y: 148
+        width: 28
+        height: 30
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4132831b5733490e0800000000000000
+      internalID: -2264128132083080428
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Double jump instruction text_24
+      rect:
+        serializedVersion: 2
+        x: 37
+        y: 119
+        width: 8
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 94458813ea7f1b2e0800000000000000
+      internalID: -2111634422732663735
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Double jump instruction text_25
+      rect:
+        serializedVersion: 2
+        x: 236
+        y: 85
+        width: 28
+        height: 38
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a6169b2999744dbc0800000000000000
+      internalID: -3759301064030330518
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Double jump instruction text_26
+      rect:
+        serializedVersion: 2
+        x: 419
+        y: 86
+        width: 28
+        height: 37
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1fe5a5671bb08e6d0800000000000000
+      internalID: -2961103898173350159
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Double jump instruction text_27
+      rect:
+        serializedVersion: 2
+        x: 27
+        y: 86
+        width: 18
+        height: 29
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 498ea345f0bf7f8c0800000000000000
+      internalID: -3965424903620204396
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Double jump instruction text_28
+      rect:
+        serializedVersion: 2
+        x: 53
+        y: 85
+        width: 28
+        height: 30
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f3619c88462862670800000000000000
+      internalID: 8513635513893721663
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Double jump instruction text_29
+      rect:
+        serializedVersion: 2
+        x: 83
+        y: 86
+        width: 28
+        height: 29
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 786e65fdcd1d1f3c0800000000000000
+      internalID: -4327447020356311417
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Double jump instruction text_30
+      rect:
+        serializedVersion: 2
+        x: 114
+        y: 86
+        width: 28
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b59fb0e8a52180d40800000000000000
+      internalID: 5550706720873642331
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Double jump instruction text_31
+      rect:
+        serializedVersion: 2
+        x: 175
+        y: 86
+        width: 28
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7891e6c45251b7410800000000000000
+      internalID: 1475796552834226567
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Double jump instruction text_32
+      rect:
+        serializedVersion: 2
+        x: 205
+        y: 86
+        width: 28
+        height: 29
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: dc8fa167b564fdf60800000000000000
+      internalID: 8061239216653924557
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Double jump instruction text_33
+      rect:
+        serializedVersion: 2
+        x: 297
+        y: 86
+        width: 28
+        height: 30
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d1de97354a12c15a0800000000000000
+      internalID: -6549322768444691171
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Double jump instruction text_34
+      rect:
+        serializedVersion: 2
+        x: 327
+        y: 86
+        width: 28
+        height: 30
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0724879a66b64d200800000000000000
+      internalID: 203905971812582000
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Double jump instruction text_35
+      rect:
+        serializedVersion: 2
+        x: 358
+        y: 86
+        width: 28
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9d855350796d1cce0800000000000000
+      internalID: -1386591266137614119
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Double jump instruction text_36
+      rect:
+        serializedVersion: 2
+        x: 388
+        y: 85
+        width: 28
+        height: 30
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 62bbfeb7e695d3150800000000000000
+      internalID: 5853933421712096038
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Double jump instruction text_37
+      rect:
+        serializedVersion: 2
+        x: 22
+        y: 24
+        width: 28
+        height: 37
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2ab5c6f6032ea4f60800000000000000
+      internalID: 8019470784142269346
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Double jump instruction text_38
+      rect:
+        serializedVersion: 2
+        x: 63
+        y: 52
+        width: 8
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a6faa7b14484eb750800000000000000
+      internalID: 6322570384230756202
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Double jump instruction text_39
+      rect:
+        serializedVersion: 2
+        x: 83
+        y: 24
+        width: 28
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: fe2ecf4609127be20800000000000000
+      internalID: 3366196150536037103
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Double jump instruction text_40
+      rect:
+        serializedVersion: 2
+        x: 114
+        y: 24
+        width: 28
+        height: 37
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ef2521266e97a1bf0800000000000000
+      internalID: -352835590400355586
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Double jump instruction text_41
+      rect:
+        serializedVersion: 2
+        x: 144
+        y: 24
+        width: 28
+        height: 30
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1ebcc129e6c1161a0800000000000000
+      internalID: -6818137099638879263
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Double jump instruction text_42
+      rect:
+        serializedVersion: 2
+        x: 175
+        y: 24
+        width: 28
+        height: 30
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 911e95b55117a6370800000000000000
+      internalID: 8316583998433911065
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Double jump instruction text_43
+      rect:
+        serializedVersion: 2
+        x: 58
+        y: 24
+        width: 18
+        height: 24
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ab1a82763df58e3f0800000000000000
+      internalID: -871341166322736710
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    physicsShape: []
+    bones: []
+    spriteID: 5e97eb03825dee720800000000000000
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    nameFileIdTable:
+      Double jump instruction text_0: -368984715581651263
+      Double jump instruction text_1: -3481119716049214506
+      Double jump instruction text_10: 6033070883783078206
+      Double jump instruction text_11: -6162561249353981778
+      Double jump instruction text_12: -7788301261266950767
+      Double jump instruction text_13: -2572964937712751179
+      Double jump instruction text_14: -6066529905326857110
+      Double jump instruction text_15: -4605174039394871506
+      Double jump instruction text_16: -5313491415611202034
+      Double jump instruction text_17: 4377255480594565326
+      Double jump instruction text_18: 6854900235773240214
+      Double jump instruction text_19: -8253793230025819279
+      Double jump instruction text_2: -2373509573860643153
+      Double jump instruction text_20: 4972737444670980517
+      Double jump instruction text_21: 7840759052017450964
+      Double jump instruction text_22: -3892729991430247179
+      Double jump instruction text_23: -2264128132083080428
+      Double jump instruction text_24: -2111634422732663735
+      Double jump instruction text_25: -3759301064030330518
+      Double jump instruction text_26: -2961103898173350159
+      Double jump instruction text_27: -3965424903620204396
+      Double jump instruction text_28: 8513635513893721663
+      Double jump instruction text_29: -4327447020356311417
+      Double jump instruction text_3: -2297651491005036872
+      Double jump instruction text_30: 5550706720873642331
+      Double jump instruction text_31: 1475796552834226567
+      Double jump instruction text_32: 8061239216653924557
+      Double jump instruction text_33: -6549322768444691171
+      Double jump instruction text_34: 203905971812582000
+      Double jump instruction text_35: -1386591266137614119
+      Double jump instruction text_36: 5853933421712096038
+      Double jump instruction text_37: 8019470784142269346
+      Double jump instruction text_38: 6322570384230756202
+      Double jump instruction text_39: 3366196150536037103
+      Double jump instruction text_4: 6180311390692696092
+      Double jump instruction text_40: -352835590400355586
+      Double jump instruction text_41: -6818137099638879263
+      Double jump instruction text_42: 8316583998433911065
+      Double jump instruction text_43: -871341166322736710
+      Double jump instruction text_5: 6226427185957280593
+      Double jump instruction text_6: 4892360302818246237
+      Double jump instruction text_7: 588305616302824232
+      Double jump instruction text_8: -2736294447498360330
+      Double jump instruction text_9: -746398520352278979
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

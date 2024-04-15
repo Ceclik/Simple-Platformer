@@ -12,6 +12,7 @@ namespace LevelScripts
         [HideInInspector] public bool isLost;
         [HideInInspector] public bool isLosingHeart;
         [HideInInspector] public bool isWin;
+        [HideInInspector] public bool isInDialog;
 
 
         [Space(30)] [Header("Camera Stats")] [SerializeField]

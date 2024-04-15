@@ -1,0 +1,990 @@
+fileFormatVersion: 2
+guid: 23c38d7b44873ef42af5d6f2caeb02ad
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: 7640815434389807840
+    second: Finish tutorial_0
+  - first:
+      213: 9023050680942081140
+    second: Finish tutorial_1
+  - first:
+      213: -7730654912513492387
+    second: Finish tutorial_2
+  - first:
+      213: 840819911849382288
+    second: Finish tutorial_3
+  - first:
+      213: -8176715758205994280
+    second: Finish tutorial_4
+  - first:
+      213: 8269895996929571197
+    second: Finish tutorial_5
+  - first:
+      213: -1140705923476965585
+    second: Finish tutorial_6
+  - first:
+      213: -6883409793414303496
+    second: Finish tutorial_7
+  - first:
+      213: 4362745735864577751
+    second: Finish tutorial_8
+  - first:
+      213: -7976241471264881494
+    second: Finish tutorial_9
+  - first:
+      213: 1579180818265140206
+    second: Finish tutorial_10
+  - first:
+      213: 1198077986436743744
+    second: Finish tutorial_11
+  - first:
+      213: -6770160271639042097
+    second: Finish tutorial_12
+  - first:
+      213: 3448955491574682171
+    second: Finish tutorial_13
+  - first:
+      213: 7218015421195285085
+    second: Finish tutorial_14
+  - first:
+      213: 2122844429502118001
+    second: Finish tutorial_15
+  - first:
+      213: -6265851525183587377
+    second: Finish tutorial_16
+  - first:
+      213: -9074420092875503693
+    second: Finish tutorial_17
+  - first:
+      213: -4429381557509241592
+    second: Finish tutorial_18
+  - first:
+      213: -7272424154874177471
+    second: Finish tutorial_19
+  - first:
+      213: 1514884165165493310
+    second: Finish tutorial_20
+  - first:
+      213: -2249977860755628573
+    second: Finish tutorial_21
+  - first:
+      213: -4040875352860815730
+    second: Finish tutorial_22
+  - first:
+      213: -4692151619159231002
+    second: Finish tutorial_23
+  - first:
+      213: -6409279273891565850
+    second: Finish tutorial_24
+  - first:
+      213: -2811075007597932762
+    second: Finish tutorial_25
+  - first:
+      213: 2848841263239380597
+    second: Finish tutorial_26
+  - first:
+      213: -9153541647148935445
+    second: Finish tutorial_27
+  - first:
+      213: 1353885659544841998
+    second: Finish tutorial_28
+  - first:
+      213: -1888019041740999037
+    second: Finish tutorial_29
+  - first:
+      213: 7966208608750968484
+    second: Finish tutorial_30
+  - first:
+      213: 1396882651148095087
+    second: Finish tutorial_31
+  - first:
+      213: -2025163072016840134
+    second: Finish tutorial_32
+  - first:
+      213: 8500663512185032374
+    second: Finish tutorial_33
+  externalObjects: {}
+  serializedVersion: 13
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 1
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 1
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 3
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Android
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: WebGL
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: Finish tutorial_0
+      rect:
+        serializedVersion: 2
+        x: 22
+        y: 150
+        width: 28
+        height: 38
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0e26021a721a90a60800000000000000
+      internalID: 7640815434389807840
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Finish tutorial_1
+      rect:
+        serializedVersion: 2
+        x: 53
+        y: 151
+        width: 28
+        height: 30
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 47436e3c9c0583d70800000000000000
+      internalID: 9023050680942081140
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Finish tutorial_2
+      rect:
+        serializedVersion: 2
+        x: 83
+        y: 151
+        width: 28
+        height: 30
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d5a318ad05237b490800000000000000
+      internalID: -7730654912513492387
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Finish tutorial_3
+      rect:
+        serializedVersion: 2
+        x: 114
+        y: 151
+        width: 28
+        height: 30
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0919bd541413bab00800000000000000
+      internalID: 840819911849382288
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Finish tutorial_4
+      rect:
+        serializedVersion: 2
+        x: 144
+        y: 151
+        width: 28
+        height: 29
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8dafaca0758768e80800000000000000
+      internalID: -8176715758205994280
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Finish tutorial_5
+      rect:
+        serializedVersion: 2
+        x: 205
+        y: 150
+        width: 28
+        height: 30
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d79796ae79294c270800000000000000
+      internalID: 8269895996929571197
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Finish tutorial_6
+      rect:
+        serializedVersion: 2
+        x: 246
+        y: 151
+        width: 8
+        height: 37
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f27b8fd91066b20f0800000000000000
+      internalID: -1140705923476965585
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Finish tutorial_7
+      rect:
+        serializedVersion: 2
+        x: 266
+        y: 150
+        width: 28
+        height: 30
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8f0781443473970a0800000000000000
+      internalID: -6883409793414303496
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Finish tutorial_8
+      rect:
+        serializedVersion: 2
+        x: 297
+        y: 150
+        width: 28
+        height: 30
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7deee87c1269b8c30800000000000000
+      internalID: 4362745735864577751
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Finish tutorial_9
+      rect:
+        serializedVersion: 2
+        x: 327
+        y: 150
+        width: 28
+        height: 38
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: aa4848e44a2be4190800000000000000
+      internalID: -7976241471264881494
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Finish tutorial_10
+      rect:
+        serializedVersion: 2
+        x: 398
+        y: 179
+        width: 8
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: eebedcc56906ae510800000000000000
+      internalID: 1579180818265140206
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Finish tutorial_11
+      rect:
+        serializedVersion: 2
+        x: 419
+        y: 151
+        width: 28
+        height: 29
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 04207cab49d60a010800000000000000
+      internalID: 1198077986436743744
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Finish tutorial_12
+      rect:
+        serializedVersion: 2
+        x: 393
+        y: 151
+        width: 18
+        height: 24
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: fc72e705a1f8b02a0800000000000000
+      internalID: -6770160271639042097
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Finish tutorial_13
+      rect:
+        serializedVersion: 2
+        x: 22
+        y: 88
+        width: 28
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b3211790fb62ddf20800000000000000
+      internalID: 3448955491574682171
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Finish tutorial_14
+      rect:
+        serializedVersion: 2
+        x: 86
+        y: 88
+        width: 23
+        height: 37
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d52f2ab68ca8b2460800000000000000
+      internalID: 7218015421195285085
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Finish tutorial_15
+      rect:
+        serializedVersion: 2
+        x: 124
+        y: 116
+        width: 8
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 178f3e5e2cbd57d10800000000000000
+      internalID: 2122844429502118001
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Finish tutorial_16
+      rect:
+        serializedVersion: 2
+        x: 144
+        y: 88
+        width: 28
+        height: 29
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: fcbb71a5c393b09a0800000000000000
+      internalID: -6265851525183587377
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Finish tutorial_17
+      rect:
+        serializedVersion: 2
+        x: 185
+        y: 116
+        width: 8
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3b70d7df00f211280800000000000000
+      internalID: -9074420092875503693
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Finish tutorial_18
+      rect:
+        serializedVersion: 2
+        x: 205
+        y: 88
+        width: 28
+        height: 29
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 805cef9f0fca782c0800000000000000
+      internalID: -4429381557509241592
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Finish tutorial_19
+      rect:
+        serializedVersion: 2
+        x: 236
+        y: 88
+        width: 28
+        height: 37
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 14811c813c8231b90800000000000000
+      internalID: -7272424154874177471
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Finish tutorial_20
+      rect:
+        serializedVersion: 2
+        x: 297
+        y: 87
+        width: 28
+        height: 30
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e3cad8c3f13f50510800000000000000
+      internalID: 1514884165165493310
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Finish tutorial_21
+      rect:
+        serializedVersion: 2
+        x: 330
+        y: 88
+        width: 23
+        height: 37
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3edda297e0976c0e0800000000000000
+      internalID: -2249977860755628573
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Finish tutorial_22
+      rect:
+        serializedVersion: 2
+        x: 119
+        y: 88
+        width: 18
+        height: 24
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e8e891ba64debe7c0800000000000000
+      internalID: -4040875352860815730
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Finish tutorial_23
+      rect:
+        serializedVersion: 2
+        x: 180
+        y: 88
+        width: 18
+        height: 24
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6e57db366f022eeb0800000000000000
+      internalID: -4692151619159231002
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Finish tutorial_24
+      rect:
+        serializedVersion: 2
+        x: 27
+        y: 26
+        width: 18
+        height: 37
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6ee6b6d457aad07a0800000000000000
+      internalID: -6409279273891565850
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Finish tutorial_25
+      rect:
+        serializedVersion: 2
+        x: 53
+        y: 26
+        width: 28
+        height: 37
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 62f852f9c2e0df8d0800000000000000
+      internalID: -2811075007597932762
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Finish tutorial_26
+      rect:
+        serializedVersion: 2
+        x: 83
+        y: 26
+        width: 28
+        height: 30
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 57ebbdcf80e198720800000000000000
+      internalID: 2848841263239380597
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Finish tutorial_27
+      rect:
+        serializedVersion: 2
+        x: 154
+        y: 26
+        width: 8
+        height: 37
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: be691f49e5618f080800000000000000
+      internalID: -9153541647148935445
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Finish tutorial_28
+      rect:
+        serializedVersion: 2
+        x: 175
+        y: 26
+        width: 28
+        height: 30
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e0f6aab85d7f9c210800000000000000
+      internalID: 1353885659544841998
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Finish tutorial_29
+      rect:
+        serializedVersion: 2
+        x: 205
+        y: 25
+        width: 28
+        height: 30
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 386bad74fa86cc5e0800000000000000
+      internalID: -1888019041740999037
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Finish tutorial_30
+      rect:
+        serializedVersion: 2
+        x: 236
+        y: 26
+        width: 28
+        height: 30
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4ae924bd588ad8e60800000000000000
+      internalID: 7966208608750968484
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Finish tutorial_31
+      rect:
+        serializedVersion: 2
+        x: 276
+        y: 26
+        width: 8
+        height: 37
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f6e8696ce59b26310800000000000000
+      internalID: 1396882651148095087
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Finish tutorial_32
+      rect:
+        serializedVersion: 2
+        x: 305
+        y: 35
+        width: 8
+        height: 28
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a3a82307aec25e3e0800000000000000
+      internalID: -2025163072016840134
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Finish tutorial_33
+      rect:
+        serializedVersion: 2
+        x: 305
+        y: 26
+        width: 8
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6bec9e60d6c68f570800000000000000
+      internalID: 8500663512185032374
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    physicsShape: []
+    bones: []
+    spriteID: 5e97eb03825dee720800000000000000
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    nameFileIdTable:
+      Finish tutorial_0: 7640815434389807840
+      Finish tutorial_1: 9023050680942081140
+      Finish tutorial_10: 1579180818265140206
+      Finish tutorial_11: 1198077986436743744
+      Finish tutorial_12: -6770160271639042097
+      Finish tutorial_13: 3448955491574682171
+      Finish tutorial_14: 7218015421195285085
+      Finish tutorial_15: 2122844429502118001
+      Finish tutorial_16: -6265851525183587377
+      Finish tutorial_17: -9074420092875503693
+      Finish tutorial_18: -4429381557509241592
+      Finish tutorial_19: -7272424154874177471
+      Finish tutorial_2: -7730654912513492387
+      Finish tutorial_20: 1514884165165493310
+      Finish tutorial_21: -2249977860755628573
+      Finish tutorial_22: -4040875352860815730
+      Finish tutorial_23: -4692151619159231002
+      Finish tutorial_24: -6409279273891565850
+      Finish tutorial_25: -2811075007597932762
+      Finish tutorial_26: 2848841263239380597
+      Finish tutorial_27: -9153541647148935445
+      Finish tutorial_28: 1353885659544841998
+      Finish tutorial_29: -1888019041740999037
+      Finish tutorial_3: 840819911849382288
+      Finish tutorial_30: 7966208608750968484
+      Finish tutorial_31: 1396882651148095087
+      Finish tutorial_32: -2025163072016840134
+      Finish tutorial_33: 8500663512185032374
+      Finish tutorial_4: -8176715758205994280
+      Finish tutorial_5: 8269895996929571197
+      Finish tutorial_6: -1140705923476965585
+      Finish tutorial_7: -6883409793414303496
+      Finish tutorial_8: 4362745735864577751
+      Finish tutorial_9: -7976241471264881494
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

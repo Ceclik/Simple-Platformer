@@ -1,3 +1,6 @@
+using System;
+using Dialogues;
+using LevelScripts;
 using UnityEngine;
 
 namespace PlayerScripts
@@ -12,10 +15,13 @@ namespace PlayerScripts
         private bool _isOnGround = true;
         private bool _isFalling;
 
+        private GameValuesSetter _values;
+
         private void Start()
         {
             _animator = GetComponent<Animator>();
             _raycastPosition = transform.GetChild(0).transform;
+            _values = _values = GameObject.Find("GameValues").GetComponent<GameValuesSetter>();
         }
 
         private void Update()
@@ -43,7 +49,7 @@ namespace PlayerScripts
 
         private void HandleJumping()
         {
-            if (Input.GetKeyDown(KeyCode.W))
+            if (Input.GetKeyDown(KeyCode.W) && !_values.isInDialog)
             {
                 _isOnGround = false;
                 _animator.ResetTrigger("stay");
@@ -69,7 +75,7 @@ namespace PlayerScripts
         private void HandleRunning()
         {
             var horizontalAspect = Input.GetAxis("Horizontal");
-            if (!_isRunning && horizontalAspect != 0 && (_isOnGround || _isFalling))
+            if (!_isRunning && horizontalAspect != 0 && (_isOnGround || _isFalling) && !_values.isInDialog)
             {
                 if (horizontalAspect > 0)
                 {

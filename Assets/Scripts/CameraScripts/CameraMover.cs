@@ -11,6 +11,7 @@ namespace CameraScripts
         [SerializeField] private Transform pointsParent;
 
         [Space(10)] [SerializeField] private CheckPoint[] checkPoints;
+        [SerializeField] private GameObject loseBorder;
 
         private Transform[] _points;
         private int _currentPointIndex;
@@ -78,11 +79,16 @@ namespace CameraScripts
                 _isMoving = false;
                 transform.position = Vector3.MoveTowards(transform.position, _targetZeroPoint.position,
                     _values.CameraBackMovingSpeed * Time.deltaTime);
+                loseBorder.SetActive(false);
+                
                 MakeCurrentPointIndexZero();
             }
 
             if (_values.isLosingHeart && transform.position == _targetZeroPoint.position)
+            {
+                loseBorder.SetActive(true);
                 _values.isLosingHeart = false;
+            }
         }
 
         private void MakeCurrentPointIndexZero()
