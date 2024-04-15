@@ -1,21 +1,16 @@
-using System;
-using CameraScripts;
 using LevelScripts;
-using PlatformScripts;
+using PlayerScripts;
 using UnityEngine;
 
-namespace PlayerScripts
+namespace TutorialLevelScripts
 {
-    public class PlayerMover : MonoBehaviour
+    public class TutorialPlayerMover : MonoBehaviour
     {
-        [SerializeField] private CameraMover cameraMover;
-
-        private int _jumpsCounter;
-
         private Rigidbody2D _rigidbody2D;
 
         private GameValuesSetter _values;
         private ParticlePlayer _particlePlayer;
+        private int _jumpsCounter;
 
         private void Start()
         {
@@ -36,27 +31,6 @@ namespace PlayerScripts
                 _particlePlayer.PlayJumpEffect();
                 _rigidbody2D.AddForce(Vector2.up * _values.CharacterJumpForce, ForceMode2D.Impulse);
                 _jumpsCounter++;
-            }
-        }
-
-        private void OnCollisionEnter2D(Collision2D collision)
-        {
-            if (collision.gameObject.CompareTag("Platform") && _jumpsCounter <= 2)
-                _jumpsCounter = 0;
-            if (collision.gameObject.TryGetComponent<CameraMovementTrigger>(
-                    out var cameraMovementTrigger) && !cameraMovementTrigger.IsJumped)
-            {
-                cameraMover.MoveCamera();
-                cameraMovementTrigger.IsJumped = true;
-            }
-        }
-
-        private void OnTriggerEnter2D(Collider2D other)
-        {
-            if (other.gameObject.TryGetComponent(out CameraMovementTrigger trigger) && !trigger.IsJumped)
-            {
-                cameraMover.MoveCamera();
-                trigger.IsJumped = true;
             }
         }
     }

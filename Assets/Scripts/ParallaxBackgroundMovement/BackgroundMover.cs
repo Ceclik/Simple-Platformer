@@ -20,7 +20,7 @@ namespace ParallaxBackgroundMovement
         {
             transform.Translate(new Vector3(movingSpeed * Time.deltaTime, 0.0f, 0.0f));
             if (transform.position.x >= 440.0f)
-                transform.position = new Vector3(-440.0f, 0.0f, 500.0f);
+                transform.position = new Vector3(-440.0f, 0.0f, 250.0f);
         }
 
         private void MoveFarLayer()
