@@ -11,5 +11,8 @@ EditorBuildSettings:
   - enabled: 1
     path: Assets/Scenes/MainMenu.unity
     guid: 002c1e5a4b1ae9e4e827314b00221f93
+  - enabled: 1
+    path: Assets/Scenes/TutorialLevel.unity
+    guid: eeacb10773493a848839755bcc7058f3
   m_configObjects: {}
   m_UseUCBPForAssetBundles: 0

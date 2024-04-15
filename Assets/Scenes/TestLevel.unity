@@ -2034,6 +2034,10 @@ PrefabInstance:
       value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 2393598488055713910, guid: 2a195c7694c92fd47a2eb58a6926b1b8, type: 3}
+      propertyPath: loseBorder
+      value: 
+      objectReference: {fileID: 3285505739346017410}
+    - target: {fileID: 2393598488055713910, guid: 2a195c7694c92fd47a2eb58a6926b1b8, type: 3}
       propertyPath: pointsParent
       value: 
       objectReference: {fileID: 952048015}
@@ -2054,6 +2058,11 @@ PrefabInstance:
     m_AddedGameObjects: []
     m_AddedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 2a195c7694c92fd47a2eb58a6926b1b8, type: 3}
+--- !u!1 &3285505739346017410 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 4436505592962841336, guid: 2a195c7694c92fd47a2eb58a6926b1b8, type: 3}
+  m_PrefabInstance: {fileID: 3285505739346017409}
+  m_PrefabAsset: {fileID: 0}
 --- !u!1001 &3551059206154739292
 PrefabInstance:
   m_ObjectHideFlags: 0

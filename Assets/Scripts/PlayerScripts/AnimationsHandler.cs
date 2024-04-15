@@ -66,7 +66,14 @@ namespace PlayerScripts
                 _animator.ResetTrigger("jump");
                 _animator.ResetTrigger("fall");
                 if (_isRunning)
+                {
+                    var horizontalAspect = Input.GetAxis("Horizontal");
+                    if(horizontalAspect > 0)
+                        transform.localRotation = Quaternion.Euler(Vector3.zero);
+                    else 
+                        transform.localRotation = Quaternion.Euler(new Vector3(0.0f, 180.0f, 0.0f));
                     _animator.SetTrigger("run");
+                }
                 else
                     _animator.SetTrigger("stay");
             }

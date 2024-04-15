@@ -29,6 +29,7 @@ namespace MenuHandlers.LoseMenu
         {
             /*TODO*/
             Debug.Log("Next level button clicked!");
+            SceneManager.LoadScene("TestLevel");
         }
     }
 }
