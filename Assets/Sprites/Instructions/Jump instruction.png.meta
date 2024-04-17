@@ -1,64 +1,82 @@
 fileFormatVersion: 2
-guid: 0cf8ee8dad5ea7149ba08f9ea6976874
+guid: bd3733b5a7833314e8b5d0e37e29b2ac
 TextureImporter:
   internalIDToNameTable:
   - first:
-      213: -597975551673507939
-    second: Jump instruction text_0
+      213: 6535759989355797005
+    second: Jump instruction_0
   - first:
-      213: -8975484046906215829
-    second: Jump instruction text_1
+      213: 6631273179049759033
+    second: Jump instruction_1
   - first:
-      213: 667302108424243348
-    second: Jump instruction text_2
+      213: 7662919761785751908
+    second: Jump instruction_2
   - first:
-      213: -4466829465231274801
-    second: Jump instruction text_3
+      213: -4851111645507809043
+    second: Jump instruction_3
   - first:
-      213: -1246126931209839147
-    second: Jump instruction text_4
+      213: 2101993209679830935
+    second: Jump instruction_4
   - first:
-      213: 6263135966402814232
-    second: Jump instruction text_5
+      213: -4295161109305553313
+    second: Jump instruction_5
   - first:
-      213: 4413975840965392554
-    second: Jump instruction text_6
+      213: 412882953033975818
+    second: Jump instruction_6
   - first:
-      213: 8713974417248231664
-    second: Jump instruction text_7
+      213: 6225666292562045900
+    second: Jump instruction_7
   - first:
-      213: -4210179891968429023
-    second: Jump instruction text_8
+      213: -8727604798365256260
+    second: Jump instruction_8
   - first:
-      213: 172318414996549037
-    second: Jump instruction text_9
+      213: 2296966836579595555
+    second: Jump instruction_9
   - first:
-      213: 6165870454016581602
-    second: Jump instruction text_10
+      213: 2069478462592979587
+    second: Jump instruction_10
   - first:
-      213: 3607259279883779520
-    second: Jump instruction text_11
+      213: -8249554048229221055
+    second: Jump instruction_11
   - first:
-      213: -1783245253198687538
-    second: Jump instruction text_12
+      213: -264549239396023051
+    second: Jump instruction_12
   - first:
-      213: 6790378147651226666
-    second: Jump instruction text_13
+      213: -4514641525459546692
+    second: Jump instruction_13
   - first:
-      213: 706469985782835349
-    second: Jump instruction text_14
+      213: 7816101469888061361
+    second: Jump instruction_14
   - first:
-      213: 6177477165628901047
-    second: Jump instruction text_15
+      213: 776480886085524363
+    second: Jump instruction_15
   - first:
-      213: 8848470730716504303
-    second: Jump instruction text_16
+      213: 1008483243547551948
+    second: Jump instruction_16
   - first:
-      213: 7346605212383404729
-    second: Jump instruction text_17
+      213: 4235097996783333200
+    second: Jump instruction_17
   - first:
-      213: -5960666964009932450
-    second: Jump instruction text_18
+      213: 8916611765756442242
+    second: Jump instruction_18
+  - first:
+      213: -3022850171267885278
+    second: Jump instruction_19
+  - first:
+      213: -8000617182848987107
+    second: Jump instruction_20
+  - first:
+      213: -4337215565633195325
+    second: Jump instruction_21
+  - first:
+      213: 6335760173483934273
+    second: Jump instruction_22
+  - first:
+      213: -5590823067219617186
+    second: Jump instruction_23
+  - first:
+      213: 7608465218776004630
+    second: Jump instruction_24
   externalObjects: {}
   serializedVersion: 13
   mipmaps:
@@ -91,7 +109,7 @@ TextureImporter:
   maxTextureSize: 2048
   textureSettings:
     serializedVersion: 2
-    filterMode: 1
+    filterMode: 0
     aniso: 1
     mipBias: 0
     wrapU: 1
@@ -180,12 +198,12 @@ TextureImporter:
     serializedVersion: 2
     sprites:
     - serializedVersion: 2
-      name: Jump instruction text_0
+      name: Jump instruction_0
       rect:
         serializedVersion: 2
-        x: 22
-        y: 85
-        width: 28
+        x: 37
+        y: 94
+        width: 27
         height: 37
       alignment: 0
       pivot: {x: 0, y: 0}
@@ -194,61 +212,19 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: d9fd12a676093b7f0800000000000000
-      internalID: -597975551673507939
+      spriteID: d0a53c6151fa3ba50800000000000000
+      internalID: 6535759989355797005
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Jump instruction text_1
+      name: Jump instruction_1
       rect:
         serializedVersion: 2
-        x: 53
-        y: 85
-        width: 28
-        height: 30
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: -1
-      bones: []
-      spriteID: b6238f040dca07380800000000000000
-      internalID: -8975484046906215829
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: Jump instruction text_2
-      rect:
-        serializedVersion: 2
-        x: 83
-        y: 85
-        width: 28
-        height: 30
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: -1
-      bones: []
-      spriteID: 4980f7a6bbbb24900800000000000000
-      internalID: 667302108424243348
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: Jump instruction text_3
-      rect:
-        serializedVersion: 2
-        x: 114
-        y: 85
-        width: 28
+        x: 66
+        y: 94
+        width: 27
         height: 29
       alignment: 0
       pivot: {x: 0, y: 0}
@@ -257,19 +233,19 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: fcc44a48442a202c0800000000000000
-      internalID: -4466829465231274801
+      spriteID: 93116d582d3070c50800000000000000
+      internalID: 6631273179049759033
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Jump instruction text_4
+      name: Jump instruction_2
       rect:
         serializedVersion: 2
-        x: 144
-        y: 85
-        width: 28
+        x: 95
+        y: 94
+        width: 27
         height: 29
       alignment: 0
       pivot: {x: 0, y: 0}
@@ -278,20 +254,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: 5dd9038882ed4bee0800000000000000
-      internalID: -1246126931209839147
+      spriteID: 4698f876ce8285a60800000000000000
+      internalID: 7662919761785751908
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Jump instruction text_5
+      name: Jump instruction_3
       rect:
         serializedVersion: 2
-        x: 205
-        y: 84
-        width: 28
-        height: 38
+        x: 125
+        y: 94
+        width: 27
+        height: 29
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -299,20 +275,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: 811a9695af02be650800000000000000
-      internalID: 6263135966402814232
+      spriteID: de01fb329a36dacb0800000000000000
+      internalID: -4851111645507809043
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Jump instruction text_6
+      name: Jump instruction_4
       rect:
         serializedVersion: 2
-        x: 266
-        y: 84
-        width: 28
-        height: 38
+        x: 154
+        y: 94
+        width: 27
+        height: 29
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -320,20 +296,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: aa8f5ef14a7914d30800000000000000
-      internalID: 4413975840965392554
+      spriteID: 79fdf37ffa7cb2d10800000000000000
+      internalID: 2101993209679830935
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Jump instruction text_7
+      name: Jump instruction_5
       rect:
         serializedVersion: 2
-        x: 297
-        y: 84
-        width: 28
-        height: 30
+        x: 225
+        y: 114
+        width: 10
+        height: 17
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -341,19 +317,19 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: 0f02ce950914ee870800000000000000
-      internalID: 8713974417248231664
+      spriteID: f5e05c25ab58464c0800000000000000
+      internalID: -4295161109305553313
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Jump instruction text_8
+      name: Jump instruction_6
       rect:
         serializedVersion: 2
-        x: 332
-        y: 85
-        width: 18
+        x: 242
+        y: 94
+        width: 27
         height: 37
       alignment: 0
       pivot: {x: 0, y: 0}
@@ -362,208 +338,19 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: 124babad1bf6295c0800000000000000
-      internalID: -4210179891968429023
+      spriteID: a088765bbdadab500800000000000000
+      internalID: 412882953033975818
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Jump instruction text_9
+      name: Jump instruction_7
       rect:
         serializedVersion: 2
-        x: 363
-        y: 85
-        width: 18
-        height: 37
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: -1
-      bones: []
-      spriteID: dada02a7fa2346200800000000000000
-      internalID: 172318414996549037
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: Jump instruction text_10
-      rect:
-        serializedVersion: 2
-        x: 388
-        y: 84
-        width: 28
-        height: 30
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: -1
-      bones: []
-      spriteID: 2ef1cbe7282919550800000000000000
-      internalID: 6165870454016581602
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: Jump instruction text_11
-      rect:
-        serializedVersion: 2
-        x: 419
-        y: 85
-        width: 28
-        height: 29
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: -1
-      bones: []
-      spriteID: 0cd3436f33f8f0230800000000000000
-      internalID: 3607259279883779520
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: Jump instruction text_12
-      rect:
-        serializedVersion: 2
-        x: 27
-        y: 23
-        width: 18
-        height: 37
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: -1
-      bones: []
-      spriteID: ec2d0b7e3e3a047e0800000000000000
-      internalID: -1783245253198687538
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: Jump instruction text_13
-      rect:
-        serializedVersion: 2
-        x: 129
-        y: 56
-        width: 8
-        height: 7
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: -1
-      bones: []
-      spriteID: a2c8355c2f44c3e50800000000000000
-      internalID: 6790378147651226666
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: Jump instruction text_14
-      rect:
-        serializedVersion: 2
-        x: 53
-        y: 22
-        width: 28
-        height: 30
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: -1
-      bones: []
-      spriteID: 598af0385b2edc900800000000000000
-      internalID: 706469985782835349
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: Jump instruction text_15
-      rect:
-        serializedVersion: 2
-        x: 119
-        y: 23
-        width: 18
-        height: 29
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: -1
-      bones: []
-      spriteID: 7b6c561a0cecab550800000000000000
-      internalID: 6177477165628901047
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: Jump instruction text_16
-      rect:
-        serializedVersion: 2
-        x: 144
-        y: 22
-        width: 28
-        height: 30
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: -1
-      bones: []
-      spriteID: fe06cc59f351cca70800000000000000
-      internalID: 8848470730716504303
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: Jump instruction text_17
-      rect:
-        serializedVersion: 2
-        x: 175
-        y: 23
-        width: 28
-        height: 29
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: -1
-      bones: []
-      spriteID: 9b26525448264f560800000000000000
-      internalID: 7346605212383404729
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: Jump instruction text_18
-      rect:
-        serializedVersion: 2
-        x: 205
-        y: 23
-        width: 28
+        x: 271
+        y: 94
+        width: 27
         height: 32
       alignment: 0
       pivot: {x: 0, y: 0}
@@ -572,8 +359,365 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: e5928c92af4774da0800000000000000
-      internalID: -5960666964009932450
+      spriteID: ccba8421282066650800000000000000
+      internalID: 6225666292562045900
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Jump instruction_8
+      rect:
+        serializedVersion: 2
+        x: 301
+        y: 94
+        width: 27
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: cb5b17d3da151e680800000000000000
+      internalID: -8727604798365256260
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Jump instruction_9
+      rect:
+        serializedVersion: 2
+        x: 330
+        y: 95
+        width: 27
+        height: 28
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 325fd230b2770ef10800000000000000
+      internalID: 2296966836579595555
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Jump instruction_10
+      rect:
+        serializedVersion: 2
+        x: 359
+        y: 94
+        width: 27
+        height: 29
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3821d2972b348bc10800000000000000
+      internalID: 2069478462592979587
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Jump instruction_11
+      rect:
+        serializedVersion: 2
+        x: 393
+        y: 114
+        width: 10
+        height: 17
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 14d59e71d42b38d80800000000000000
+      internalID: -8249554048229221055
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Jump instruction_12
+      rect:
+        serializedVersion: 2
+        x: 37
+        y: 35
+        width: 27
+        height: 36
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5f443305ed1245cf0800000000000000
+      internalID: -264549239396023051
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Jump instruction_13
+      rect:
+        serializedVersion: 2
+        x: 100
+        y: 34
+        width: 17
+        height: 37
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: cbd81c2c375c851c0800000000000000
+      internalID: -4514641525459546692
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Jump instruction_14
+      rect:
+        serializedVersion: 2
+        x: 130
+        y: 34
+        width: 17
+        height: 37
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1bf161910ee587c60800000000000000
+      internalID: 7816101469888061361
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Jump instruction_15
+      rect:
+        serializedVersion: 2
+        x: 247
+        y: 34
+        width: 17
+        height: 37
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b8b120e704d96ca00800000000000000
+      internalID: 776480886085524363
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Jump instruction_16
+      rect:
+        serializedVersion: 2
+        x: 345
+        y: 66
+        width: 7
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: cc8e595ba2adefd00800000000000000
+      internalID: 1008483243547551948
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Jump instruction_17
+      rect:
+        serializedVersion: 2
+        x: 418
+        y: 34
+        width: 27
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 05f2d37803716ca30800000000000000
+      internalID: 4235097996783333200
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Jump instruction_18
+      rect:
+        serializedVersion: 2
+        x: 66
+        y: 35
+        width: 27
+        height: 28
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2863bf1a82b2ebb70800000000000000
+      internalID: 8916611765756442242
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Jump instruction_19
+      rect:
+        serializedVersion: 2
+        x: 154
+        y: 35
+        width: 27
+        height: 28
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2275954f8cdac06d0800000000000000
+      internalID: -3022850171267885278
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Jump instruction_20
+      rect:
+        serializedVersion: 2
+        x: 183
+        y: 34
+        width: 27
+        height: 29
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d105660bf0918f090800000000000000
+      internalID: -8000617182848987107
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Jump instruction_21
+      rect:
+        serializedVersion: 2
+        x: 271
+        y: 35
+        width: 27
+        height: 28
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3c273203c6d1fc3c0800000000000000
+      internalID: -4337215565633195325
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Jump instruction_22
+      rect:
+        serializedVersion: 2
+        x: 335
+        y: 34
+        width: 17
+        height: 29
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 142c39a3f442de750800000000000000
+      internalID: 6335760173483934273
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Jump instruction_23
+      rect:
+        serializedVersion: 2
+        x: 359
+        y: 35
+        width: 27
+        height: 28
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e5a9054ba086962b0800000000000000
+      internalID: -5590823067219617186
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Jump instruction_24
+      rect:
+        serializedVersion: 2
+        x: 388
+        y: 34
+        width: 27
+        height: 29
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 618fe0b1ec2b69960800000000000000
+      internalID: 7608465218776004630
       vertices: []
       indices: 
       edges: []
@@ -589,25 +733,31 @@ TextureImporter:
     weights: []
     secondaryTextures: []
     nameFileIdTable:
-      Jump instruction text_0: -597975551673507939
-      Jump instruction text_1: -8975484046906215829
-      Jump instruction text_10: 6165870454016581602
-      Jump instruction text_11: 3607259279883779520
-      Jump instruction text_12: -1783245253198687538
-      Jump instruction text_13: 6790378147651226666
-      Jump instruction text_14: 706469985782835349
-      Jump instruction text_15: 6177477165628901047
-      Jump instruction text_16: 8848470730716504303
-      Jump instruction text_17: 7346605212383404729
-      Jump instruction text_18: -5960666964009932450
-      Jump instruction text_2: 667302108424243348
-      Jump instruction text_3: -4466829465231274801
-      Jump instruction text_4: -1246126931209839147
-      Jump instruction text_5: 6263135966402814232
-      Jump instruction text_6: 4413975840965392554
-      Jump instruction text_7: 8713974417248231664
-      Jump instruction text_8: -4210179891968429023
-      Jump instruction text_9: 172318414996549037
+      Jump instruction_0: 6535759989355797005
+      Jump instruction_1: 6631273179049759033
+      Jump instruction_10: 2069478462592979587
+      Jump instruction_11: -8249554048229221055
+      Jump instruction_12: -264549239396023051
+      Jump instruction_13: -4514641525459546692
+      Jump instruction_14: 7816101469888061361
+      Jump instruction_15: 776480886085524363
+      Jump instruction_16: 1008483243547551948
+      Jump instruction_17: 4235097996783333200
+      Jump instruction_18: 8916611765756442242
+      Jump instruction_19: -3022850171267885278
+      Jump instruction_2: 7662919761785751908
+      Jump instruction_20: -8000617182848987107
+      Jump instruction_21: -4337215565633195325
+      Jump instruction_22: 6335760173483934273
+      Jump instruction_23: -5590823067219617186
+      Jump instruction_24: 7608465218776004630
+      Jump instruction_3: -4851111645507809043
+      Jump instruction_4: 2101993209679830935
+      Jump instruction_5: -4295161109305553313
+      Jump instruction_6: 412882953033975818
+      Jump instruction_7: 6225666292562045900
+      Jump instruction_8: -8727604798365256260
+      Jump instruction_9: 2296966836579595555
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 
