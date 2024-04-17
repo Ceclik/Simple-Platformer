@@ -16,7 +16,7 @@ namespace Dialogues
         private DialogPanelSpaceWaiter _spaceWaiter;
 
         private int _index = 0;
-        private bool _isEntered;
+        public bool IsEntered { get; set; }
 
         private void Start()
         {
@@ -33,9 +33,9 @@ namespace Dialogues
 
         private void OnTriggerEnter2D(Collider2D other)
         {
-            if (other.gameObject.CompareTag("Player"))
+            if (other.gameObject.CompareTag("Player") && !IsEntered)
             {
-                _isEntered = true;
+                IsEntered = true;
                 _values.isInDialog = true;
                 dialogPanel.SetActive(true);
                 UpdateText();
@@ -44,7 +44,7 @@ namespace Dialogues
 
         private void UpdateText()
         {
-            if (_isEntered)
+            if (IsEntered)
             {
                 if (_index < dialogStrings.Length)
                 {
@@ -53,7 +53,6 @@ namespace Dialogues
                 }
                 else
                 {
-                    _isEntered = false;
                     _values.isInDialog = false;
                     _index = 0;
                     dialogPanel.SetActive(false);

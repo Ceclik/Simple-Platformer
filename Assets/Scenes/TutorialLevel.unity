@@ -4334,6 +4334,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 1014219858}
+  - component: {fileID: 1014219859}
   m_Layer: 0
   m_Name: DialogTriggers
   m_TagString: Untagged
@@ -4361,6 +4362,19 @@ Transform:
   - {fileID: 1974694133}
   m_Father: {fileID: 0}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &1014219859
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1014219857}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fe07dc839d4a3a94ba4aad514c5feb99, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  _buttonsHandler: {fileID: 1342947006}
 --- !u!1 &1021319011
 GameObject:
   m_ObjectHideFlags: 0
@@ -10417,6 +10431,7 @@ GameObject:
   - component: {fileID: 1267024275}
   - component: {fileID: 1267024274}
   - component: {fileID: 1267024276}
+  - component: {fileID: 1267024277}
   m_Layer: 0
   m_Name: TX Village Props_69 (2)
   m_TagString: Platform
@@ -10524,7 +10539,7 @@ BoxCollider2D:
     serializedVersion: 2
     m_Bits: 4294967295
   m_IsTrigger: 0
-  m_UsedByEffector: 0
+  m_UsedByEffector: 1
   m_CompositeOperation: 0
   m_CompositeOrder: 0
   m_Offset: {x: 0, y: 0}
@@ -10539,6 +10554,25 @@ BoxCollider2D:
   m_AutoTiling: 0
   m_Size: {x: 0.43, y: 0.31}
   m_EdgeRadius: 0
+--- !u!251 &1267024277
+PlatformEffector2D:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1267024273}
+  m_Enabled: 1
+  m_UseColliderMask: 1
+  m_ColliderMask:
+    serializedVersion: 2
+    m_Bits: 4294967295
+  m_RotationalOffset: 0
+  m_UseOneWay: 1
+  m_UseOneWayGrouping: 0
+  m_SurfaceArc: 180
+  m_UseSideFriction: 0
+  m_UseSideBounce: 0
+  m_SideArc: 1
 --- !u!1001 &1281991582
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -11325,6 +11359,7 @@ GameObject:
   - component: {fileID: 1364669629}
   - component: {fileID: 1364669628}
   - component: {fileID: 1364669630}
+  - component: {fileID: 1364669631}
   m_Layer: 0
   m_Name: TX Village Props_69 (1)
   m_TagString: Platform
@@ -11432,7 +11467,7 @@ BoxCollider2D:
     serializedVersion: 2
     m_Bits: 4294967295
   m_IsTrigger: 0
-  m_UsedByEffector: 0
+  m_UsedByEffector: 1
   m_CompositeOperation: 0
   m_CompositeOrder: 0
   m_Offset: {x: 0, y: 0}
@@ -11447,6 +11482,25 @@ BoxCollider2D:
   m_AutoTiling: 0
   m_Size: {x: 0.43, y: 0.31}
   m_EdgeRadius: 0
+--- !u!251 &1364669631
+PlatformEffector2D:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1364669627}
+  m_Enabled: 1
+  m_UseColliderMask: 1
+  m_ColliderMask:
+    serializedVersion: 2
+    m_Bits: 4294967295
+  m_RotationalOffset: 0
+  m_UseOneWay: 1
+  m_UseOneWayGrouping: 0
+  m_SurfaceArc: 180
+  m_UseSideFriction: 0
+  m_UseSideBounce: 0
+  m_SideArc: 1
 --- !u!1 &1365781128
 GameObject:
   m_ObjectHideFlags: 0
@@ -12375,6 +12429,10 @@ PrefabInstance:
     - target: {fileID: 4436505592962841336, guid: 2a195c7694c92fd47a2eb58a6926b1b8, type: 3}
       propertyPath: m_IsActive
       value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4487763907112658707, guid: 2a195c7694c92fd47a2eb58a6926b1b8, type: 3}
+      propertyPath: m_LocalPosition.y
+      value: -5.89
       objectReference: {fileID: 0}
     - target: {fileID: 4908341809617232565, guid: 2a195c7694c92fd47a2eb58a6926b1b8, type: 3}
       propertyPath: playOnAwake
@@ -15137,6 +15195,7 @@ GameObject:
   - component: {fileID: 2035507345}
   - component: {fileID: 2035507344}
   - component: {fileID: 2035507346}
+  - component: {fileID: 2035507347}
   m_Layer: 0
   m_Name: TX Village Props_69
   m_TagString: Platform
@@ -15244,7 +15303,7 @@ BoxCollider2D:
     serializedVersion: 2
     m_Bits: 4294967295
   m_IsTrigger: 0
-  m_UsedByEffector: 0
+  m_UsedByEffector: 1
   m_CompositeOperation: 0
   m_CompositeOrder: 0
   m_Offset: {x: 0, y: 0}
@@ -15259,6 +15318,25 @@ BoxCollider2D:
   m_AutoTiling: 0
   m_Size: {x: 0.43, y: 0.31}
   m_EdgeRadius: 0
+--- !u!251 &2035507347
+PlatformEffector2D:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2035507343}
+  m_Enabled: 1
+  m_UseColliderMask: 1
+  m_ColliderMask:
+    serializedVersion: 2
+    m_Bits: 4294967295
+  m_RotationalOffset: 0
+  m_UseOneWay: 1
+  m_UseOneWayGrouping: 0
+  m_SurfaceArc: 180
+  m_UseSideFriction: 0
+  m_UseSideBounce: 0
+  m_SideArc: 1
 --- !u!1 &2055064281
 GameObject:
   m_ObjectHideFlags: 0

@@ -49,7 +49,7 @@ namespace PlayerScripts
 
         private void HandleJumping()
         {
-            if (Input.GetKeyDown(KeyCode.W) && !_values.isInDialog)
+            if (Input.GetKeyDown(KeyCode.Space) && !_values.isInDialog)
             {
                 _isOnGround = false;
                 _animator.ResetTrigger("stay");

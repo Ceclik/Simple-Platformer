@@ -31,7 +31,7 @@ namespace PlayerScripts
             var horizontalInput = Input.GetAxis("Horizontal");
             _rigidbody2D.velocity = new Vector2(horizontalInput * _values.CharacterSpeed, _rigidbody2D.velocity.y);
 
-            if (Input.GetKeyDown(KeyCode.W) && _jumpsCounter < 2)
+            if (Input.GetKeyDown(KeyCode.Space) && _jumpsCounter < 2)
             {
                 _particlePlayer.PlayJumpEffect();
                 _rigidbody2D.AddForce(Vector2.up * _values.CharacterJumpForce, ForceMode2D.Impulse);
