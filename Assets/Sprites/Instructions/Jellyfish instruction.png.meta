@@ -1,0 +1,1640 @@
+fileFormatVersion: 2
+guid: fa6d88aa03f155d468d61bc1b6fb055a
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: -114497675532715115
+    second: Jellufish instruction_0
+  - first:
+      213: 9128759120879032911
+    second: Jellufish instruction_1
+  - first:
+      213: -7021218882676452565
+    second: Jellufish instruction_2
+  - first:
+      213: 6656953523022692347
+    second: Jellufish instruction_3
+  - first:
+      213: 8855701526527905256
+    second: Jellufish instruction_4
+  - first:
+      213: -785598480970462042
+    second: Jellufish instruction_5
+  - first:
+      213: -5029060138581891856
+    second: Jellufish instruction_6
+  - first:
+      213: -7588488799948937113
+    second: Jellufish instruction_7
+  - first:
+      213: 7371206056982982925
+    second: Jellufish instruction_8
+  - first:
+      213: -4199623367770196402
+    second: Jellufish instruction_9
+  - first:
+      213: 4634543443127259013
+    second: Jellufish instruction_10
+  - first:
+      213: -7950968437665218615
+    second: Jellufish instruction_11
+  - first:
+      213: 68564857492602593
+    second: Jellufish instruction_12
+  - first:
+      213: -2614017713609130484
+    second: Jellufish instruction_13
+  - first:
+      213: -2070255741971833178
+    second: Jellufish instruction_14
+  - first:
+      213: -8366102796388139911
+    second: Jellufish instruction_15
+  - first:
+      213: 5777623746943982018
+    second: Jellufish instruction_16
+  - first:
+      213: 7141653664515686906
+    second: Jellufish instruction_17
+  - first:
+      213: 2490474438402740378
+    second: Jellufish instruction_18
+  - first:
+      213: -7676356200523692981
+    second: Jellufish instruction_19
+  - first:
+      213: -8309205077181782929
+    second: Jellufish instruction_20
+  - first:
+      213: 1419736178696611340
+    second: Jellufish instruction_21
+  - first:
+      213: -686823565833119171
+    second: Jellufish instruction_22
+  - first:
+      213: 4237400068660161877
+    second: Jellufish instruction_23
+  - first:
+      213: 3646160102238114334
+    second: Jellufish instruction_24
+  - first:
+      213: -5755117820268510635
+    second: Jellufish instruction_25
+  - first:
+      213: 8890460061492587933
+    second: Jellufish instruction_26
+  - first:
+      213: 3564451508806401724
+    second: Jellufish instruction_27
+  - first:
+      213: -3197144534895595880
+    second: Jellufish instruction_28
+  - first:
+      213: -124424233673344733
+    second: Jellufish instruction_29
+  - first:
+      213: 3033753881950890132
+    second: Jellufish instruction_30
+  - first:
+      213: -6938261305790733003
+    second: Jellufish instruction_31
+  - first:
+      213: -3076944897125369961
+    second: Jellufish instruction_32
+  - first:
+      213: 1565222054897366842
+    second: Jellufish instruction_33
+  - first:
+      213: 6321227031665292116
+    second: Jellufish instruction_34
+  - first:
+      213: -7316541433541881618
+    second: Jellufish instruction_35
+  - first:
+      213: -3354863727897541273
+    second: Jellufish instruction_36
+  - first:
+      213: 6865982827644966168
+    second: Jellufish instruction_37
+  - first:
+      213: 6281310954270175294
+    second: Jellufish instruction_38
+  - first:
+      213: -7128228078597549822
+    second: Jellufish instruction_39
+  - first:
+      213: -6177589213243118271
+    second: Jellufish instruction_40
+  - first:
+      213: 5222924863261463294
+    second: Jellufish instruction_41
+  - first:
+      213: -3172644230658553762
+    second: Jellufish instruction_42
+  - first:
+      213: -8713789694973377026
+    second: Jellufish instruction_43
+  - first:
+      213: -1327732314818529346
+    second: Jellufish instruction_44
+  - first:
+      213: 430937989570962333
+    second: Jellufish instruction_45
+  - first:
+      213: 6835268314711019347
+    second: Jellufish instruction_46
+  - first:
+      213: 6664871705103969834
+    second: Jellufish instruction_47
+  - first:
+      213: -2849539106465989217
+    second: Jellufish instruction_48
+  - first:
+      213: 5094085175529160153
+    second: Jellufish instruction_49
+  - first:
+      213: 8311101729182450202
+    second: Jellufish instruction_50
+  - first:
+      213: 4196216069097817901
+    second: Jellufish instruction_51
+  - first:
+      213: -4073521064746527864
+    second: Jellufish instruction_52
+  - first:
+      213: 2344419055122232474
+    second: Jellufish instruction_53
+  - first:
+      213: 370694347082954057
+    second: Jellufish instruction_54
+  - first:
+      213: -9210596208979447397
+    second: Jellufish instruction_55
+  - first:
+      213: -3938520613037023416
+    second: Jellufish instruction_56
+  - first:
+      213: 4316376737317079194
+    second: Jellufish instruction_57
+  - first:
+      213: 7883568511862559016
+    second: Jellufish instruction_58
+  - first:
+      213: 4795062071648456826
+    second: Jellufish instruction_59
+  externalObjects: {}
+  serializedVersion: 13
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 0
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 1
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 3
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Android
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: WebGL
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: Jellufish instruction_0
+      rect:
+        serializedVersion: 2
+        x: 31
+        y: 266
+        width: 27
+        height: 36
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 59bb34288f8396ef0800000000000000
+      internalID: -114497675532715115
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Jellufish instruction_1
+      rect:
+        serializedVersion: 2
+        x: 60
+        y: 265
+        width: 27
+        height: 29
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f4a1a10ed0edfae70800000000000000
+      internalID: 9128759120879032911
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Jellufish instruction_2
+      rect:
+        serializedVersion: 2
+        x: 100
+        y: 265
+        width: 8
+        height: 37
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b231ecf40ae9f8e90800000000000000
+      internalID: -7021218882676452565
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Jellufish instruction_3
+      rect:
+        serializedVersion: 2
+        x: 129
+        y: 265
+        width: 8
+        height: 37
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: bff7d0a85ff326c50800000000000000
+      internalID: 6656953523022692347
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Jellufish instruction_4
+      rect:
+        serializedVersion: 2
+        x: 148
+        y: 265
+        width: 27
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8ed849d6e95c5ea70800000000000000
+      internalID: 8855701526527905256
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Jellufish instruction_5
+      rect:
+        serializedVersion: 2
+        x: 179
+        y: 265
+        width: 23
+        height: 37
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6ac4ba5085ef815f0800000000000000
+      internalID: -785598480970462042
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Jellufish instruction_6
+      rect:
+        serializedVersion: 2
+        x: 217
+        y: 292
+        width: 8
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0f4efb5f270353ab0800000000000000
+      internalID: -5029060138581891856
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Jellufish instruction_7
+      rect:
+        serializedVersion: 2
+        x: 236
+        y: 265
+        width: 27
+        height: 29
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 768630954a540b690800000000000000
+      internalID: -7588488799948937113
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Jellufish instruction_8
+      rect:
+        serializedVersion: 2
+        x: 265
+        y: 265
+        width: 27
+        height: 37
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d01bda0cad8cb4660800000000000000
+      internalID: 7371206056982982925
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Jellufish instruction_9
+      rect:
+        serializedVersion: 2
+        x: 295
+        y: 265
+        width: 27
+        height: 29
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e46b0ad2cc0f7b5c0800000000000000
+      internalID: -4199623367770196402
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Jellufish instruction_10
+      rect:
+        serializedVersion: 2
+        x: 324
+        y: 265
+        width: 27
+        height: 29
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 58f47b7e4b4315040800000000000000
+      internalID: 4634543443127259013
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Jellufish instruction_11
+      rect:
+        serializedVersion: 2
+        x: 383
+        y: 265
+        width: 27
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9cf3f9cf45c78a190800000000000000
+      internalID: -7950968437665218615
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Jellufish instruction_12
+      rect:
+        serializedVersion: 2
+        x: 412
+        y: 265
+        width: 27
+        height: 29
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1eefbe6ef5793f000800000000000000
+      internalID: 68564857492602593
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Jellufish instruction_13
+      rect:
+        serializedVersion: 2
+        x: 441
+        y: 265
+        width: 27
+        height: 29
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c0ebfb73db429bbd0800000000000000
+      internalID: -2614017713609130484
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Jellufish instruction_14
+      rect:
+        serializedVersion: 2
+        x: 212
+        y: 265
+        width: 17
+        height: 24
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6ae5e811f59f443e0800000000000000
+      internalID: -2070255741971833178
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Jellufish instruction_15
+      rect:
+        serializedVersion: 2
+        x: 31
+        y: 206
+        width: 27
+        height: 36
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 97cf1ea05d1a5eb80800000000000000
+      internalID: -8366102796388139911
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Jellufish instruction_16
+      rect:
+        serializedVersion: 2
+        x: 60
+        y: 205
+        width: 27
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2c9157acf2e3e2050800000000000000
+      internalID: 5777623746943982018
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Jellufish instruction_17
+      rect:
+        serializedVersion: 2
+        x: 90
+        y: 205
+        width: 27
+        height: 29
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: af103567b204c1360800000000000000
+      internalID: 7141653664515686906
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Jellufish instruction_18
+      rect:
+        serializedVersion: 2
+        x: 119
+        y: 205
+        width: 27
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a909f2f7e41ff8220800000000000000
+      internalID: 2490474438402740378
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Jellufish instruction_19
+      rect:
+        serializedVersion: 2
+        x: 148
+        y: 205
+        width: 27
+        height: 29
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b440b6ae4ba187590800000000000000
+      internalID: -7676356200523692981
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Jellufish instruction_20
+      rect:
+        serializedVersion: 2
+        x: 177
+        y: 205
+        width: 27
+        height: 29
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f6425b0a106cfac80800000000000000
+      internalID: -8309205077181782929
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Jellufish instruction_21
+      rect:
+        serializedVersion: 2
+        x: 207
+        y: 206
+        width: 27
+        height: 28
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c066bfd488ae3b310800000000000000
+      internalID: 1419736178696611340
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Jellufish instruction_22
+      rect:
+        serializedVersion: 2
+        x: 236
+        y: 206
+        width: 27
+        height: 28
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d3a56271b99e776f0800000000000000
+      internalID: -686823565833119171
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Jellufish instruction_23
+      rect:
+        serializedVersion: 2
+        x: 265
+        y: 205
+        width: 27
+        height: 29
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 55d64b769e44eca30800000000000000
+      internalID: 4237400068660161877
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Jellufish instruction_24
+      rect:
+        serializedVersion: 2
+        x: 324
+        y: 205
+        width: 27
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e12da187b43c99230800000000000000
+      internalID: 3646160102238114334
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Jellufish instruction_25
+      rect:
+        serializedVersion: 2
+        x: 353
+        y: 205
+        width: 27
+        height: 29
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 552006a95d6b120b0800000000000000
+      internalID: -5755117820268510635
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Jellufish instruction_26
+      rect:
+        serializedVersion: 2
+        x: 383
+        y: 206
+        width: 27
+        height: 36
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d9d201f7252416b70800000000000000
+      internalID: 8890460061492587933
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Jellufish instruction_27
+      rect:
+        serializedVersion: 2
+        x: 31
+        y: 146
+        width: 27
+        height: 28
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: cbeb28113c9777130800000000000000
+      internalID: 3564451508806401724
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Jellufish instruction_28
+      rect:
+        serializedVersion: 2
+        x: 60
+        y: 145
+        width: 27
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 89e67f51cf571a3d0800000000000000
+      internalID: -3197144534895595880
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Jellufish instruction_29
+      rect:
+        serializedVersion: 2
+        x: 90
+        y: 145
+        width: 27
+        height: 29
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 329337691d4f54ef0800000000000000
+      internalID: -124424233673344733
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Jellufish instruction_30
+      rect:
+        serializedVersion: 2
+        x: 148
+        y: 145
+        width: 27
+        height: 37
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 49825a5051f0a1a20800000000000000
+      internalID: 3033753881950890132
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Jellufish instruction_31
+      rect:
+        serializedVersion: 2
+        x: 177
+        y: 146
+        width: 27
+        height: 28
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 53561855a1856bf90800000000000000
+      internalID: -6938261305790733003
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Jellufish instruction_32
+      rect:
+        serializedVersion: 2
+        x: 207
+        y: 145
+        width: 27
+        height: 29
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 797346d1bee7c45d0800000000000000
+      internalID: -3076944897125369961
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Jellufish instruction_33
+      rect:
+        serializedVersion: 2
+        x: 241
+        y: 145
+        width: 17
+        height: 37
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a37b3c08a29c8b510800000000000000
+      internalID: 1565222054897366842
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Jellufish instruction_34
+      rect:
+        serializedVersion: 2
+        x: 295
+        y: 145
+        width: 27
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 453b1077e7289b750800000000000000
+      internalID: 6321227031665292116
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Jellufish instruction_35
+      rect:
+        serializedVersion: 2
+        x: 324
+        y: 146
+        width: 27
+        height: 28
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ee01f45b45c667a90800000000000000
+      internalID: -7316541433541881618
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Jellufish instruction_36
+      rect:
+        serializedVersion: 2
+        x: 353
+        y: 146
+        width: 27
+        height: 28
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 76503dcd6312171d0800000000000000
+      internalID: -3354863727897541273
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Jellufish instruction_37
+      rect:
+        serializedVersion: 2
+        x: 390
+        y: 155
+        width: 8
+        height: 27
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 815d5b3110fd84f50800000000000000
+      internalID: 6865982827644966168
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Jellufish instruction_38
+      rect:
+        serializedVersion: 2
+        x: 390
+        y: 145
+        width: 8
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e303b097803bb2750800000000000000
+      internalID: 6281310954270175294
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Jellufish instruction_39
+      rect:
+        serializedVersion: 2
+        x: 31
+        y: 86
+        width: 27
+        height: 36
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2015a395452731d90800000000000000
+      internalID: -7128228078597549822
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Jellufish instruction_40
+      rect:
+        serializedVersion: 2
+        x: 60
+        y: 86
+        width: 27
+        height: 28
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 14deb50475bc44aa0800000000000000
+      internalID: -6177589213243118271
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Jellufish instruction_41
+      rect:
+        serializedVersion: 2
+        x: 90
+        y: 85
+        width: 27
+        height: 29
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ef2514bad7e8b7840800000000000000
+      internalID: 5222924863261463294
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Jellufish instruction_42
+      rect:
+        serializedVersion: 2
+        x: 119
+        y: 85
+        width: 27
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e5887e0b1e088f3d0800000000000000
+      internalID: -3172644230658553762
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Jellufish instruction_43
+      rect:
+        serializedVersion: 2
+        x: 177
+        y: 86
+        width: 27
+        height: 28
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ef507a7a076621780800000000000000
+      internalID: -8713789694973377026
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Jellufish instruction_44
+      rect:
+        serializedVersion: 2
+        x: 207
+        y: 85
+        width: 27
+        height: 29
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: eb73f6a8e72f29de0800000000000000
+      internalID: -1327732314818529346
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Jellufish instruction_45
+      rect:
+        serializedVersion: 2
+        x: 270
+        y: 85
+        width: 17
+        height: 37
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d93299c71dffaf500800000000000000
+      internalID: 430937989570962333
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Jellufish instruction_46
+      rect:
+        serializedVersion: 2
+        x: 295
+        y: 85
+        width: 27
+        height: 37
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 35f45d24150cbde50800000000000000
+      internalID: 6835268314711019347
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Jellufish instruction_47
+      rect:
+        serializedVersion: 2
+        x: 324
+        y: 85
+        width: 27
+        height: 29
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a2e2648f0816e7c50800000000000000
+      internalID: 6664871705103969834
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Jellufish instruction_48
+      rect:
+        serializedVersion: 2
+        x: 353
+        y: 85
+        width: 27
+        height: 29
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f9db289b7476478d0800000000000000
+      internalID: -2849539106465989217
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Jellufish instruction_49
+      rect:
+        serializedVersion: 2
+        x: 417
+        y: 85
+        width: 17
+        height: 37
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9ddbffe3a73d1b640800000000000000
+      internalID: 5094085175529160153
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Jellufish instruction_50
+      rect:
+        serializedVersion: 2
+        x: 441
+        y: 86
+        width: 27
+        height: 28
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a120e041df6f65370800000000000000
+      internalID: 8311101729182450202
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Jellufish instruction_51
+      rect:
+        serializedVersion: 2
+        x: 31
+        y: 26
+        width: 27
+        height: 36
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d278c574844fb3a30800000000000000
+      internalID: 4196216069097817901
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Jellufish instruction_52
+      rect:
+        serializedVersion: 2
+        x: 60
+        y: 25
+        width: 27
+        height: 29
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 88356be8c22f777c0800000000000000
+      internalID: -4073521064746527864
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Jellufish instruction_53
+      rect:
+        serializedVersion: 2
+        x: 90
+        y: 25
+        width: 27
+        height: 29
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a94b73995bc098020800000000000000
+      internalID: 2344419055122232474
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Jellufish instruction_54
+      rect:
+        serializedVersion: 2
+        x: 124
+        y: 25
+        width: 17
+        height: 37
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 945ff1e6b88f42500800000000000000
+      internalID: 370694347082954057
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Jellufish instruction_55
+      rect:
+        serializedVersion: 2
+        x: 148
+        y: 25
+        width: 27
+        height: 29
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b91783a3c836d2080800000000000000
+      internalID: -9210596208979447397
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Jellufish instruction_56
+      rect:
+        serializedVersion: 2
+        x: 177
+        y: 26
+        width: 27
+        height: 28
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 84fdf5f9e509759c0800000000000000
+      internalID: -3938520613037023416
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Jellufish instruction_57
+      rect:
+        serializedVersion: 2
+        x: 207
+        y: 25
+        width: 27
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a984b8006c9d6eb30800000000000000
+      internalID: 4316376737317079194
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Jellufish instruction_58
+      rect:
+        serializedVersion: 2
+        x: 243
+        y: 35
+        width: 8
+        height: 27
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 821d508eacf086d60800000000000000
+      internalID: 7883568511862559016
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Jellufish instruction_59
+      rect:
+        serializedVersion: 2
+        x: 243
+        y: 25
+        width: 8
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a701e808c8b7b8240800000000000000
+      internalID: 4795062071648456826
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    physicsShape: []
+    bones: []
+    spriteID: 5e97eb03825dee720800000000000000
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    nameFileIdTable:
+      Jellufish instruction_0: -114497675532715115
+      Jellufish instruction_1: 9128759120879032911
+      Jellufish instruction_10: 4634543443127259013
+      Jellufish instruction_11: -7950968437665218615
+      Jellufish instruction_12: 68564857492602593
+      Jellufish instruction_13: -2614017713609130484
+      Jellufish instruction_14: -2070255741971833178
+      Jellufish instruction_15: -8366102796388139911
+      Jellufish instruction_16: 5777623746943982018
+      Jellufish instruction_17: 7141653664515686906
+      Jellufish instruction_18: 2490474438402740378
+      Jellufish instruction_19: -7676356200523692981
+      Jellufish instruction_2: -7021218882676452565
+      Jellufish instruction_20: -8309205077181782929
+      Jellufish instruction_21: 1419736178696611340
+      Jellufish instruction_22: -686823565833119171
+      Jellufish instruction_23: 4237400068660161877
+      Jellufish instruction_24: 3646160102238114334
+      Jellufish instruction_25: -5755117820268510635
+      Jellufish instruction_26: 8890460061492587933
+      Jellufish instruction_27: 3564451508806401724
+      Jellufish instruction_28: -3197144534895595880
+      Jellufish instruction_29: -124424233673344733
+      Jellufish instruction_3: 6656953523022692347
+      Jellufish instruction_30: 3033753881950890132
+      Jellufish instruction_31: -6938261305790733003
+      Jellufish instruction_32: -3076944897125369961
+      Jellufish instruction_33: 1565222054897366842
+      Jellufish instruction_34: 6321227031665292116
+      Jellufish instruction_35: -7316541433541881618
+      Jellufish instruction_36: -3354863727897541273
+      Jellufish instruction_37: 6865982827644966168
+      Jellufish instruction_38: 6281310954270175294
+      Jellufish instruction_39: -7128228078597549822
+      Jellufish instruction_4: 8855701526527905256
+      Jellufish instruction_40: -6177589213243118271
+      Jellufish instruction_41: 5222924863261463294
+      Jellufish instruction_42: -3172644230658553762
+      Jellufish instruction_43: -8713789694973377026
+      Jellufish instruction_44: -1327732314818529346
+      Jellufish instruction_45: 430937989570962333
+      Jellufish instruction_46: 6835268314711019347
+      Jellufish instruction_47: 6664871705103969834
+      Jellufish instruction_48: -2849539106465989217
+      Jellufish instruction_49: 5094085175529160153
+      Jellufish instruction_5: -785598480970462042
+      Jellufish instruction_50: 8311101729182450202
+      Jellufish instruction_51: 4196216069097817901
+      Jellufish instruction_52: -4073521064746527864
+      Jellufish instruction_53: 2344419055122232474
+      Jellufish instruction_54: 370694347082954057
+      Jellufish instruction_55: -9210596208979447397
+      Jellufish instruction_56: -3938520613037023416
+      Jellufish instruction_57: 4316376737317079194
+      Jellufish instruction_58: 7883568511862559016
+      Jellufish instruction_59: 4795062071648456826
+      Jellufish instruction_6: -5029060138581891856
+      Jellufish instruction_7: -7588488799948937113
+      Jellufish instruction_8: 7371206056982982925
+      Jellufish instruction_9: -4199623367770196402
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
