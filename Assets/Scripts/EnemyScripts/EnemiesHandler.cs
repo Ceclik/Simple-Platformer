@@ -1,4 +1,3 @@
-using System;
 using MenuHandlers.LoseMenu;
 using UnityEngine;
 
@@ -17,14 +16,8 @@ namespace EnemyScripts
                 _enemies[i] = transform.GetChild(i).GetComponent<EnemyBehaviourHandler>();
 
             _buttonsHandler = GameObject.Find("ButtonsHandler").GetComponent<MenuButtonsHandler>();
-            _buttonsHandler.OnRestartLevel += RespawnAllEnemies;
         }
-
-        private void OnDestroy()
-        {
-            _buttonsHandler.OnRestartLevel -= RespawnAllEnemies;
-        }
-
+        
         private void RespawnAllEnemies()
         {
             foreach (var enemy in _enemies)

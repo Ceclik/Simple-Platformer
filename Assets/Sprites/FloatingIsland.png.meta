@@ -156,7 +156,8 @@ TextureImporter:
     edges: []
     weights: []
     secondaryTextures: []
-    nameFileIdTable: {}
+    nameFileIdTable:
+      FloatingIsland_0: 8564056990542141559
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 

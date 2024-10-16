@@ -13,19 +13,6 @@ namespace TutorialLevelScripts
         [SerializeField] private GameObject airParticles;
         [SerializeField] private GameObject windParticles;
 
-        private MenuButtonsHandler _buttonsHandler;
-
-        private void Start()
-        {
-            _buttonsHandler = GameObject.Find("ButtonsHandler").GetComponent<MenuButtonsHandler>();
-            _buttonsHandler.OnRestartLevel += DeactivateGameMode;
-        }
-
-        private void OnDestroy()
-        {
-            _buttonsHandler.OnRestartLevel -= DeactivateGameMode;
-        }
-
         private void OnCollisionEnter2D(Collision2D other)
         {
             if (other.gameObject.CompareTag("Player"))

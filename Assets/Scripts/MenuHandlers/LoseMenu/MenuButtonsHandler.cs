@@ -7,16 +7,11 @@ namespace MenuHandlers.LoseMenu
     {
         [SerializeField] private GameObject loseMenu;
         [SerializeField] private GameObject winMenu;
-
-        public delegate void RestartLevel();
-
-        public event RestartLevel OnRestartLevel;
+        
 
         public void OnRestartButtonClick()
         {
-            OnRestartLevel?.Invoke();
-            loseMenu.SetActive(false);
-            winMenu.SetActive(false);
+            SceneManager.LoadScene(SceneManager.GetActiveScene().name);
         }
 
         public void OnExitButtonClick()

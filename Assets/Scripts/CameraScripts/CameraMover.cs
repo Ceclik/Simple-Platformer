@@ -21,8 +21,7 @@ namespace CameraScripts
         private GameValuesSetter _values;
         private bool _isMoving;
         private bool _isResetting;
-
-        private MenuButtonsHandler _buttonsHandler;
+        
 
         private void Start()
         {
@@ -36,17 +35,13 @@ namespace CameraScripts
 
             foreach (var checkPoint in checkPoints)
                 checkPoint.OnCheckpointStayForCamera += SetCheckpointPosition;
-
-            _buttonsHandler = GameObject.Find("ButtonsHandler").GetComponent<MenuButtonsHandler>();
-            _buttonsHandler.OnRestartLevel += ResetCameraPosition;
         }
 
         private void OnDestroy()
         {
             foreach (var checkPoint in checkPoints)
                 checkPoint.OnCheckpointStayForCamera -= SetCheckpointPosition;
-
-            _buttonsHandler.OnRestartLevel -= ResetCameraPosition;
+            
         }
 
         public void MoveCamera()

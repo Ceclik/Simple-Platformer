@@ -56,6 +56,7 @@ namespace Dialogues
                     _values.isInDialog = false;
                     _index = 0;
                     dialogPanel.SetActive(false);
+                    Destroy(gameObject);
                 }
             }
         }

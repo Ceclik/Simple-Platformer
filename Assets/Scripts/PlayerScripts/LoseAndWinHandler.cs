@@ -38,15 +38,11 @@ namespace PlayerScripts
             _heartsPicker = GetComponent<HeartsPicker>();
 
             _heartsPicker.OnPickHeart += AddLive;
-
-            _buttonsHandler = GameObject.Find("ButtonsHandler").GetComponent<MenuButtonsHandler>();
-            _buttonsHandler.OnRestartLevel += Restart;
         }
 
         private void OnDestroy()
         {
             _heartsPicker.OnPickHeart -= AddLive;
-            _buttonsHandler.OnRestartLevel -= Restart;
         }
 
         private void AddLive()
